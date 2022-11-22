@@ -31,6 +31,7 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 This does not protect your heroes — you’ll still lose if any character who has to survive is wounded. The enemy isn’t going to miss the chance of finishing the battle by letting a leader escape.
 
 
+
 CURRENT INJURIES
 
 Amnesia (resets exp)
@@ -70,6 +71,7 @@ Short-term memory loss (lose 1 xp/round)
 Wild magic (magical attacks now are 50% chance)
 
 
+
 OPTIONAL INJURIES
 
 Death (they are dead)
@@ -81,6 +83,7 @@ Stepping on a Lego (the worst thing to ever happen)
 Turning into a ghost (custom ghost, cant advance beyond level 2)
 
 Turning into a zombie (custom zombie, heavily debuffed ranged attacks)
+
 
 
 INJURY HEALING SYSTEM
