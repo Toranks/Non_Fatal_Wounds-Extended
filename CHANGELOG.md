@@ -9,3 +9,4 @@ Changelog Extended Version
 - Hecho algunos textos traducibles con _ delante
 - Filtrado "Captured" para que no se conceda a una unidad de la IA, para evitar error Lua. > Pendiente de averiguar causa exacta
 - captured_unit_dummy > captured_unit_display
+- Changelog, readme, y licencia

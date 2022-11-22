@@ -31,72 +31,43 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 This does not protect your heroes — you’ll still lose if any character who has to survive is wounded. The enemy isn’t going to miss the chance of finishing the battle by letting a leader escape.
 
 
+**CURRENT INJURIES**
 
-CURRENT INJURIES
+* Amnesia (resets exp)
+* Broken arm (-20% non-magical damage)
+* Broken leg (-20% mp)
+* Broken rib (-10% impact resistance)
+* Burned (-10% fire resistance)
+* Captured (increased recall cost based on level untill you recall them)
+* Concussion (-20% magical damage)
+* Coward (-10% accuracy)
+* Fear of weapon (reduced 1 strikes against what wounded them)
+* Fear of terrain (increased 1 move cost for the terrain they were wounded on)
+* Fear of the dark/light (reduced 1 strikes during the time they were wounded)
+* Frostbite (-10% cold resistance)
+* Gash (-10% blade resistance)
+* Infection (chance to be poisoned)
+* Insanity (berserk on melee attacks)
+* Maimed (-15% hp)
+* Short-term memory loss (lose 1 xp/round)
+* Wild magic (magical attacks now are 50% chance)
 
-Amnesia (resets exp)
+**OPTIONAL INJURIES**
 
-Broken arm (-20% non-magical damage)
-
-Broken leg (-20% mp)
-
-Broken rib (-10% impact resistance)
-
-Burned (-10% fire resistance)
-
-Captured (increased recall cost based on level untill you recall them)
-
-Concussion (-20% magical damage)
-
-Coward (-10% accuracy)
-
-Fear of weapon (reduced 1 strikes against what wounded them)
-
-Fear of terrain (increased 1 move cost for the terrain they were wounded on)
-
-Fear of the dark/light (reduced 1 strikes during the time they were wounded)
-
-Frostbite (-10% cold resistance)
-
-Gash (-10% blade resistance)
-
-Infection (chance to be poisoned)
-
-Insanity (berserk on melee attacks)
-
-Maimed (-15% hp)
-
-Short-term memory loss (lose 1 xp/round)
-
-Wild magic (magical attacks now are 50% chance)
+* Death (they are dead)
+* Paper cut (the second worst thing to ever happen)
+* Stepping on a Lego (the worst thing to ever happen)
+* Turning into a ghost (custom ghost, cant advance beyond level 2)
+* Turning into a zombie (custom zombie, heavily debuffed ranged attacks)
 
 
+**INJURY HEALING SYSTEM**
 
-OPTIONAL INJURIES
-
-Death (they are dead)
-
-Paper cut (the second worst thing to ever happen)
-
-Stepping on a Lego (the worst thing to ever happen)
-
-Turning into a ghost (custom ghost, cant advance beyond level 2)
-
-Turning into a zombie (custom zombie, heavily debuffed ranged attacks)
-
-
-
-INJURY HEALING SYSTEM
-
-Injured units who receives an AMLA removes the injury
-
-Injuries that can be toggled off cant be healed
-
-Fear of terrain: 10% chance of recovery when defeating an opponent while standing on the terrain unit is scared of
-
-Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of
-
-Fear of dark/light: 20% chance of recovery when defeating an opponent during the day/night
+* Injured units who receives an AMLA removes the injury
+* Injuries that can be toggled off cant be healed
+* Fear of terrain: 10% chance of recovery when defeating an opponent while standing on the terrain unit is scared of
+* Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of
+* Fear of dark/light: 20% chance of recovery when defeating an opponent during the day/night
 
 
 Feedback
