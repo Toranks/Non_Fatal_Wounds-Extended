@@ -370,8 +370,8 @@ msgstr "Muerto"
 #. [attacks]: id=nfwme_scared_of_weapon
 #: Non_Fatal_Wounds_Maimed_Edition\utils\Wounds.cfg:324
 #: Non_Fatal_Wounds_Maimed_Edition\utils\Wounds.cfg:360
-msgid "Scared of $nfwme_rand_scary_weapon"
-msgstr "Asustado de $nfwme_rand_scary_weapon"
+msgid "Scared of"
+msgstr "Asustado de"
 
 #. [attacks]: id=nfwme_scared_of_weapon
 #: Non_Fatal_Wounds_Maimed_Edition\utils\Wounds.cfg:325
