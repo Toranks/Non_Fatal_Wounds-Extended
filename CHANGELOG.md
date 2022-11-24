@@ -12,3 +12,4 @@ Changelog Extended Version
 - Changelog, readme, y licencia
 - Wounds Randomizer changed from 100 numbers to 25 numbers
 - Translated weapon string to "Scared of" text
+- Allow undo recalls if not recalled a captured unit
