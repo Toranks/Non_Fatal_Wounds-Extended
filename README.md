@@ -1,8 +1,8 @@
-Non-Fatal Wounds
+Non-Fatal Wounds Extended
 ================
 
 This is an add-on for the game [Wesnoth](https://www.wesnoth.org/).
-* Author :  [CookieLord](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=248402)
+* Author :  [CookieLord](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=248402), [stevecotton], [Octalot], [Armagedonus], [Toranks](http://toranks.blogspot.com/)
 * Mantainer : [Toranks](http://toranks.blogspot.com/)
 * Changelog : see [CHANGELOG.md](CHANGELOG.md)
 * License : [GNU-GPL](LICENSE.md)
@@ -33,7 +33,7 @@ This does not protect your heroes — you’ll still lose if any character who h
 
 **CURRENT INJURIES**
 
-* Amnesia (resets exp)
+* Amnesia (lose 1 xp/round)
 * Broken arm (-20% non-magical damage)
 * Broken leg (-20% mp)
 * Broken rib (-10% impact resistance)
@@ -49,7 +49,7 @@ This does not protect your heroes — you’ll still lose if any character who h
 * Infection (chance to be poisoned)
 * Insanity (berserk on melee attacks)
 * Maimed (-15% hp)
-* Short-term memory loss (lose 1 xp/round)
+* Short-term memory loss (resets experience)
 * Wild magic (magical attacks now are 50% chance)
 
 **OPTIONAL INJURIES**
@@ -57,14 +57,14 @@ This does not protect your heroes — you’ll still lose if any character who h
 * Death (they are dead)
 * Paper cut (the second worst thing to ever happen)
 * Stepping on a Lego (the worst thing to ever happen)
-* Turning into a ghost (custom ghost, cant advance beyond level 2)
+* Turning into a ghost (custom ghost, can't advance beyond level 2)
 * Turning into a zombie (custom zombie, heavily debuffed ranged attacks)
 
 
 **INJURY HEALING SYSTEM**
 
-* Injured units who receives an AMLA removes the injury
-* Injuries that can be toggled off cant be healed
+* Injured units who advances have the option of removes the injury instead of the advance. The unit still can advance normally later
+* Injuries that can be toggled off can't be healed by AMLA
 * Fear of terrain: 10% chance of recovery when defeating an opponent while standing on the terrain unit is scared of
 * Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of
 * Fear of dark/light: 20% chance of recovery when defeating an opponent during the day/night
