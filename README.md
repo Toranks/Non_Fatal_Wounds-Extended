@@ -2,7 +2,7 @@ Non-Fatal Wounds Extended
 ================
 
 This is an add-on for the game [Wesnoth](https://www.wesnoth.org/).
-* Author :  [CookieLord](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=248402), [stevecotton], [Octalot], [Armagedonus], [Toranks](http://toranks.blogspot.com/)
+* Author :  [CookieLord](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=248402), stevecotton, Octalot, Armagedonus, [Toranks](http://toranks.blogspot.com/)
 * Mantainer : [Toranks](http://toranks.blogspot.com/)
 * Changelog : see [CHANGELOG.md](CHANGELOG.md)
 * License : [GNU-GPL](LICENSE.md)
@@ -33,22 +33,23 @@ This does not protect your heroes — you’ll still lose if any character who h
 
 **CURRENT INJURIES**
 
-* Amnesia (lose 1 xp/round)
+* Amnesia (lose 2 xp/round)
 * Broken arm (-20% non-magical damage)
 * Broken leg (-20% mp)
-* Broken rib (-10% impact resistance)
-* Burned (-10% fire resistance)
+* Broken wind (-20% mp)
+* Broken rib (-30% impact resistance)
+* Burned (-30% fire resistance)
 * Captured (increased recall cost based on level untill you recall them)
 * Concussion (-20% magical damage)
-* Coward (-10% accuracy)
+* Coward (-15% accuracy)
 * Fear of weapon (reduced 1 strikes against what wounded them)
-* Fear of terrain (increased 1 move cost for the terrain they were wounded on)
+* Fear of terrain (increased 1-2 move cost for the terrain they were wounded on)
 * Fear of the dark/light (reduced 1 strikes during the time they were wounded)
-* Frostbite (-10% cold resistance)
-* Gash (-10% blade resistance)
+* Frostbite (-30% cold resistance)
+* Gash (-30% blade resistance)
 * Infection (chance to be poisoned)
 * Insanity (berserk on melee attacks)
-* Maimed (-15% hp)
+* Maimed (-20% hp)
 * Short-term memory loss (resets experience)
 * Wild magic (magical attacks now are 50% chance)
 
@@ -67,7 +68,7 @@ This does not protect your heroes — you’ll still lose if any character who h
 * Injuries that can be toggled off can't be healed by AMLA
 * Fear of terrain: 10% chance of recovery when defeating an opponent while standing on the terrain unit is scared of
 * Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of
-* Fear of dark/light: 20% chance of recovery when defeating an opponent during the day/night
+* Fear of dark/light: 10% chance of recovery when defeating an opponent during the day/night
 
 
 Feedback
