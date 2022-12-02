@@ -12,7 +12,7 @@ This is an add-on for the game [Wesnoth](https://www.wesnoth.org/).
 Spoiler warning
 ---------------
 
-The `utils/campaigns.cfg` and `utils/campaign_*.cfg` files contain campaign-specific events. Many of these are plot spoilers.
+`utils/campaigns.cfg` and `utils/campaign_*.cfg` files contain campaign-specific events. Many of these are plot spoilers.
 
 As the first line of the Git commit messages is shown in Github’s directory listings, I'll try to avoid adding spoilers there.
 
