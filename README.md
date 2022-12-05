@@ -22,7 +22,10 @@ In-game description (for the add-ons server)
 
 This is an extension of the Non-Fatal Wounds add-on by Octalot and Armagedonus that adds lasting injuries to your units whom nearly escaped death.
 
-When a unit reaches 0 hp, instead of dying, it’s removed for the current scenario and receives an injury. The wounded units go back into the “recall” pool for next mission.
+When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound).
+Most of the wounds are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other injuries and death wounds depend solely on chance. In the same way, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
+The wounded units go back into the “recall” pool for next mission.
+If a unit is killed by a plague attack and isn't unplagueable, receives the death wound even if you don't choose the death wound as an option, so be careful.
 
 This will affect campaign balance, but makes the RNG much less punishing of mistakes, while still being not too lenient (losing a unit still stings because you lose the opportunity to level them up). It also doesn’t affect units that the scenario objectives require you to keep alive.
 
@@ -33,25 +36,26 @@ This does not protect your heroes — you’ll still lose if any character who h
 
 **CURRENT INJURIES**
 
-* Amnesia (lose 2 xp/round)
-* Broken arm (-20% non-magical damage)
-* Broken leg (-20% mp)
-* Broken wind (-20% mp)
-* Broken rib (-30% impact resistance)
-* Burned (-30% fire resistance)
-* Captured (increased recall cost based on level untill you recall them)
-* Concussion (-20% magical damage)
-* Coward (-15% accuracy)
-* Fear of weapon (reduced 1 strikes against what wounded them)
-* Fear of terrain (increased 1-2 move cost for the terrain they were wounded on)
-* Fear of the dark/light (reduced 1 strikes during the time they were wounded)
-* Frostbite (-30% cold resistance)
-* Gash (-30% blade resistance)
-* Infection (chance to be poisoned)
-* Insanity (berserk on melee attacks)
-* Maimed (-20% hp)
-* Short-term memory loss (resets experience)
-* Wild magic (magical attacks now are 50% chance)
+* Amnesia (lose 2 xp/round) > All units, random
+* Broken arm (-20% non-magical damage) > Races with arms, random
+* Broken wind (-20% mp) > Races with winds, random
+* Broken leg (-20% mp) > Races with legs, random
+* Broken rib (-30% impact resistance) > Not mechanical, killed with impact attack
+* Burned (-30% fire resistance) > All units, killed with fire attack
+* Captured (increased recall cost based on level untill you recall them) > All units, random
+* Concussion (-20% magical damage) > Units with magical attacks, random
+* Coward (-15% accuracy) > Not mechanical, random
+* Fear of weapon (reduced 1 strikes against what wounded them) > Not mechanical, killed with any weapon
+* Fear of terrain (increased 1-2 move cost for the terrain they were wounded on) > Not mechanical, killed on some terrains
+* Fear of the dark/light (reduced 1 strikes during the time they were wounded) > Not mechanical, killed on day, night, or underground
+* Frostbite (-30% cold resistance) > All units, killed with ice attack
+* Gash (-30% blade resistance) > ALl units, killed with blade attack
+* Infection (10% chance to be poisoned every turn) > Not mechanical or not unpoisonable, random
+* Sick (20% chance of being slowed every turn) > All units, random
+* Insanity (berserk on melee attacks) > Units without berserk ability
+* Maimed (-20% hp) > All units, random
+* Short-term memory loss (resets experience) > Units with more than 1/2 of the max experience, random
+* Wild magic (magical attacks now are 50% chance) > Units with magic attack, random
 
 **OPTIONAL INJURIES**
 
@@ -64,11 +68,12 @@ This does not protect your heroes — you’ll still lose if any character who h
 
 **INJURY HEALING SYSTEM**
 
-* Injured units who advances have the option of removes the injury instead of the advance. The unit still can advance normally later
-* Injuries that can be toggled off can't be healed by AMLA
-* Fear of terrain: 10% chance of recovery when defeating an opponent while standing on the terrain unit is scared of
-* Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of
-* Fear of dark/light: 10% chance of recovery when defeating an opponent during the day/night
+* Some injuries can be healed directly facing your fears.
+* Fear of terrain: 10% chance of recovery when defeating an opponent while standing on the terrain unit is scared of.
+* Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of.
+* Fear of dark/light: 10% chance of recovery when defeating an opponent during the day/night.
+* The rest of injuries can be healed choosing a recover AMLA instead of the advancement or default AMLA (still can advance later to the next advancement).
+* Optional injuries can't be healed at all.
 
 
 Feedback
