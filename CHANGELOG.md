@@ -17,11 +17,12 @@ Changelog Extended Version
 - Death and undeath are now much more probable when is activated, same as funny wounds.
 - Added broken wind instead of broken arm for birds, bats, and dragons
 - Much more similar filters, as mechanic units not receives wounds related with mental status, magic alterations only for magical users
+- New fear, Agoraphobia.
 
 v1.1
 ===========
 - Translatable unit type on death message
 - Fixed typos on "Scared of X" (only affect spanish translation)
-- When a unit is plagued, appears a different message than real death
-- "Was destroyed" or "Was converted" message only appears to human players
+- When a unit die, is plagued, or come back as undead or ghost, appears differents messages than if they are wounded, and these messages only appears for human players
+- The message explaining the addon function only appears once on all the campaign.
 
