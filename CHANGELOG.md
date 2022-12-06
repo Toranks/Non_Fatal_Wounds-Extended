@@ -1,4 +1,5 @@
-Changelog Extended Version
+Changelog Non Fatal Wounds Extended Version
+
 =========
 - Traducción al español
 - Unified original y Maimed Edition
@@ -23,6 +24,8 @@ v1.1
 ===========
 - Translatable unit type on death message
 - Fixed typos on "Scared of X" (only affect spanish translation)
-- When a unit die, is plagued, or come back as undead or ghost, appears differents messages than if they are wounded, and these messages only appears for human players
+- When a unit die, captured, is plagued, or come back as undead or ghost, appears differents messages than if they are wounded, and these messages only appears for human players
 - The message explaining the addon function only appears once on all the campaign.
+- 30% chance to be captured if the unit is a non-essential hero, for more realism.
+- Special events on units that you can kill but in doing so they change to your side or flee away, to prevent them from receiving a wound, which could be fatal. For now, I only filters Lady Outlaw. On "The Fall" she "Surrender" when she dies, on other scenarios she "Escape".
 
