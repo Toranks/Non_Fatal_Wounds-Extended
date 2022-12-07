@@ -27,5 +27,9 @@ v1.1
 - When a unit die, captured, is plagued, or come back as undead or ghost, appears differents messages than if they are wounded, and these messages only appears for human players
 - The message explaining the addon function only appears once on all the campaign.
 - 30% chance to be captured if the unit is a non-essential hero, for more realism.
-- Special events on units that you can kill but in doing so they change to your side or flee away, to prevent them from receiving a wound, which could be fatal. For now, I only filters Lady Outlaw. On "The Fall" she "Surrender" when she dies, on other scenarios she "Escape".
+- Special events on units that you can kill but in doing so they change to your side or flee away, to prevent them from receiving a wound, which could be fatal. For now, I only filters Lady Outlaw. On "The Fall" (TROW) she "Surrender" when you beat her, on other situations she "Escape".
 
+v1.2
+===========
+- Special event on "Temple in the Deep" (TROW), where you can choose if you want lose all units until Lord Lenvan dies or let NFW works normally.
+- Icon on all NFW info messages.

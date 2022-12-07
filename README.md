@@ -23,7 +23,7 @@ In-game description (for the add-ons server)
 This is an extension of the Non-Fatal Wounds add-on by Octalot and Armagedonus that adds lasting injuries to your units whom nearly escaped death.
 
 When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound).
-Most of the wounds are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other injuries and death wounds depend solely on chance. In the same way, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
+Most of the wounds are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other injuries and death wounds depend solely on chance. In like manner, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
 The wounded units go back into the “recall” pool for next mission.
 If a unit is killed by a plague attack and isn't unplagueable, receives the death wound even if you don't choose the death wound as an option, so be careful.
 
