@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-07 11:43 UTC\n"
+"POT-Creation-Date: 2022-12-08 03:56 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,1640 +10,852 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. [modification]: id=advance_wesnoth_wars, type=hybrid
-#: Advance_Wesnoth_Wars_fork\_main.cfg:25
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:8
-msgid "Advanced Wesnoth Wars"
+#. [modification]: id=nfw_extended
+#: Non_Fatal_Wounds_Extended\_main.cfg:10
+msgid "Non-Fatal Wounds Extended"
 msgstr ""
 
-#. [modification]: id=advance_wesnoth_wars, type=hybrid
-#: Advance_Wesnoth_Wars_fork\_main.cfg:28
-msgid "Configurable mods to change the game mechanics, for an approach more realistic and tactic"
-msgstr ""
-
-#. [lua]: aww_duel.special_chance_to_hit_100
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:295
-msgid "no random misses"
-msgstr ""
-
-#. [lua]: aww_duel.special_damage_multiplier
-#. [else]
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:309
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:92
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:134
-msgid "damage"
-msgstr ""
-
-#. [lua]: aww_duel.special_strikes_multiplier
-#. [else]
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:323
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:177
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:219
-msgid "strikes"
-msgstr ""
-
-#. [lua]: aww_duel.special_estimation_dummy
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:356
-msgid "Estimated from"
-msgstr ""
-
-#. [lua]: aww_duel.special_estimation_dummy
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:356
-msgid "Hit chance"
-msgstr ""
-
-#. [lua]: aww_duel.special_estimation_dummy
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:358
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:120
-msgid "Increased Damage"
-msgstr ""
-
-#. [lua]: aww_duel.special_estimation_dummy
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:361
-msgid "HP ratio"
-msgstr ""
-
-#. [lua]: aww_duel.description_no_random_combats
-#. [lua]: aww_status.get_info
+#. [modification]: id=nfw_extended
 #. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_01_enable_randomless_combats, description=#01. 
-#. [slider]: id=aww_08_randomless_damage_adjustment, description=#08. 
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:402
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:117
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:251
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:254
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:28
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:11
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:22
-msgid "No Random Combats"
-msgstr ""
-
-#. [lua]: aww_duel.description_no_random_combats
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:404
-msgid "Attacks always hits and terrain defense is used as damage reduction"
-msgstr ""
-
-#. [lua]: aww_duel.description_no_random_combats
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:408
-msgid " - Base damage based on enemy terrain defense :"
-msgstr ""
-
-#. [lua]: aww_duel.description_no_random_combats
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:419
-msgid " - Max terrain defense against this attack : "
-msgstr ""
-
-#. [lua]: aww_duel.description_squad_mode_custom
-#. [lua]: aww_status.get_info
-#. [swarm]: id=swarm
-#. [message]: speaker=narrator
-#. [option]
-#. [choice]: id=aww_02_squad_mode, description=#02. 
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:434
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:131
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:141
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:334
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:34
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:30
-msgid "Squad Mode"
-msgstr ""
-
-#. [lua]: aww_duel.description_squad_mode_custom
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:436
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:127
-msgid "Custom"
-msgstr ""
-
-#. [lua]: aww_duel.description_squad_mode_custom
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:438
-msgid "Less HP > Less strikes"
-msgstr ""
-
-#. [lua]: aww_duel.description_squad_mode_custom
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:440
-msgid "Minimum strikes will be 1"
-msgstr ""
-
-#. [lua]: aww_duel.description_squad_mode_custom
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:442
-msgid "Attacks with 1 strike uses HP ratio damage reduction"
-msgstr ""
-
-#. [lua]: aww_duel.description_squad_mode_custom
-#: Advance_Wesnoth_Wars_fork\lua\aww_duel.lua:444
-msgid "Excluded for berserk & fury attack"
-msgstr ""
-
-#. [lua]: aww_status.migrate
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:108
-msgid "AWW notice"
-msgstr ""
-
-#. [lua]: aww_status.migrate
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:108
-msgid "migrating from version %s to %s"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#. [swarm]: id=swarm
-#. [option]
-#. [item]
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:129
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:141
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:361
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:46
-msgid "Swarm"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:137
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:140
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:143
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:146
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:149
-msgid "L-Up "
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:137
-msgid "Relative Heal"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:140
-msgid "Notif"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:143
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:146
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:149
-msgid "AMLA"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15. 
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:143
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:624
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:58
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:90
-msgid "Increase Level Number"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:146
-msgid "Bonuses"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:149
-msgid "Promoted Leaders"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_10_enable_gifted_leaders, description=#10. 
-#. [checkbox]: id=aww_epic_object_opt
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:152
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:724
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:727
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:76
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:126
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:134
-msgid "Epic Heroes"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:155
-msgid "Passive XP"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:157
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:167
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:751
-msgid "/turn]"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:160
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:755
-msgid "/turn AI]"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:164
-msgid "Healing XP"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:165
-msgid " [Max "
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:171
-msgid "Berserk tweak"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:174
-msgid "Ambush tweak"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_11_enable_ninja, description=#11. 
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:177
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1107
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:112
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:246
-msgid "NINJA WARS!"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:180
-msgid "Verbose"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:184
-msgid "Enabled :"
-msgstr ""
-
-#. [lua]: aww_status.get_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:188
-msgid "All mod options are disabled."
-msgstr ""
-
-#. [lua]: aww_status.get_feature_info
-#: Advance_Wesnoth_Wars_fork\lua\aww_status.lua:200
-msgid "Feature"
-msgstr ""
-
-#. [regenerate]: id=aww_ability_custom_regen{HP}{CURE}
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:21
-msgid "regenerates"
-msgstr ""
-
-#. [regenerate]: id=aww_ability_custom_regen{HP}{CURE}
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:22
-msgid "female^regenerates"
-msgstr ""
-
-#. [regenerate]: id=aww_ability_custom_regen{HP}{CURE}
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:27
-msgid "The unit will heal itself "
-msgstr ""
-
-#. [regenerate]: id=aww_ability_custom_regen{HP}{CURE}
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:27
-msgid " HP per turn. Poison will be "
-msgstr ""
-
-#. [regenerate]: id=aww_ability_custom_regen{HP}{CURE}
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:27
-msgid "{CURE}"
-msgstr ""
-
-#. [regenerate]: id=aww_ability_custom_regen{HP}{CURE}
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:27
-msgid " instead of healing."
-msgstr ""
-
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:44
-msgid "slowed"
-msgstr ""
-
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:45
-msgid "cured"
-msgstr ""
-
-#. [hides]: id=aww_ability_camouflage
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:58
-msgid "camouflaged"
-msgstr ""
-
-#. [hides]: id=aww_ability_camouflage
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:59
-msgid "female^camouflaged"
-msgstr ""
-
-#. [hides]: id=aww_ability_camouflage
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:60
-msgid "camouflage"
-msgstr ""
-
-#. [hides]: id=aww_ability_camouflage
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:61
-msgid "female^camouflage"
-msgstr ""
-
-#. [hides]: id=aww_ability_camouflage
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:62
-msgid "This unit remains undetected by its enemies in villages, forests, deep water, or everywhere at night, except by those standing next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement."
-msgstr ""
-
-#. [swarm]: id=swarm
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:140
-msgid "squad"
-msgstr ""
-
-#. [swarm]: id=swarm
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:141
-msgid "The number of strikes of this attack decreases when the unit is wounded. The number of strikes is proportional to the percentage of its of maximum HP the unit has. For example a unit with 45/60 HP will do only 3 strike of an attack having initially 4 strikes."
-msgstr ""
-
-#. [swarm]: id=swarm
-#. [message]: speaker=narrator
-#. [choice]: id=aww_02_squad_mode, description=#02. 
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:142
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:337
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:33
-msgid "Minimum strikes will be 1."
-msgstr ""
-
-#. [swarm]: id=swarm
-#. [message]: speaker=narrator
-#. [choice]: id=aww_02_squad_mode, description=#02. 
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:143
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:338
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:34
-msgid "For attack having only 1 base strike, HP ratio will be used to reduce damage."
-msgstr ""
-
-#. [swarm]: id=swarm
-#. [message]: speaker=narrator
-#. [choice]: id=aww_02_squad_mode, description=#02. 
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:144
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:339
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:35
-msgid "Excluded for berserk & fury attack. To simulate that the lesser they are, the more furious they go."
-msgstr ""
-
-#. [skirmisher]: id=distract
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:188
-msgid "distract"
-msgstr ""
-
-#. [skirmisher]: id=distract
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:189
-msgid "female^distract"
-msgstr ""
-
-#. [skirmisher]: id=distract
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:190
-msgid "This unit negates enemy Zones of Control around itself for allied units (but not for itself)."
-msgstr ""
-
-#. [drains]: id=aww_special_bloodthirsty_fury
-#. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:222
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:240
-msgid "bloodthirsty"
-msgstr ""
-
-#. [drains]: id=aww_special_bloodthirsty_fury
-#. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:223
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:241
-msgid "female^bloodthirsty"
-msgstr ""
-
-#. [drains]: id=aww_special_bloodthirsty_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
-msgid "(Only available offensively)"
-msgstr ""
-
-#. [drains]: id=aww_special_bloodthirsty_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
-msgid "This unit drains health from living units, healing itself for half the amount of damage it deals (rounded down)."
-msgstr ""
-
-#. [drains]: id=aww_special_bloodthirsty_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:225
-msgid " Duration until the end of the scenario."
-msgstr ""
-
-#. [drains]: id=aww_special_bloodthirsty
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:243
-msgid "This unit drains health from living units, healing itself for 20% the amount of damage it deals (rounded down)."
-msgstr ""
-
-#. [heal_on_hit]: id=aww_special_adrenaline
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:259
-msgid "adrenaline"
-msgstr ""
-
-#. [heal_on_hit]: id=aww_special_adrenaline
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:260
-msgid "This unit gains 4 HP every time this attack hits."
-msgstr ""
-
-#. [damage]: id=aww_special_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:272
-msgid "fury"
-msgstr ""
-
-#. [damage]: id=aww_special_fury
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:273
-msgid "female^fury"
-msgstr ""
-
-#. [damage]: id=aww_special_fury
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:274
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:952
+#: Non_Fatal_Wounds_Extended\_main.cfg:11
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:188
 msgid ""
-"When used offensively :\n"
-"- This attack deals more damage to the target.\n"
-"- It also causes this unit to take more damage from the target’s counterattack.\n"
-"- The damage ratio starts at 1.5, increases of 0.5 after each attack, until 3, then drop to 1, and the loop restart.\n"
-"- Rampage : when the attack kills, the unit can attack an adjacent enemy.\n"
-"- After "
-msgstr ""
-
-#. [damage]: id=aww_special_fury
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\abilities.mac.cfg:279
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:957
-msgid ""
-" kills with that attack, it gains Bloodthirsty, an offensive drain, until end of the scenario.\n"
-"- A warcry related to the fury level with also be displayed when the unit attack."
-msgstr ""
-
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:9
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:26
-msgid "Chief"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_03_enable_promoted_leader, description=#03. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:172
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:70
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:106
-msgid "Level-Up After Max Level Advancement : Promoted Leaders"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_03_enable_promoted_leader, description=#03. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:172
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:107
-msgid "Standard units reaching their first AMLA level-up will be able to recruit the same units as the original leader, recall, and be prefixed 'Chief' with a bronze crown icon. Excluded for special Heroes."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:173
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:176
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:252
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:255
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:341
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:416
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:419
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:498
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:562
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:628
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:702
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:725
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:728
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:751
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:755
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:809
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:847
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:850
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:946
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:949
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1045
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1109
-msgid "Set to"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_03_level_promoted_leader, description=#03. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:175
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:118
-msgid "Promoted Leaders : Mininum level"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_03_level_promoted_leader, description=#03. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:175
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:119
-msgid "Set the minimum level to be promoted to Chief. Only units with this level or higher on their first AMLA will be promoted."
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:180
-msgid "Change status of Promoted Leaders"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:184
-msgid "Set status of Promoted Leaders"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:186
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:265
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:429
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:508
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:572
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:639
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:969
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1055
-msgid "Activate"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:194
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:275
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:371
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:438
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:517
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:581
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:648
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:981
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1064
-msgid "Deactivate"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:202
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:233
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:285
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:316
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:381
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:397
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:447
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:478
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:526
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:542
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:590
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:606
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:662
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:678
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:706
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:732
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:789
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:828
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:896
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:927
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:993
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1025
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1073
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1089
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1113
-msgid "Back to help menu"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:210
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:241
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:293
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:324
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:389
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:405
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:455
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:486
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:534
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:550
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:598
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:614
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:670
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:686
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:714
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:740
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:797
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:836
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:904
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:935
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1001
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1033
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1081
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1097
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1121
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:118
-msgid "Exit"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:218
-msgid "Change minimum level to be promoted to Chief"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:222
-msgid "Set minimum level to be promoted to Chief"
-msgstr ""
-
-#. [text_input]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:224
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:307
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:469
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:765
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:780
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:819
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:918
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1016
-msgid "Max"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_01_enable_randomless_combats, description=#01. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:251
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:12
-msgid "Attacks will never randomly miss, misses probabilities is instead used as damage reduction."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_08_randomless_damage_adjustment, description=#08. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:254
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:22
-msgid " : Adjusted Damage %"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_08_randomless_damage_adjustment, description=#08. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:254
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:23
-msgid "To increase/reduce terrain/fixed Hit probabilities, converted in damages. Only applies for 'No Random Combats'."
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:259
-msgid "Change status of Non Random Combats"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:263
-msgid "Set status of Non Random Combats"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:301
-msgid "Change damage adjustment"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:305
-msgid "Set damage adjustment"
-msgstr ""
-
-#. [text_input]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:307
-msgid "Min"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [choice]: id=aww_02_squad_mode, description=#02. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:334
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:31
-msgid "Units do proportionally less attack strikes with less HP (or less damage for single-strike attacks). Swarm is a worse ratio (-1 strike if you miss just 1 HP) than native, but taken in account by AI. In both cases : "
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [choice]: id=aww_02_squad_mode, description=#02. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:336
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:32
-msgid "The number of strikes is proportional to the percentage of its of maximum HP the unit has. For example a unit with 3/4 of its maximum HP will get 3/4 of the number of strikes."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:341
-msgid " (0 = No, 1 = Squad, 2 = Swarm)"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:345
-msgid "Change status of Squad Mode"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:349
-msgid "Set status of Squad Mode"
-msgstr ""
-
-#. [option]
-#. [item]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:351
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:42
-msgid "Squad"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_16_villages_has_sight, description=#16. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:415
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:40
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:55
-msgid "Villages line of sight"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_16_villages_has_sight, description=#16. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:415
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:56
-msgid "All villages have a line of sight belonging to the owner side."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_villages_sight_distance
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:418
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:66
-msgid "Villages line of sight range"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_villages_sight_distance
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:418
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:67
-msgid "Set the range of villages line of sight. Only applies with 'Villages line of sight' active."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_villages_sight_distance
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:418
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:67
-msgid "0 means the side can only see the village hexagon itself."
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:423
-msgid "Change status of Villages line of sight"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:427
-msgid "Set status of Villages line of sight"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:463
-msgid "Change range of villages line of sight"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:467
-msgid "Set range of villages line of sight"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:496
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:46
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:74
-msgid "Level-Up : Relative Healing"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:496
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:75
-msgid "When an unit advances a level raising his Max HP, instead of a full healing and being cured, it keep the missing HP, but statuses are cured."
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:502
-msgid "Change status of Relative Healing"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:506
-msgid "Set status of Relative Healing"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_14_enable_levelup_notif, description=#14. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:560
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:52
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:82
-msgid "Level-Up : Floating Notification"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_14_enable_levelup_notif, description=#14. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:560
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:83
-msgid "Floating text on the unit currently leveling-up. Can be helpful to know which unit is concerned by an advancement. Will display only if no other AWW mods wants to display something at this moment."
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:566
-msgid "Change status of Floating Notification"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:570
-msgid "Set status of Floating Notification"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:624
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:58
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:90
-msgid "Level-Up After Max Level Advancement : "
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:624
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:91
-msgid "The unit level will continue growing with the AMLA level-ups."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:626
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:91
-msgid "This affect to some abilities as leadership, upkeep cost, and experience the enemies get fighting or killing the unit."
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:632
-msgid "Change status of Increase Level Number"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:636
-msgid "Set status of Increase Level Number."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:636
-msgid ""
+"With this modification enabled, units are merely wounded instead of killed. If you choose the possibility of dead or undead, some units still can definitely die. If you win this scenario the wounded units will be added to your recall list.\n"
 "\n"
-"Beware: Deactivate will reset the level of all units to their base level, and cannot be undone. All acquired stats and abilities will remain the same."
+"This does not apply to any unit that the objectives require you to keep alive. Even if they say they’re only wounded, the enemy will give your heroes no chance."
 msgstr ""
 
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_09_enable_amla_bonus, description=#09. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:696
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:64
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:98
-msgid "Level-Up After Max Level Advancement : Random Bonuses"
+#. [choice]: id=deadundead
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:7
+msgid "Enable Death"
 msgstr ""
 
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_09_enable_amla_bonus, description=#09. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:696
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:99
-msgid "Units reaching AMLA level-ups can gain an a random ability or increased stat each level."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:698
-msgid "To identify them, they will have a bracelet icon."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:700
-msgid "Possible Bonuses: Melee damage +3, Melee strikes +1, Ranged damage +2, Ranged strikes +1, Movement points +1, First strike, Poison (blade and piercing), Leadership (lvl 3 minimum, lvl 5 minimum with AMLA Increase Level Number), Distract (negates ZOC around the unit for allies), Regenerates (+4 HP and slow poison), Adrenaline (+4 HP every hit), Loyal or Fearless."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_10_enable_gifted_leaders, description=#10. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:724
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:127
-msgid "The Leaders and Heroes (gold & silver crowns) gain an increase of 20% of their attributes, making them harder to kill. Excluded for Promoted Leaders."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_epic_object_opt
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:727
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:134
-msgid "Regeneration and distraction"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_epic_object_opt
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:727
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:135
-msgid "Epic Heroes also acquires regeneration and distraction abilities by default. Only applies if Epic Heroes is active."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_04_passive_xp, description=#04. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:750
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:145
-msgid "Learning from the battlefield (Passive XP for players)"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_04_passive_xp, description=#04. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:750
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:146
-msgid "Extra XP for all human player units each turn."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_04_passive_xp_ai, description=#04. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:753
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:156
-msgid "Learning from the battlefield (Passive XP for AI)"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_04_passive_xp_ai, description=#04. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:753
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:157
-msgid ""
-"Extra XP for all AI units each turn.\n"
-"You can activate or deactivate (with 0) Passive XP for AI regardless of the value you choose for human players. I recommend choosing twice the value chosen for human players."
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:759
-msgid "Change experience points for human players"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:763
-msgid "Set experience points per turn for human players"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:774
-msgid "Change experience points for AI sides"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:778
-msgid "Set experience points per turn for AI sides"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_05_healing_xp, description=#05. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:807
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:168
-msgid "Learning from healing (Max XP/turn for Healing)"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_05_healing_xp, description=#05. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:807
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:169
-msgid "Each turn, Healers will earn 1 XP for each adjacent wounded or poisoned ally, but you can limit the max/turn. 0 will disable the feature."
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:813
-msgid "Change maximum experience points per turn healing units"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:817
-msgid "Set maximum experience points per turn healing units"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]
-#. [choice]: id=aww_recall_zero_cost
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:846
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:94
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:176
-msgid "Recall cost of low level units"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [choice]: id=aww_recall_zero_cost
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:846
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:177
-msgid "Cost to recall units with chosen level or lower. Cost of higher level units remains unchanged."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_recall_max_level
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:849
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:203
-msgid "Max level to change recall cost"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_recall_max_level
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:849
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:204
-msgid "Set the maximum level of the units that will get a cost reduction"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:854
-msgid "Change cost to recall low level units"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:858
-msgid "Set cost to recall low level units"
-msgstr ""
-
-#. [option]
-#. [item]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:860
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:179
-msgid "Default"
-msgstr ""
-
-#. [option]
-#. [item]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:869
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:183
-msgid "Recruit cost plus one"
-msgstr ""
-
-#. [option]
-#. [item]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:887
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:191
-msgid "Free"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:912
-msgid "Change maximum level to get a recall cost reduction"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:916
-msgid "Set maximum level to get a recall cost reduction"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:945
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:100
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:211
-msgid "Berserk tweak : Replaced by Fury"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:945
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:212
-msgid "Replace 'berserk' by a new 'Fury' weapon special, way more interesting. "
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_12_fury_kills
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:948
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:230
-msgid "Kills to Bloodthirsty (Fury)"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [slider]: id=aww_12_fury_kills
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:948
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:231
-msgid "Killings per map needed to gain Bloodthirsty with Fury ability."
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:951
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:213
-msgid " Fury description : "
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:963
-msgid "Change status of Berserk tweak"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:967
-msgid "Set status of Berserk tweak"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1010
-msgid "Change number of kills needed to gain Bloodthirsty per scenario"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1014
-msgid "Set number of kills needed to gain Bloodthirsty per scenario"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [option]
-#. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1043
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:106
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:238
-msgid "Ambush tweak : Surprise Attacks"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1043
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:239
-msgid "An ambush will trigger a quick combat in which the ambushed unit can't counter-attack. This surprise attack have a 2 extra turn cooldown, but can ambush as normally. Normal attacks adds a 1 turn cooldown to surprise attack. Awesome combined with NINJA WARS!."
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1049
-msgid "Change status of Surprise Attacks"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1053
-msgid "Set status of Surprise Attacks"
-msgstr ""
-
-#. [message]: speaker=narrator
-#. [checkbox]: id=aww_11_enable_ninja, description=#11. 
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1107
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:246
-msgid " (stealthy units)"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\macros\setters.mac.cfg:1107
-msgid "Most of units will melee back-stabs, poison arrows, distract from ZoC, be faster and invisible in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes/ hide&seek."
-msgstr ""
-
-#. [trait]: id=aww_trait_gifted
-#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:14
-msgid "epic"
-msgstr ""
-
-#. [trait]: id=aww_trait_gifted
-#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:15
-msgid "female^epic"
-msgstr ""
-
-#. [trait]: id=aww_trait_gifted
-#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:16
-msgid "<italic>text='Epic'</italic>, gifted with great potential or trained by the bests, this unit is unrivaled on a battlefield."
-msgstr ""
-
-#. [trait]: id=aww_trait_stealthy
-#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:81
-msgid "ninja"
-msgstr ""
-
-#. [trait]: id=aww_trait_stealthy
-#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:82
-msgid "female^ninja"
-msgstr ""
-
-#. [trait]: id=aww_trait_stealthy
-#: Advance_Wesnoth_Wars_fork\macros\traits.mac.cfg:83
-msgid "<italic>text='Ninja'</italic> can move very fast, hide almost everywhere, attack by surprise, pass discretely behind enemies lines."
-msgstr ""
-
-#. [then]
-#: Advance_Wesnoth_Wars_fork\mods\00_common.cfg:65
-#: Advance_Wesnoth_Wars_fork\mods\14_levelup_notif.cfg:29
-msgid "LEVEL UP"
-msgstr ""
-
-#. [then]
-#: Advance_Wesnoth_Wars_fork\mods\00_common.cfg:79
-#: Advance_Wesnoth_Wars_fork\mods\14_levelup_notif.cfg:21
-msgid "Advancement"
-msgstr ""
-
-#. [then]
-#: Advance_Wesnoth_Wars_fork\mods\03_promoted_leader.cfg:118
-msgid "Promoted!"
-msgstr ""
-
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:92
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:177
-msgid "melee"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:95
-msgid "Melee damage"
-msgstr ""
-
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:134
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:219
-msgid "ranged"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:137
-msgid "Ranged damage"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:180
-msgid "Melee strikes"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:222
-msgid "Ranged strikes"
-msgstr ""
-
-#. [case]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:245
-msgid "Moves"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:248
-msgid "Movement points"
-msgstr ""
-
-#. [leadership]: id=leadership
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:297
-msgid "leadership"
-msgstr ""
-
-#. [leadership]: id=leadership
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:298
-msgid "female^leadership"
-msgstr ""
-
-#. [leadership]: id=leadership
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:299
-msgid ""
-"This unit can lead other troops in battle.\n"
-"\n"
-"All adjacent lower-level units from the same side deal 25% more damage for each difference in level. The maximum level will be considered 5, so units of level 5 or more cannot be led but will be able to lead as if they were level 5."
-msgstr ""
-
-#. [message]: speaker=unit
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:318
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:315
-msgid "Leadership"
-msgstr ""
-
-#. [message]: speaker=unit
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:363
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:360
-msgid "Distract"
-msgstr ""
-
-#. [message]: speaker=unit
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:396
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:393
-msgid "Regenerates"
-msgstr ""
-
-#. [message]: speaker=unit
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:446
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:443
-msgid "Firststrike"
-msgstr ""
-
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:501
-msgid "Poison"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:504
-msgid "Poisonous bladed or pierced weapons"
-msgstr ""
-
-#. [message]: speaker=unit
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:557
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:554
-msgid "Adrenaline"
-msgstr ""
-
-#. [message]: speaker=unit
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:663
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:660
-msgid "Fearless"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Advance_Wesnoth_Wars_fork\mods\09_levelup_amla_bonus.cfg:664
-msgid "female^Fearless"
-msgstr ""
-
-#. [event]: id=aww_10_trigger_gifted_placed
-#. [then]
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:58
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:87
-#: Advance_Wesnoth_Wars_fork\mods\10_gifted_leader_hero.cfg:115
-msgid "Epic!"
-msgstr ""
-
-#. [case]
-#: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:81
-msgid "breath"
-msgstr ""
-
-#. [case]
-#: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:85
-msgid "GRRRR!"
-msgstr ""
-
-#. [case]
-#: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:89
-msgid "YAAARH!!"
-msgstr ""
-
-#. [case]
-#: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:93
-msgid "AAAARRRGH!!!"
-msgstr ""
-
-#. [case]
-#: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:97
-msgid "WAAAHAAARRR!!!!"
-msgstr ""
-
-#. [then]
-#: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:195
-msgid "Bloodthirsty!"
-msgstr ""
-
-#. [then]
-#. [else]
-#: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:195
-#: Advance_Wesnoth_Wars_fork\mods\12_tweak_berserk.cfg:206
-msgid "Rampage!"
-msgstr ""
-
-#. [message]: speaker=$ambusher.id
-#: Advance_Wesnoth_Wars_fork\mods\13_tweak_ambush.cfg:288
-msgid "Surprise!"
-msgstr ""
-
-#. [set_menu_item]: id=aww_help
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:9
-msgid "AWW help"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:24
-msgid "Choose the feature you want help with"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:82
-msgid "Learning from the battlefield"
-msgstr ""
-
-#. [option]
-#: Advance_Wesnoth_Wars_fork\mods\help_menu.cfg:88
-msgid "Learning from healing"
-msgstr ""
-
-#. [checkbox]: id=aww_01_enable_randomless_combats, description=#01. 
-#. [slider]: id=aww_08_randomless_damage_adjustment, description=#08. 
-#. [choice]: id=aww_02_squad_mode, description=#02. 
-#. [checkbox]: id=aww_16_villages_has_sight, description=#16. 
-#. [slider]: id=aww_villages_sight_distance
-#. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06. 
-#. [checkbox]: id=aww_14_enable_levelup_notif, description=#14. 
-#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15. 
-#. [checkbox]: id=aww_09_enable_amla_bonus, description=#09. 
-#. [checkbox]: id=aww_03_enable_promoted_leader, description=#03. 
-#. [slider]: id=aww_03_level_promoted_leader, description=#03. 
-#. [checkbox]: id=aww_10_enable_gifted_leaders, description=#10. 
-#. [checkbox]: id=aww_epic_object_opt
-#. [slider]: id=aww_04_passive_xp, description=#04. 
-#. [slider]: id=aww_05_healing_xp, description=#05. 
-#. [choice]: id=aww_recall_zero_cost
-#. [slider]: id=aww_recall_max_level
-#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12. 
-#. [slider]: id=aww_12_fury_kills
-#. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13. 
-#. [checkbox]: id=aww_11_enable_ninja, description=#11. 
-#. [checkbox]: id=aww_enable_help
-#. [checkbox]: id=aww_07_enable_verbose, description=#07. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:12
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:23
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:36
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:56
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:67
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:75
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:83
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:91
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:99
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:108
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:119
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:127
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:135
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:146
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:169
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:177
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:204
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:220
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:231
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:239
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:247
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:255
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:263
-msgid " Default:"
-msgstr ""
-
-#. [checkbox]: id=aww_01_enable_randomless_combats, description=#01. 
-#. [choice]: id=aww_02_squad_mode, description=#02. 
-#. [checkbox]: id=aww_16_villages_has_sight, description=#16. 
-#. [checkbox]: id=aww_06_enable_levelup_relative_healing, description=#06. 
-#. [checkbox]: id=aww_03_enable_promoted_leader, description=#03. 
-#. [checkbox]: id=aww_10_enable_gifted_leaders, description=#10. 
-#. [checkbox]: id=aww_13_enable_ambushed_fix, description=#13. 
-#. [checkbox]: id=aww_11_enable_ninja, description=#11. 
-#. [checkbox]: id=aww_07_enable_verbose, description=#07. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:12
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:36
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:56
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:75
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:108
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:127
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:239
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:247
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:263
-msgid " Off"
-msgstr ""
-
-#. [choice]: id=aww_02_squad_mode, description=#02. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:30
-msgid " (HP-related strikes) :"
+#. [choice]: id=deadundead
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:8
+msgid "Adds death as a possibility to the table. Undeath option will bring some of them back as undead or ghost."
 msgstr ""
 
 #. [item]
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:38
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:10
 msgid "No"
 msgstr ""
 
-#. [checkbox]: id=aww_14_enable_levelup_notif, description=#14. 
-#. [checkbox]: id=aww_15_enable_levelup_amla_inc, description=#15. 
-#. [checkbox]: id=aww_09_enable_amla_bonus, description=#09. 
-#. [checkbox]: id=aww_epic_object_opt
-#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12. 
-#. [checkbox]: id=aww_enable_help
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:83
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:91
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:99
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:135
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:220
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:255
-msgid " ON"
+#. [item]
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:14
+msgid "Death"
 msgstr ""
 
-#. [checkbox]: id=aww_03_enable_promoted_leader, description=#03. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:108
-msgid "WARNING : Not Recommended for Campaigns, it can create bugs (like loose of unit or different recruit list). Do not combine with 'Assimilation Mod' or 'Spoils of War'."
+#. [item]
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:18
+msgid "Undeath"
 msgstr ""
 
-#. [choice]: id=aww_recall_zero_cost
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:177
-msgid "Default (no change)"
+#. [checkbox]: id=funny
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:24
+msgid "Non-canonical Wounds"
 msgstr ""
 
-#. [checkbox]: id=aww_12_enable_berserk_fix, description=#12. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:214
+#. [checkbox]: id=funny
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:25
+msgid "These make no logical sense."
+msgstr ""
+
+#. [then]
+#: Non_Fatal_Wounds_Extended\utils\Randomizer.cfg:23
+msgid "Surrender"
+msgstr ""
+
+#. [else]
+#: Non_Fatal_Wounds_Extended\utils\Randomizer.cfg:26
+#: Non_Fatal_Wounds_Extended\utils\Randomizer.cfg:33
+msgid "Escape"
+msgstr ""
+
+#. [case]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:127
+msgid "Recovered from Aquaphobia"
+msgstr ""
+
+#. [case]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:153
+msgid "Recovered from Acrophobia"
+msgstr ""
+
+#. [case]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:179
+msgid "Recovered from Erimophobia"
+msgstr ""
+
+#. [case]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:205
+msgid "Recovered from Claustrophobia"
+msgstr ""
+
+#. [case]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:231
+msgid "Recovered from Dendrophobia"
+msgstr ""
+
+#. [case]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:258
+msgid "Recovered from Agoraphobia"
+msgstr ""
+
+#. [then]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:289
+msgid "Recovered from Cowardice"
+msgstr ""
+
+#. [case]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:319
+msgid "Recovered from fear of $second_unit.variables.scary_weapon_translated"
+msgstr ""
+
+#. [case]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:348
+msgid "Recovered from fear of the light"
+msgstr ""
+
+#. [case]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:375
+msgid "Recovered from fear of the dark"
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:10
+msgid "Memory Loss"
+msgstr ""
+
+#. [display]: id=broken_arm_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:23
+msgid "broken arm"
+msgstr ""
+
+#. [display]: id=broken_arm_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:24
+msgid "Non-magical damage -20%"
+msgstr ""
+
+#. [advancement]: id=NFWME_broken_arm_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:39
+msgid "Recover from broken arm."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:52
+msgid "Broken Arm"
+msgstr ""
+
+#. [display]: id=broken_wind_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:65
+msgid "broken wind"
+msgstr ""
+
+#. [display]: id=broken_wind_display
+#. [display]: id=broken_leg_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:66
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:105
+msgid "Movement points -20%"
+msgstr ""
+
+#. [advancement]: id=NFWME_broken_wind_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:78
+msgid "Recover from broken wind."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:91
+msgid "Broken Wind"
+msgstr ""
+
+#. [display]: id=broken_leg_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:104
+msgid "broken leg"
+msgstr ""
+
+#. [advancement]: id=NFWME_broken_leg_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:117
+msgid "Recover from broken leg."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:130
+msgid "Broken Leg"
+msgstr ""
+
+#. [display]: id=broken_Rib_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:143
+msgid "broken rib"
+msgstr ""
+
+#. [display]: id=broken_Rib_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:144
+msgid "Impact resistance -30%"
+msgstr ""
+
+#. [advancement]: id=NFWME_broken_rib_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:159
+msgid "Recover from broken rib."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:172
+msgid "Broken Rib"
+msgstr ""
+
+#. [display]: id=burned_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:185
+msgid "burned"
+msgstr ""
+
+#. [display]: id=burned_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:186
+msgid "Fire resistance -30%"
+msgstr ""
+
+#. [advancement]: id=NFWME_burned_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:201
+msgid "Recover from burned."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:214
+msgid "Burned"
+msgstr ""
+
+#. [display]: id=captured_unit_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:232
+msgid "captured"
+msgstr ""
+
+#. [display]: id=captured_unit_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:233
+msgid "Captured units have a increased recall cost untill you recall them once (recall+(10xlevel))."
+msgstr ""
+
+#. [display]: id=captured_unit_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:233
+msgid "Current cost: $unit.recall_cost"
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:245
+msgid "Captured"
+msgstr ""
+
+#. [display]: id=concussion_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:258
+msgid "concussion"
+msgstr ""
+
+#. [display]: id=concussion_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:259
+msgid "Magical damage -25%"
+msgstr ""
+
+#. [advancement]: id=NFWME_concussion_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:272
+msgid "Recover from concussion."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:285
+msgid "Concussion"
+msgstr ""
+
+#. [display]: id=coward_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:298
+msgid "coward"
+msgstr ""
+
+#. [display]: id=coward_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:299
 msgid ""
-"When used offensively :\n"
-"- This attack deals more damage to the target.\n"
-"- It also causes this unit to take more damage from the target’s counterattack.\n"
-"- The damage ratio starts at 1.5, increases of 0.5 after each attack, until 3, then drop to 1, and the loop restart.\n"
-"- Rampage : when the attack kills, the unit can attack an adjacent enemy.\n"
-"- After 1-10 kills with that attack, it gains Bloodthirsty, an offensive drain, until end of the scenario.\n"
-"- A warcry related to the fury level with also be displayed when the unit attack."
+"Accuracy -15%\n"
+"Redeem yourself by defeating an opponent with at least 1 level higher than you, or any opponent when in AMLA"
 msgstr ""
 
-#. [checkbox]: id=aww_11_enable_ninja, description=#11. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:247
-msgid "Most of units will melee back-stabs, poison arrows, skirmisher, be faster and invisible in villages, forests, deep water, or everywhere at night. For funny PvP with fog-of-war focused on ambushes/ hide&seek."
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:311
+msgid "Coward"
 msgstr ""
 
-#. [checkbox]: id=aww_enable_help
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:254
-msgid "Help menu"
+#. [trait]: id=nfwme_dead
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:321
+msgid "dead"
 msgstr ""
 
-#. [checkbox]: id=aww_enable_help
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:255
-msgid "Add a contextual menu on right click with help and configurations for all features."
+#. [trait]: id=nfwme_dead
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:322
+msgid "female^dead"
 msgstr ""
 
-#. [checkbox]: id=aww_07_enable_verbose, description=#07. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:262
-msgid "Verbose (damage/hits calculation etc)"
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:326
+msgid "Dead"
 msgstr ""
 
-#. [checkbox]: id=aww_07_enable_verbose, description=#07. 
-#: Advance_Wesnoth_Wars_fork\mods\options.cfg:263
-msgid "If features #01 or #02 are enabled, will display messages about damage/hits number calculations. Useful for tests or understanding."
+#. [trait]: id=nfwme_plagued
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:336
+msgid "plagued"
 msgstr ""
 
-#. [multiplayer]: id=4p_Ruvaak_Mirage_Atoll
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:11
-msgid "4p — Ruvaak Mirage Atoll"
+#. [trait]: id=nfwme_plagued
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:337
+msgid "female^plagued"
 msgstr ""
 
-#. [multiplayer]: id=4p_Ruvaak_Mirage_Atoll
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:12
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:341
+msgid "Lost"
+msgstr ""
+
+#. [attacks]: id=nfwme_scared_of_weapon
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:361
+msgid "weakness"
+msgstr ""
+
+#. [attacks]: id=nfwme_scared_of_weapon
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:362
 msgid ""
-"Ruvaak Mirage Atoll v1.4 : PvPvE scenario, included in Advanced Wesnoth Wars mod.\n"
+"-1 strikes when facing an enemy with $second_weapon.description|.\n"
+"Face your fears and defeat them to try to overcome them."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:385
+msgid "Scared of $second_weapon.description"
+msgstr ""
+
+#. [display]: id=fear_of_water_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:398
+msgid "aquaphobia"
+msgstr ""
+
+#. [display]: id=fear_of_water_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:399
+msgid ""
+"Scared of water. Movement points -1 on aquatic terrains, -2 on deep waters.\n"
+"Face your fears to try to overcome them."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:415
+msgid "Aquaphobia"
+msgstr ""
+
+#. [display]: id=fear_of_hight_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:428
+msgid "acrophobia"
+msgstr ""
+
+#. [display]: id=fear_of_hight_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:429
+msgid ""
+"Scared of hights. Movement points -1 on hills terrains, -2 on mountains.\n"
+"Face your fears to try to overcome them."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:443
+msgid "Acrophobia"
+msgstr ""
+
+#. [display]: id=fear_of_desert_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:456
+msgid "erimophobia"
+msgstr ""
+
+#. [display]: id=fear_of_desert_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:457
+msgid ""
+"Scared of deserts. Movement points -2 on frozen and sand terrains.\n"
+"Face your fears to try to overcome them."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:471
+msgid "Erimophobia"
+msgstr ""
+
+#. [display]: id=fear_of_cave_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:484
+msgid "claustrophobia"
+msgstr ""
+
+#. [display]: id=fear_of_cave_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:485
+msgid ""
+"Scared of tight spaces. Movement points -2 on cave terrains.\n"
+"Face your fears to try to overcome them."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:498
+msgid "Claustrophobia"
+msgstr ""
+
+#. [display]: id=fear_of_plant_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:512
+msgid "dendrophobia"
+msgstr ""
+
+#. [display]: id=fear_of_plant_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:513
+msgid ""
+"Scared of plants. Movement points -2 on forest and fungus terrains.\n"
+"Face your fears to try to overcome them."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:527
+msgid "Dendrophobia"
+msgstr ""
+
+#. [display]: id=fear_of_open_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:541
+msgid "agoraphobia"
+msgstr ""
+
+#. [display]: id=fear_of_open_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:542
+msgid ""
+"Scared of open spaces. Movement points -2 on flat terrains.\n"
+"Face your fears to try to overcome them."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:555
+msgid "Agoraphobia"
+msgstr ""
+
+#. [attacks]: id=nfwme_scared_of_dark
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:568
+msgid "nyctophobia"
+msgstr ""
+
+#. [attacks]: id=nfwme_scared_of_dark
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:569
+msgid ""
+"-1 strikes in the dark.\n"
+"Face your fears to try to overcome them."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:584
+msgid "Scared of the dark"
+msgstr ""
+
+#. [attacks]: id=nfwme_scared_of_light
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:596
+msgid "photophobia"
+msgstr ""
+
+#. [attacks]: id=nfwme_scared_of_light
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:597
+msgid ""
+"-1 strikes in the light.\n"
+"Face your fears to try and overcome them."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:612
+msgid "Scared of the light"
+msgstr ""
+
+#. [display]: id=frostbite_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:625
+msgid "frostbite"
+msgstr ""
+
+#. [display]: id=frostbite_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:626
+msgid "Cold resistance -30%."
+msgstr ""
+
+#. [advancement]: id=NFWME_frostbite_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:641
+msgid "Recover from frostbite."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:654
+msgid "Frostbite"
+msgstr ""
+
+#. [display]: id=gash_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:667
+msgid "gash"
+msgstr ""
+
+#. [display]: id=gash_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:668
+msgid "Blade resistance -30%."
+msgstr ""
+
+#. [advancement]: id=NFWME_gash_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:683
+msgid "Recover from gash."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:696
+msgid "Gash"
+msgstr ""
+
+#. [display]: id=infection_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:709
+msgid "infection"
+msgstr ""
+
+#. [display]: id=infection_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:710
+msgid "10% chance of being poisoned every turn."
+msgstr ""
+
+#. [advancement]: id=NFWME_infectiont_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:718
+msgid "Recover from infection."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:732
+msgid "Infection"
+msgstr ""
+
+#. [display]: id=insanity_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:745
+msgid "insanity"
+msgstr ""
+
+#. [display]: id=insanity_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:746
+msgid "Melee attacks gain berserk."
+msgstr ""
+
+#. [berserk]: id=nfwme_berserk
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:757
+msgid "berserk"
+msgstr ""
+
+#. [berserk]: id=nfwme_berserk
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:758
+msgid "Whether used offensively or defensively, this attack presses the engagement until one of the combatants is slain, or 30 rounds of attacks have occurred."
+msgstr ""
+
+#. [advancement]: id=NFWME_insane_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:768
+msgid "Recover from insanity."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:781
+msgid "Insanity"
+msgstr ""
+
+#. [display]: id=maimed_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:794
+msgid "maimed"
+msgstr ""
+
+#. [display]: id=maimed_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:795
+msgid "-20% HP"
+msgstr ""
+
+#. [advancement]: id=NFWME_maimed_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:803
+msgid "Recover from maimed."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:820
+msgid "Maimed"
+msgstr ""
+
+#. [display]: id=necrosis_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:833
+msgid "necrosis"
+msgstr ""
+
+#. [display]: id=necrosis_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:834
+msgid ""
+"You are closer to undeath.\n"
+"Arcane resistance -30%"
+msgstr ""
+
+#. [advancement]: id=NFWME_neccrosis_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:850
+msgid "Recover from necrosis."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:863
+msgid "Necrosis"
+msgstr ""
+
+#. [display]: id=paper_cut_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:876
+msgid "paper cut"
+msgstr ""
+
+#. [display]: id=paper_cut_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:877
+msgid ""
+"Due to the intense pain from your cut you cant concentrait on the fight.\n"
 "\n"
-"This scenario was especially made for taking full potential of Advanced Wesnoth Wars features, with all features enabled. But it works also without.\n"
+"All damage is reduced by 20% and blade resistance is lowered by 30%. You will never recover from this."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:915
+msgid "Paper Cut"
+msgstr ""
+
+#. [display]: id=short_term_memory_loss_dummy
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:928
+msgid "amnesia"
+msgstr ""
+
+#. [display]: id=short_term_memory_loss_dummy
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:929
+msgid "Every round you lose 2 exp."
+msgstr ""
+
+#. [advancement]: id=NFWME_memory_loss_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:937
+msgid "Recover from Amnesia."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:950
+msgid "Amnesia"
+msgstr ""
+
+#. [display]: id=sick_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:963
+msgid "sick"
+msgstr ""
+
+#. [display]: id=sick_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:964
+msgid "20% chance of being slowed every turn."
+msgstr ""
+
+#. [advancement]: id=NFWME_sick_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:972
+msgid "Recover from sick."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:986
+msgid "Sick"
+msgstr ""
+
+#. [display]: id=lego_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:999
+msgid "lego"
+msgstr ""
+
+#. [display]: id=lego_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1000
+msgid ""
+"Due to the intense pain of stepping on plastic brick you cant walk properly.\n"
 "\n"
-"Can also be played in 2v2 (North vs South or West vs East).\n"
-"\n"
-"The units recruited the first turn will have special traits and will get free upkeep.\n"
-"\n"
-"~~~~ The Story ~~~~\n"
-"\n"
-"During a fierce naval battle between four factions around a small atoll, a sudden storm interrupted hostilities by destroying all fleets.\n"
-"\n"
-"Your crew miraculously survived the havoc. You wake up on the shore of a wild island that once seemed inhabited, amid the wrecks of your ship.\n"
-"\n"
-"As you settle a survivors camp next to a ruined castle, lot of questions come at your mind. Where are you ? In a dream ? The afterlife ? Something about that storm and that big island sounds surreal.\n"
-"\n"
-"The only thing you are sure of, is that you have to prepare yourself for a last battle against the island's wildlife and the others shipwrecked enemies, before finding a way to escape this heavenly hell.\n"
-""
+"Movement is reduced by 20% and accuracy is reduced by 15%. You will never recover from this."
 msgstr ""
 
-#. [side]
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:106
-msgid "North-West Camp"
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1035
+msgid "Stepped on Lego"
 msgstr ""
 
-#. [unit]: type=Boat
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:119
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:146
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:173
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:199
-msgid "Wrecked ship"
+#. [effect]
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1116
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1140
+msgid "spectral "
 msgstr ""
 
-#. [side]
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:132
-msgid "North-East Camp"
+#. [drains]: id=drains
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1122
+msgid "drains"
 msgstr ""
 
-#. [side]
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:158
-msgid "South-East Camp"
+#. [drains]: id=drains
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1123
+msgid "This unit drains health from living units, healing itself for half the amount of damage it deals (rounded down)."
 msgstr ""
 
-#. [side]
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:185
-msgid "South-West Camp"
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1178
+msgid "Ghost"
 msgstr ""
 
-#. [side]
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:212
-msgid "Guardians (AI)"
+#. [plague]: id=plague, type=Walking Corpse
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1236
+msgid "plague"
 msgstr ""
 
-#. [unit]: type=Gryphon
-#. [unit]: type=Wolf
-#. [unit]: type=Direwolf
-#. [unit]: type=Mermaid Enchantress
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:226
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:235
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:245
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:254
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:264
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:273
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:283
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:335
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:355
-msgid "Guardian"
+#. [plague]: id=plague, type=Walking Corpse
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1237
+msgid "When a unit is killed by a Plague attack, that unit is replaced with a Walking Corpse on the same side as the unit with the Plague attack. This doesn’t work on Undead or units in villages."
 msgstr ""
 
-#. [unit]: id=stormbringer_north, type=Mermaid Diviner
-#. [unit]: id=stormbringer_south, type=Mermaid Diviner
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:327
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:347
-msgid "Stormbringer"
+#. [chance_to_hit]: id=marksman
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1258
+msgid "poor marksmanship"
 msgstr ""
 
-#. [modify_unit]
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:858
-msgid "Furious "
+#. [chance_to_hit]: id=marksman
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1259
+msgid "When used offensively, this attack always has at least a 50% chance to hit."
 msgstr ""
 
-#. [event]: id=aww_rma_trigger_recruit_loyal
-#: Advance_Wesnoth_Wars_fork\scenarios\4p_Ruvaak_Mirage_Atoll.cfg:911
-msgid "Best friend!"
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1276
+msgid "Zombie"
+msgstr ""
+
+#. [display]: id=wild_magic_display
+#. [chance_to_hit]: id=magical
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1289
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1301
+msgid "wild magic"
+msgstr ""
+
+#. [display]: id=wild_magic_display
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1290
+msgid "Magical attacks have a 50% chance to hit."
+msgstr ""
+
+#. [chance_to_hit]: id=magical
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1302
+msgid "This attack always has a 50% chance to hit regardless of the defensive ability of the unit being attacked."
+msgstr ""
+
+#. [advancement]: id=NFWME_wild_magic_Healing
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1312
+msgid "Recover from Wild Magic."
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1325
+msgid "Wild Magic"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. generic message which could apply to any scenario where the storyline already explains why even the surviving units don't reappear later in the campaign
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:39
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:52
+msgid "The non-fatal wound modification is disabled for this scenario."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:74
+msgid "The non-fatal wound modification might work unusually with this campaign. The recall lists change during the campaign, and units that are non-fatally wounded may reappear on the wrong recall list."
+msgstr ""
+
+#. [message]: speaker=narrator
+#. For this scenario, the objective is to avoid deaths for as long as possible, the scenario ends when any unit perishes.
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:86
+msgid "The non-fatal wound modification does not affect the objectives for this scenario. The unit can survives, but still triggers the same events as if it died."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:96
+msgid "Non-Fatal Wounds: As long as the lich Lord Lenvan is alive, all your dead units will rise as undead regardless of cause of death. Choose if you want to lose them all forever or you prefer to let chance decide. You can still irretrievably lose your units forever if you are attacked by a unit with plague."
+msgstr ""
+
+#. [option]
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:99
+msgid "Disable Non-Fatal Wounds until Lord Lenvan dies"
+msgstr ""
+
+#. [option]
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:112
+msgid "Continues normal Non-Fatal Wounds behavior"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:142
+msgid "Non-Fatal Wounds works normally again."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:207
+msgid "Non-Fatal Wounds: in all of mainline Wesnoth, this scenario is probably the most evil act by the player’s own side. The scenario is called Costly Revenge, and for the story it’s meant to be costly to the elves as well as these innocent saurians."
+msgstr ""
+
+#. [option]
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:210
+msgid "Disable Non-Fatal Wounds and let the story proceed as expected"
+msgstr ""
+
+#. [option]
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:219
+msgid "Let all the elves survive"
+msgstr ""
+
+#. [message]: speaker=Shynal
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:252
+msgid "Ow, that was close. I’ll rest until the next battle."
+msgstr ""
+
+#. [message]: speaker=Carcyn
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:261
+msgid "You could have brought her back anyway, right?"
+msgstr ""
+
+#. [message]: speaker=Ras-Tabahn
+#. without this mod, she's brought back as a walking corpse
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:273
+msgid "Only in part. She would never have the powers of a lich."
+msgstr ""
+
+#. [message]: speaker=Ras-Tabahn
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:279
+msgid "Maybe as a ghost, but even then she would no longer have the powers of a lich."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\last_scenario.cfg:20
+msgid "Because this is the last scenario, the ending of the campaign will count wounded units as if they had been killed."
+msgstr ""
+
+#. [message]: speaker=$unit.id
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:86
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:105
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:125
+msgid "Argh, I’m dying"
+msgstr ""
+
+#. [message]: speaker=$unit.id
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:87
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:106
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:126
+msgid "female^Argh, I’m dying"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:91
+msgid "$unit.name a $nfwme_unit_type.name was destroyed."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:110
+msgid "$unit.name a $nfwme_unit_type.name was revived as undead."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:130
+msgid "$unit.name a $nfwme_unit_type.name returned as a ghost."
+msgstr ""
+
+#. [message]: speaker=$unit.id
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:145
+msgid "Argh"
+msgstr ""
+
+#. [message]: speaker=$unit.id
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:146
+msgid "female^Argh"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:150
+msgid "$unit.name a $nfwme_unit_type.name was converted by the enemy."
+msgstr ""
+
+#. [message]: speaker=$unit.id
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:165
+msgid "Please rescue me!"
+msgstr ""
+
+#. [message]: speaker=$unit.id
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:166
+msgid "female^Please rescue me!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:170
+msgid "$unit.name a $nfwme_unit_type.name was captured by the enemy. You will have to pay a ransom."
+msgstr ""
+
+#. [message]: speaker=$unit.id
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:178
+msgid "Argh, I’m wounded"
+msgstr ""
+
+#. [message]: speaker=$unit.id
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:179
+msgid "female^Argh, I’m wounded"
 msgstr ""
 
