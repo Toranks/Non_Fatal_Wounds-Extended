@@ -33,3 +33,4 @@ v1.2
 ===========
 - Special event on "Temple in the Deep" (TROW), where you can choose if you want lose all units until Lord Lenvan dies or let NFW works normally.
 - Icon on all NFW info messages.
+- Fixed error on capture, that produces an excess of captures with respect to the other wounds on all units, not only heroes.
