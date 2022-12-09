@@ -35,8 +35,13 @@ v1.2
 - Icon on all NFW info messages.
 - Fixed error on capture, that produces an excess of captures with respect to the other wounds on all units, not only heroes.
 - Improved some extra filters.
-- Burned wound now can be received on lava or volcano terrains
+- Burned wound now can be received on lava or volcano terrains.
 
 v1.3
 ===========
-- 
+- When the unit dies or is converted, first wound addon message doesn't appear if that's the case.
+- Fixed "Captured" wound which is cleared on all units if there was more than one unit with it at the same time, bug present in the original version.
+- Heal "Fear of light/dark" probability reduced from 10% to 5%
+- Better filter of light/dark, now detects the unit hexagon instead of general time of day.
+v1.3.1
+- Added 'midnight' to filters

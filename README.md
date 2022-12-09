@@ -73,7 +73,7 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 * Some injuries can be healed directly facing your fears.
 * Fear of terrain: 10% chance of recovery when defeating an opponent while standing on the terrain unit is scared of.
 * Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of.
-* Fear of dark/light: 10% chance of recovery when defeating an opponent during the day/night.
+* Fear of light/dark: 5% chance of recovery when defeating an opponent during the day/night.
 * The rest of injuries can be healed choosing a recover AMLA instead of the advancement or default AMLA (still can advance later to the next advancement).
 * Optional injuries can't be healed at all.
 
