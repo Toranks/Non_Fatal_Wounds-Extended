@@ -45,3 +45,5 @@ v1.3
 - Better filter of light/dark, now detects the unit hexagon instead of general time of day.
 v1.3.1
 - Added 'midnight' to filters
+v1.3.2
+- Fixed Amnesia and short-term memory loss, that not worked properly
