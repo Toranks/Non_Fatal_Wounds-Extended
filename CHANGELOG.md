@@ -48,3 +48,4 @@ v1.3.1
 v1.3.2
 - Fixed Amnesia and short-term memory loss, that not worked properly
 - Special event, only cosmetic, on the last scenario of TROW with Lord Jevyan, and fixed Lord Jenvan event, now only applies to the player.
+- Cowardice now have a 25% probability of be healed when unit advances or kill a higher level unit, instead of 100%.
