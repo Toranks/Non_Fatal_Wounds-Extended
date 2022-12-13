@@ -47,3 +47,4 @@ v1.3.1
 - Added 'midnight' to filters
 v1.3.2
 - Fixed Amnesia and short-term memory loss, that not worked properly
+- Special event, only cosmetic, on the last scenario of TROW with Lord Jevyan, and fixed Lord Jenvan event, now only applies to the player.
