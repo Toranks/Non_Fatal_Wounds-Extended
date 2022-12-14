@@ -42,10 +42,14 @@ v1.3
 - When the unit dies or is converted, first wound addon message doesn't appear if that's the case.
 - Fixed "Captured" wound which is cleared on all units if there was more than one unit with it at the same time, bug present in the original version.
 - Heal "Fear of light/dark" probability reduced from 10% to 5%
-- Better filter of light/dark, now detects the unit hexagon instead of general time of day.
+- Better filter of light/dark, now detects the unit hexagon instead of general time of day. >BUG
 v1.3.1
 - Added 'midnight' to filters
-v1.3.2
+
+v1.4
+===========
+- Wounds now are optional, you can select original Non-Fatal Wounds behavior. Option to choose plagued units to die.
 - Fixed Amnesia and short-term memory loss, that not worked properly
 - Special event, only cosmetic, on the last scenario of TROW with Lord Jevyan, and fixed Lord Jenvan event, now only applies to the player.
 - Cowardice now have a 25% probability of be healed when unit advances or kill a higher level unit, instead of 100%.
+- Fixed photophobia and nictophobia, that doesn't work on 1.3 and 1.3.1
