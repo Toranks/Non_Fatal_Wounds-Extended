@@ -42,7 +42,7 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 * Broken leg (-20% mp) > Races with legs, random
 * Broken rib (-30% impact resistance) > Not mechanical, killed with impact attack
 * Burned (-30% fire resistance) > All units, killed with fire attack
-* Captured (increased recall cost based on level until you recall them) > All units, random
+* Captured (increased recall cost based on level) > All units, random
 * Concussion (-20% magical damage) > Units with magical attacks, random
 * Coward (-15% accuracy) > Not mechanical, random
 * Fear of weapon (reduced 1 strikes against what wounded them) > Not mechanical, killed with any weapon
@@ -75,7 +75,8 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 * Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of.
 * Fear of light/dark: 5% chance of recovery when defeating an opponent during the day/night.
 * Coward: 20% chance of recovery when defeat an enemy 1 level higher or at his highest level.
-* Short-term memory loss is an 1-use wound and is healed inmediately.
+* Short-term memory loss: is an 1-use wound and is healed inmediately.
+* Captured: is an 1-use wound and is healed when the unit is recalled the first time.
 * The rest of wounds can be healed choosing a recover AMLA instead of the advancement or default AMLA (still can advance later to the next advancement).
 * Optional wounds can't be healed at all.
 

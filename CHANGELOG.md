@@ -54,8 +54,12 @@ v1.4
 - Cowardice now have a 25% probability of be healed when unit advances or kill a higher level unit, instead of 100%.
 - Fixed photophobia and nictophobia, that doesn't work on 1.3 and 1.3.1
 
-v1.5
-==============
+v2.0
+============
+- New Help Menu, with configurable options, included the possibility to deactivate Non-Fatal Wounds for single scenarios.
 - Compatibility between "Fear of weapon" wound and Suprise Attacks from Advanced Wesnoth Wars. Now this wound doesn't applies to Surprise Attack kills.
 - Cowardice healing probability reduced to 20%
 - Amnesia, infection and sick fixed, before is activated every side turn, not every complete turn, error from 1.2
+- Best deactivation method. When deactivated via campaign script or help menu, all units will now receive the "death" wound if Wounds is on, except in cases of plague. It has no effect on gameplay but adds more realism.
+- Undeath zombies now have the image corresponding to the zombie variation of the original unit, and the color of the owner side.
+- Translated weapons on ghosts (all languanges).
