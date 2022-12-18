@@ -671,17 +671,17 @@ msgstr ""
 msgid "Paper Cut"
 msgstr "Corte de papel"
 
-#. [display]: id=short_term_memory_loss_dummy
+#. [display]: id=amnesia_dummy
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:928
 msgid "amnesia"
 msgstr "amnesia"
 
-#. [display]: id=short_term_memory_loss_dummy
+#. [display]: id=amnesia_dummy
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:929
 msgid "Every round you lose 2 exp."
 msgstr "Cada turno perderá 2 Exp."
 
-#. [advancement]: id=NFWME_memory_loss_Healing
+#. [advancement]: id=NFWME_amnesia_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:937
 msgid "Recover from Amnesia."
 msgstr "Recuperado de amnesia"

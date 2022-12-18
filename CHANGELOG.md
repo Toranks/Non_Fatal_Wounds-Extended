@@ -53,4 +53,9 @@ v1.4
 - Special event, only cosmetic, on the last scenario of TROW with Lord Jevyan, and fixed Lord Jenvan event, now only applies to the player.
 - Cowardice now have a 25% probability of be healed when unit advances or kill a higher level unit, instead of 100%.
 - Fixed photophobia and nictophobia, that doesn't work on 1.3 and 1.3.1
+
+v1.5
+==============
 - Compatibility between "Fear of weapon" wound and Suprise Attacks from Advanced Wesnoth Wars. Now this wound doesn't applies to Surprise Attack kills.
+- Cowardice healing probability reduced to 20%
+- Amnesia, infection and sick fixed, before is activated every side turn, not every complete turn, error from 1.2
