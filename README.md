@@ -42,7 +42,7 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 * Broken leg (-20% mp) > Races with legs, random
 * Broken rib (-30% impact resistance) > Not mechanical, wounded with impact attack
 * Burned (-30% fire resistance) > All units, wounded with fire attack
-* Captured (increased recall cost based on level) > All units, random
+* Captured (increased recall cost based on level) > All units, random but on leaders and heroes is much more probable
 * Concussion (-20% magical damage) > Units with magical attacks, random
 * Coward (-15% accuracy) > Not mechanical, random
 * Fear of weapon (reduced 1 strikes against what wounded them) > Not mechanical, wounded with any weapon

@@ -68,3 +68,6 @@ v2.0.1
 - Divided Wounds help on two differents page due to 1.17 problem with long texts. Only for 1.17 server.
 v2.0.2
 - Fixed character error on 1.16 help menu. Only for 1.16 server.
+
+v2.1
+============
