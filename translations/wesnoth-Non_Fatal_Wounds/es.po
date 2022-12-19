@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-18 11:20 UTC\n"
-"PO-Revision-Date: 2022-12-18 12:33+0100\n"
+"POT-Creation-Date: 2022-12-18 21:34 UTC\n"
+"PO-Revision-Date: 2022-12-18 23:56+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -63,13 +63,15 @@ msgstr ""
 "plagadas, desaparecerán para siempre, al ser convertidas por el enemigo."
 
 #. [item]
+#. [option]
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:9
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:374
 msgid "Yes"
 msgstr "Sí"
 
 #. [item]
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:13
-#: Non_Fatal_Wounds_Extended\utils\Options.cfg:27
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:28
 msgid "No"
 msgstr "No"
 
@@ -79,14 +81,14 @@ msgid "No, but can lost plagued unit"
 msgstr "No, pero se pierden las unidades plagadas"
 
 #. [choice]: id=nfw_02
-#: Non_Fatal_Wounds_Extended\utils\Options.cfg:24
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:25
 msgid "Enable Death"
 msgstr "Activar Muerte"
 
 #. [choice]: id=nfw_02
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\Options.cfg:25
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:147
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:26
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:172
 msgid ""
 "Adds death as a possibility to the table. Undeath option will bring some of "
 "them back as undead or ghost."
@@ -94,39 +96,48 @@ msgstr ""
 "Añadir muerte como posibilidad a la tabla. La opción No-muerte traerá de "
 "vuelta algunos de ellos como muertos vivientes o fantasmas."
 
+#. [choice]: id=nfw_02
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:26
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:172
+msgid "Only applies with Wounds enabled."
+msgstr "Sólo aplica con Heridas activadas."
+
 #. [item]
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\Options.cfg:31
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:327
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:32
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:354
 msgid "Death"
 msgstr "Muerte"
 
 #. [item]
-#: Non_Fatal_Wounds_Extended\utils\Options.cfg:35
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:36
 msgid "Undeath"
 msgstr "No-muerte"
 
 #. [checkbox]: id=nfw_03
 #. [message]: speaker=narrator
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\Options.cfg:41
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:227
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:333
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:43
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:253
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:360
 msgid "Funny wounds"
 msgstr "Heridas absurdas"
 
 #. [checkbox]: id=nfw_03
-#: Non_Fatal_Wounds_Extended\utils\Options.cfg:42
-msgid "Stepped on LEGO. Paper cut."
-msgstr "Pisar LEGO. Corte de papel."
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:44
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:253
+msgid "Add Stepped on LEGO and Paper cut as a possibility to the table."
+msgstr "Añadir Pisó LEGO y Corte de papel como posibilidades a la tabla."
 
 #. [checkbox]: id=nfw_04
-#: Non_Fatal_Wounds_Extended\utils\Options.cfg:47
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:50
 msgid "Help Menu"
 msgstr "Menú de ayuda"
 
 #. [checkbox]: id=nfw_04
-#: Non_Fatal_Wounds_Extended\utils\Options.cfg:48
+#: Non_Fatal_Wounds_Extended\utils\Options.cfg:51
 msgid ""
 "Add a contextual menu on right click with help and configurations for all "
 "features."
@@ -218,25 +229,25 @@ msgstr "Recuperado del brazo roto"
 msgid "Broken Arm"
 msgstr "Brazo roto"
 
-#. [display]: id=broken_wind_display
+#. [display]: id=broken_wing_display
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:65
-msgid "broken wind"
+msgid "broken wing"
 msgstr "ala rota"
 
-#. [display]: id=broken_wind_display
+#. [display]: id=broken_wing_display
 #. [display]: id=broken_leg_display
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:66
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:105
 msgid "Movement points -20%"
 msgstr "Puntos de movimiento -20%"
 
-#. [advancement]: id=NFWME_broken_wind_Healing
+#. [advancement]: id=NFWME_broken_wing_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:78
-msgid "Recover from broken wind."
+msgid "Recover from broken wing."
 msgstr "Recuperado del ala rota"
 
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:91
-msgid "Broken Wind"
+msgid "Broken Wing"
 msgstr "Ala rota"
 
 #. [display]: id=broken_leg_display
@@ -759,18 +770,18 @@ msgid "Stepped on Lego"
 msgstr "Pisó LEGOs"
 
 #. [effect]
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1116
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1140
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1115
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1139
 msgid "spectral "
 msgstr "espectral "
 
 #. [drains]: id=drains
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1122
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1121
 msgid "drains"
 msgstr "drena"
 
 #. [drains]: id=drains
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1123
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1122
 msgid ""
 "This unit drains health from living units, healing itself for half the "
 "amount of damage it deals (rounded down)."
@@ -778,17 +789,17 @@ msgstr ""
 "Esta unidad absorbe vida de unidades vivas, curándose la mitad del daño "
 "causado, redondeado hacia abajo."
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1178
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1161
 msgid "Ghost"
 msgstr "Fantasma"
 
 #. [plague]: id=plague, type=Walking Corpse
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1236
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1215
 msgid "plague"
 msgstr "plaga"
 
 #. [plague]: id=plague, type=Walking Corpse
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1237
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1216
 msgid ""
 "When a unit is killed by a Plague attack, that unit is replaced with a "
 "Walking Corpse on the same side as the unit with the Plague attack. This "
@@ -799,36 +810,36 @@ msgstr ""
 "funciona con unidades no muertas o que se encuentren en aldeas."
 
 #. [chance_to_hit]: id=marksman
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1258
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1237
 msgid "poor marksmanship"
 msgstr "mala puntería"
 
 #. [chance_to_hit]: id=marksman
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1259
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1238
 msgid ""
 "When used offensively, this attack always has at least a 50% chance to hit."
 msgstr ""
 "Cuando se usa ofensivamente, este ataque siempre tiene al menos un 50% de "
 "posibilidades de acertar."
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1276
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1334
 msgid "Zombie"
 msgstr "Zombie"
 
 #. [display]: id=wild_magic_display
 #. [chance_to_hit]: id=magical
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1289
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1301
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1348
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1360
 msgid "wild magic"
 msgstr "magia salvaje"
 
 #. [display]: id=wild_magic_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1290
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1349
 msgid "Magical attacks have a 50% chance to hit."
 msgstr "Ataques mágicos tienen un 50% de posibilidades de acertar."
 
 #. [chance_to_hit]: id=magical
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1302
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1361
 msgid ""
 "This attack always has a 50% chance to hit regardless of the defensive "
 "ability of the unit being attacked."
@@ -837,11 +848,11 @@ msgstr ""
 "independientemente de la capacidad defensiva de la unidad atacada."
 
 #. [advancement]: id=NFWME_wild_magic_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1312
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1371
 msgid "Recover from Wild Magic."
 msgstr "Recuperado de magia salvaje"
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1325
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1384
 msgid "Wild Magic"
 msgstr "Magia salvaje"
 
@@ -849,7 +860,7 @@ msgstr "Magia salvaje"
 #. generic message which could apply to any scenario where the storyline already explains why even the surviving units don't reappear later in the campaign
 #: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:39
 #: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:52
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:344
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:378
 msgid "The non-fatal wound modification is disabled for this scenario."
 msgstr ""
 "La modificación Heridas No Fatales está desactivada para este escenario."
@@ -967,8 +978,8 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:12
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:149
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:229
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:174
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:255
 msgid "Set to"
 msgstr "Estado"
 
@@ -981,8 +992,8 @@ msgstr ""
 
 #. [option]
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:16
-msgid "List of Wounds and healing method"
-msgstr "Lista de Heridas y métodos de curación"
+msgid "List of Wounds"
+msgstr "Lista de Heridas"
 
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:21
@@ -992,27 +1003,33 @@ msgid ""
 "* <b><i>Wound</i> (effect) > Possible destination units, previous "
 "conditions</b>\n"
 "\n"
-"* <i>Amnesia</i> (loses 2 xp/round) > All units, random\n"
+"* <i>Amnesia</i> (loses 2 xp/turn) > All units, random\n"
+"* <i>Short-term memory loss</i> (resets experience) > Units with more than "
+"1/2 of the max experience, random\n"
 "* <i>Broken arm</i> (-20% non-magical damage) > Races with arms, random\n"
-"* <i>Broken wind</i> (-20% mp) > Races with winds, random\n"
+"* <i>Broken wing</i> (-20% mp) > Races with wings, random\n"
 "* <i>Broken leg</i> (-20% mp) > Races with legs, random\n"
-"* <i>Broken rib</i> (-30% impact resistance) > Not mechanical, killed with "
-"impact attack\n"
-"* <i>Burned</i> (-30% fire resistance) > All units, killed with fire attack\n"
+"* <i>Broken rib</i> (-30% impact resistance) > Not mechanical or spirits, "
+"wounded with impact attack\n"
+"* <i>Burned</i> (-30% fire resistance) > All units, wounded with fire attack "
+"or on a terrain with lava or fire\n"
 "* <i>Captured</i> (increased recall cost based on level) > All units, "
 "random\n"
 "* <i>Concussion</i> (-20% magical damage) > Units with magical attacks, "
 "random\n"
+"* <i>Wild magic</i> (magical attacks now are 50% chance) > Units with "
+"magical attacks, random\n"
 "* <i>Coward</i> (-15% accuracy) > Not mechanical, random\n"
 "* <i>Fear of weapon</i> (reduced 1 strikes against what wounded them) > Not "
-"mechanical, killed with any weapon\n"
+"mechanical, wounded with any weapon\n"
 "* <i>Fear of the dark/light</i> (reduced 1 strikes during the time they were "
-"wounded) > Not mechanical, killed on day, night, or underground\n"
+"wounded) > Not mechanical, wounded on day, night, or underground\n"
 "* <i>Fear of terrain</i> (increased 1-2 move cost for the terrain they were "
-"wounded on) > Not mechanical, killed on some terrains\n"
-"* <i>Frostbite</i> (-30% cold resistance) > All units, killed with ice "
+"wounded on) > Not mechanical, wounded on some terrains\n"
+"* <i>Frostbite</i> (-30% cold resistance) > All units, wounded with ice "
+"attack or on a cold terrain\n"
+"* <i>Gash</i> (-30% blade resistance) > All units, wounded with blade "
 "attack\n"
-"* <i>Gash</i> (-30% blade resistance) > ALl units, killed with blade attack\n"
 "* <i>Infection</i> (10% chance to be poisoned every turn) > Not mechanical "
 "or not unpoisonable, random\n"
 "* <i>Sick</i> (20% chance of being slowed every turn) > All units, random\n"
@@ -1020,16 +1037,84 @@ msgid ""
 "ability\n"
 "* <i>Maimed</i> (-20% hp) > All units, random\n"
 "* <i>Necrosis</i> (-30% arcane resistance) > Not mechanical, random\n"
-"* <i>Short-term memory loss</i> (resets experience) > Units with more than "
-"1/2 of the max experience, random\n"
-"* <i>Wild magic</i> (magical attacks now are 50% chance) > Units with magic "
-"attack, random\n"
 "* <i>Plagued</i> (equivalent to death) > Units non unplagueables, killed "
 "with plague attack, allways"
 msgstr ""
+"<b>Lista de heridas:</b>\n"
+"\n"
+"* <b><i>Herida</i> (efecto) > Posibles candidatos, condiciones previas</b>\n"
+"\n"
+"* <i>Amnesia</i> (pierde 2 exp/turno) > Todas las unidades, azar\n"
+"* <i>Pérdida de memoria a corto plazo</i> (reinicia la experiencia) > "
+"Unidades con más de la mitad de la experiencia máxima, azar\n"
+"* <i>Brazo roto</i> (-20 % daño no mágico) > Razas con brazos, azar\n"
+"* <i>Ala rota</i> (-20% movimiento) > Razas con alas, azar\n"
+"* <i>Pierna rota</i> (-20% movimiento) > Razas con piernas, azar\n"
+"* <i>Costilla rota</i> (-30% resistencia al impacto) > No mecánico ni "
+"espíritus, herido con ataque de impacto\n"
+"* <i>Quemado</i> (-30% resistencia al fuego) > Todas las unidades, herido "
+"con ataque de fuego o en un terreno con lava o fuego\n"
+"* <i>Capturado</i> (coste de reincorporación aumentado según el nivel) > "
+"Todas las unidades, azar\n"
+"* <i>Conmoción</i> (-20% daño mágico) > Unidades con ataques mágicos, azar\n"
+"* <i>Magia salvaje</i> (los ataques mágicos ahora tienen un 50 % de "
+"probabilidad) > Unidades con ataques mágicos, azar\n"
+"* <i>Cobarde</i> (-15 % de precisión) > No mecánico, azar\n"
+"* <i>Miedo al arma</i> (reducción de 1 golpe contra el arma que lo hirió) > "
+"No mecánico, herido con cualquier arma\n"
+"* <i>Miedo a la oscuridad/luz</i> (reducción de 1 golpe en el mismo ambiente "
+"en que fue herido) > No mecánico, herido de día, de noche o bajo tierra\n"
+"* <i>Miedo al terreno</i> (aumenta el costo de movimiento en 1-2 en el "
+"terreno en el que fue herido) > No mecánico, herido en ciertos terrenos\n"
+"* <i>Congelación</i> (-30 % resistencia al frío) > Todas las unidades, "
+"herido con ataque de hielo o en terreno frío\n"
+"* <i>Tajo</i> (-30 % de resistencia de hoja) > Todas las unidades, herido "
+"con ataque de filo\n"
+"* <i>Infección</i> (10% de probabilidad de ser envenenado cada turno) > No "
+"mecánico o no envenenable, azar\n"
+"* <i>Enfermo</i> (20 % de probabilidad de ser ralentizado cada turno) > "
+"Todas las unidades, azar\n"
+"* <i>Locura</i> (frenesí en ataques cuerpo a cuerpo) > Unidades sin "
+"habilidad de frenesí\n"
+"* <i>Mutilado</i> (-20 % PV) > Todas las unidades, azar\n"
+"* <i>Necrosis</i> (-30 % resistencia arcana) > No mecánico, azar\n"
+"* <i>Plagados</i> (equivalente a muerte) > Unidades convertibles muertas con "
+"ataque de plaga, se activa siempre"
+
+#. [option]
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:50
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:85
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:136
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:153
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:217
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:234
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:288
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:305
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:387
+msgid "Back to help menu"
+msgstr "Volver al menú de ayuda"
+
+#. [option]
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:59
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:94
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:145
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:162
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:226
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:243
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:297
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:314
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:396
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:404
+msgid "Exit"
+msgstr "Salir"
+
+#. [option]
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:67
+msgid "List of healing methods"
+msgstr "Lista de métodos de curación"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:48
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:72
 msgid ""
 "<b>Wounds healing:</b>\n"
 "\n"
@@ -1050,139 +1135,156 @@ msgid ""
 "advancement).\n"
 "* Optional wounds can't be healed at all."
 msgstr ""
+"<b>Curación de heridas:</b>\n"
+"\n"
+"* <i>Miedo al terreno</i>: 10 % de probabilidad de recuperación al derrotar "
+"a un oponente mientras la unidad está en el terreno al que tiene miedo.\n"
+"* <i>Miedo al arma</i>: 20 % de probabilidad de recuperación al derrotar a "
+"un oponente que posea el arma al que la unidad teme.\n"
+"* <i>Miedo a la luz/oscuridad</i>: 5% de probabilidad de recuperación al "
+"derrotar a un oponente durante el día/la noche.\n"
+"* <i>Cobarde</i>: 20% de probabilidad de recuperación al derrotar a un "
+"enemigo 1 nivel superior o en su nivel más alto.\n"
+"* <i>Pérdida de memoria a corto plazo</i>: es una herida de 1 uso y se cura "
+"inmediatamente.\n"
+"* <i>Capturado</i>: es una herida de 1 uso y se cura cuando se paga el "
+"rescate de reincorporación por primera vez.\n"
+"* El resto de heridas se pueden curar eligiendo un AMLA de recuperación en "
+"lugar del AMLA de avance o por defecto (todavía se puede avanzar más tarde "
+"al siguiente avance).\n"
+"* Las heridas opcionales no se pueden curar en absoluto."
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:61
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:111
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:128
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:191
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:208
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:261
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:278
-msgid "Back to help menu"
-msgstr "Volver al menú de ayuda"
-
-#. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:70
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:120
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:137
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:200
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:217
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:270
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:287
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:353
-msgid "Exit"
-msgstr "Salir"
-
-#. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:78
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:102
 msgid "Change status of Wounds"
 msgstr "Cambiar el estado de Heridas"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:82
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:106
 msgid "Set status of Wounds."
 msgstr "Establece el estado de Heridas."
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:84
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:243
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:109
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:270
 msgid "Activate"
 msgstr "Activar"
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:93
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:164
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:252
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:118
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:190
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:279
 msgid "Deactivate"
 msgstr "Desactivar"
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:102
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:127
 msgid "Deactivate, but can lost plagued unit"
 msgstr "Desactivar, pero se pierden las unidades plagadas"
 
 #. [option]
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:173
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:147
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:199
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:172
 msgid "Activate Death"
 msgstr "Activar Muerte"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:149
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:174
 msgid "(0 = Deactivated, 1 = Death, 2 = Death + Undeath)"
 msgstr "(0 = Desactivado, 1 = Muerte, 2 = Muerte + No-muerte)"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:151
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:176
 msgid ""
 "<b>Wounds list:</b>\n"
 "* Death (definitive death)\n"
-"* Turning into a ghost (custom ghost, can't advance beyond level 2) > Units "
-"that are not already spirits or ghosts\n"
-"* Turning into a zombie (custom zombie, heavily debuffed ranged attacks) > "
-"Units that are not already undead"
+"* Turning into a ghost: -40% HP, spirit type movement, defenses and "
+"resistances, chaotic alignment, ranged attack changed to cold if not "
+"magical, arcane or fire, melee attack changed to arcane and with drain if "
+"not magical, cold or fire > Units that are not already spirits or ghosts\n"
+"* Turning into a zombie: -20% HP, slower, low arcane resistance,  chaotic "
+"alignment, plague on melee, -50% magical attacks damage, -25& ranged attacks "
+"damage, and poor markmanship on marksmans > Units that are not already undead"
 msgstr ""
+"<b>Lista de heridas:</b>\n"
+"* Muerte (muerte definitiva)\n"
+"* Convertirse en fantasma: -40% HP, movimiento tipo espíritu, defensas y "
+"resistencias, alineación caótica, ataque a distancia cambiado a frío si no "
+"es mágico, arcano o fuego, ataque cuerpo a cuerpo cambiado a arcano y con "
+"drenaje si no es mágico, frío o fuego > Unidades que aún no son espíritus o "
+"fantasmas\n"
+"* Convertirse en zombi: -20 % de vida, más lento, baja resistencia arcana, "
+"alineamiento caótico, plaga cuerpo a cuerpo, -50 % de daño de ataques "
+"mágicos, -25 % de daño de ataques a distancia y mala puntería en tiradores > "
+"Unidades que aún no son muertos vivientes"
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:158
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:183
 msgid "Change status of Death"
 msgstr "Cambiar el estado de Muerte"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:162
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:187
 msgid "Set status of Death."
 msgstr "Establece el estado de Muerte."
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:182
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:208
 msgid "Activate Death, Undeath and Ghosts"
 msgstr "Activar Muerte, No-muerte y Fantasmas"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:227
-msgid "Add Stepped on LEGO and Paper cut as a possibility to the table."
-msgstr "Añadir Pisó LEGO y Corte de papel como posibilidades a la tabla."
-
-#. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:231
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:257
 msgid ""
 "<b>Wounds list:</b>\n"
 "* <i>Paper cut</i> (-20% to all damage and -30% blade resistance) > All "
 "units\n"
 "* <i>Stepping on a Lego</i> (-20% mp and -15% accuracy) > All units"
 msgstr ""
+"<b>Lista de heridas:</b>\n"
+"* <i>Corte de papel</i> (-20 % todos los daños y -30 % resistencia al filo) "
+"> Todas las unidades\n"
+"* <i>Pisó LEGO</i> (-20% movimiento y -15% precisión) > Todas las unidades"
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:237
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:263
 msgid "Change status of Funny wounds"
 msgstr "Cambiar el estado de Heridas absurdas"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:241
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:267
 msgid "Set status of Funny wounds."
 msgstr "Establece el estado de Heridas absurdas."
 
 #. [set_menu_item]: id=nfw_help
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:301
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:328
 msgid "NFW help"
 msgstr "Ayuda HNF"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:317
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:344
 msgid "Choose the feature you want help with"
 msgstr "Elige la característica de la que deseas ayuda"
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:321
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:348
 msgid "Wounds"
 msgstr "Heridas"
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:339
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:366
 msgid "Stop Non-Fatal Wounds for this scenario"
 msgstr "Detener Heridas no fatales para este escenario"
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:370
+msgid ""
+"Are you sure? This cannot be undone. Non-Fatal Wounds will be activated "
+"again the next scenario."
+msgstr ""
+"¿Estás seguro? Esto no se podrá deshacer. Heridas No Fatales será activado "
+"de nuevo en el siguiente escenario."
 
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\last_scenario.cfg:20

@@ -36,27 +36,27 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 
 **CURRENT WOUNDS**
 
-* Amnesia (lose 2 xp/round) > All units, random
+* Amnesia (lose 2 xp/turn) > All units, random
 * Broken arm (-20% non-magical damage) > Races with arms, random
-* Broken wind (-20% mp) > Races with winds, random
+* Broken wing (-20% mp) > Races with wings, random
 * Broken leg (-20% mp) > Races with legs, random
-* Broken rib (-30% impact resistance) > Not mechanical, killed with impact attack
-* Burned (-30% fire resistance) > All units, killed with fire attack
+* Broken rib (-30% impact resistance) > Not mechanical, wounded with impact attack
+* Burned (-30% fire resistance) > All units, wounded with fire attack
 * Captured (increased recall cost based on level) > All units, random
 * Concussion (-20% magical damage) > Units with magical attacks, random
 * Coward (-15% accuracy) > Not mechanical, random
-* Fear of weapon (reduced 1 strikes against what wounded them) > Not mechanical, killed with any weapon
-* Fear of the dark/light (reduced 1 strikes during the time they were wounded) > Not mechanical, killed on day, night, or underground
-* Fear of terrain (increased 1-2 move cost for the terrain they were wounded on) > Not mechanical, killed on some terrains
-* Frostbite (-30% cold resistance) > All units, killed with ice attack
-* Gash (-30% blade resistance) > ALl units, killed with blade attack
+* Fear of weapon (reduced 1 strikes against what wounded them) > Not mechanical, wounded with any weapon
+* Fear of the dark/light (reduced 1 strikes during the time they were wounded) > Not mechanical, wounded on day, night, or underground
+* Fear of terrain (increased 1-2 move cost for the terrain they were wounded on) > Not mechanical, wounded on some terrains
+* Frostbite (-30% cold resistance) > All units, wounded with ice attack
+* Gash (-30% blade resistance) > All units, wounded with blade attack
 * Infection (10% chance to be poisoned every turn) > Not mechanical or not unpoisonable, random
 * Sick (20% chance of being slowed every turn) > All units, random
 * Insanity (berserk on melee attacks) > Units without berserk ability
 * Maimed (-20% hp) > All units, random
 * Necrosis (-30% arcane resistance) > Not mechanical, random
 * Short-term memory loss (resets experience) > Units with more than 1/2 of the max experience, random
-* Wild magic (magical attacks now are 50% chance) > Units with magic attack, random
+* Wild magic (magical attacks now are 50% chance) > Units with magical attacks, random
 * Plagued (equivalent to death) > Units non unplagueables, killed with plague attack, allways
 
 **OPTIONAL WOUNDS**

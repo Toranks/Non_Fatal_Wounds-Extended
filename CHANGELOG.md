@@ -16,7 +16,7 @@ Changelog Non Fatal Wounds Extended Version
 - Fixed fear of the light/dark, now doesn't trigger on dusk and afternoon
 - Completely redo of the Randomizer with better filters and probabilities
 - Death and undeath are now much more probable when is activated, same as funny wounds.
-- Added broken wind instead of broken arm for birds, bats, and dragons
+- Added broken wing instead of broken arm for birds, bats, and dragons
 - Much more similar filters, as mechanic units not receives wounds related with mental status, magic alterations only for magical users
 - New fear, Agoraphobia.
 
@@ -63,3 +63,8 @@ v2.0
 - Best deactivation method. When deactivated via campaign script or help menu, all units will now receive the "death" wound if Wounds is on, except in cases of plague. It has no effect on gameplay but adds more realism.
 - Undeath zombies now have the image corresponding to the zombie variation of the original unit, and the color of the owner side.
 - Translated weapons on ghosts (all languanges).
+- Typo wind > wing
+v2.0.1
+- Divided Wounds help on two differents page due to 1.17 problem with long texts. Only for 1.17 server.
+v2.0.2
+- Fixed character error on 1.16 help menu. Only for 1.16 server.
