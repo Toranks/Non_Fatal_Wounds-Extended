@@ -73,3 +73,4 @@ v2.1
 ============
 - Separated arm and wing wounds, so now Drakes can have both wounds.
 - Adjusted probabilities for almost all wounds, for example now sick and infection are more probable when the unit is wounded when is slowed or poisoned, respectively.
+- Female names on many wounds (for translations), and changed names for more consistency.
