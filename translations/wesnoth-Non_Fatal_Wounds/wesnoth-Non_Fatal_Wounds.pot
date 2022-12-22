@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-12-22 01:07 UTC\n"
+"POT-Creation-Date: 2022-12-22 01:24 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -522,7 +522,7 @@ msgstr ""
 #. [display]: id=fear_of_fog_display
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:630
 msgid ""
-"Scared of fog. Movement points -50% when fog is enabled.\n"
+"Scared of fog. Movement points -40% when fog is enabled.\n"
 "Face your fears to try to overcome them."
 msgstr ""
 
@@ -537,7 +537,7 @@ msgstr ""
 
 #. [display]: id=frostbite_display
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:660
-msgid "Cold resistance -30%."
+msgid "Cold resistance -30%"
 msgstr ""
 
 #. [advancement]: id=NFWME_frostbite_Healing
@@ -556,7 +556,7 @@ msgstr ""
 
 #. [display]: id=gash_display
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:702
-msgid "Blade resistance -30%."
+msgid "Blade resistance -30%"
 msgstr ""
 
 #. [advancement]: id=NFWME_gash_Healing
