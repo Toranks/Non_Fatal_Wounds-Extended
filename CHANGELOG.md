@@ -76,4 +76,4 @@ v2.1
 - Female names on many wounds (for translations), and changed names for more consistency.
 - Ghosts and spirits now are properly filtered on corresponding wounds. (Ghosts can't receive a ghost wound for example, as intended originally)
 - Fixed wounds that if suffered a second time after being healed, it would automatically heal again on the next post_advance event (display_healing cleaned)
-- New Wound: Nictophobia. Fear of fog, -40% movement when fog is active.
+- New Wounds: Nebulaphobia, fear of fog, -40% movement when fog is active. Damaged, only mechanic units, -5% to HP, movement, damage and accuracy (Repairable).
