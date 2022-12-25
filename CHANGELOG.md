@@ -74,7 +74,9 @@ v2.1
 - Separated arm and wing wounds, so now Drakes can have both wounds.
 - Adjusted probabilities for almost all wounds, for example now sick and infection are more probable when the unit is wounded when is slowed or poisoned, respectively.
 - Female names on many wounds (for translations), and changed names for more consistency.
-- Ghosts and spirits now are properly filtered on corresponding wounds. (Ghosts can't receive a ghost wound for example, as intended originally)
+- Ghosts and spirits now are properly filtered on corresponding wounds. Ghosts can't be ghost wounded or receives bone wounds, and other units can't be ghost wounded twice.
+- Insanity, Amnesia, Wild magic, Infection, and Sick wounds doesn't applies twice. Others can.
 - Fixed wounds that if suffered a second time after being healed, it would automatically heal again on the next post_advance event (display_healing cleaned)
 - New Wounds: Nebulaphobia, fear of fog, -40% movement when fog is active. Damaged, only mechanic units, -5% to HP, movement, damage and accuracy (Repairable).
 - Fixed excess of "Capture" again.
+- 

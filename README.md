@@ -48,6 +48,7 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 * Fear of weapon (reduced 1 strikes against what wounded them) > Not mechanical, wounded with any weapon
 * Fear of the dark/light (reduced 1 strikes during the time they were wounded) > Not mechanical, wounded on day, night, or underground
 * Fear of terrain (increased 1-2 move cost for the terrain they were wounded on) > Not mechanical, wounded on some terrains
+* Fear of fog (-40% mp when fog is active) > Not mechanical, wounded with fog active
 * Frostbite (-30% cold resistance) > All units, wounded with ice attack
 * Gash (-30% blade resistance) > All units, wounded with blade attack
 * Infection (10% chance to be poisoned every turn) > Not mechanical or not unpoisonable, random
@@ -55,6 +56,7 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 * Insanity (berserk on melee attacks) > Units without berserk ability
 * Maimed (-20% hp) > All units, random
 * Necrosis (-30% arcane resistance) > Not mechanical, random
+* Damage (-5% mp, hp, damage and accuracy) > Mechanical, random
 * Short-term memory loss (resets experience) > Units with more than 1/2 of the max experience, random
 * Wild magic (magical attacks now are 50% chance) > Units with magical attacks, random
 * Plagued (equivalent to death) > Units non unplagueables, killed with plague attack, allways
@@ -74,6 +76,7 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 * Fear of terrain: 10% chance of recovery when defeating an opponent while standing on the terrain unit is scared of.
 * Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of.
 * Fear of light/dark: 5% chance of recovery when defeating an opponent during the day/night.
+* Fear of fog: 5% chance of recovery when defeating an opponent when fog is active.
 * Coward: 20% chance of recovery when defeat an enemy 1 level higher or at his highest level.
 * Short-term memory loss: is an 1-use wound and is healed inmediately.
 * Captured: is an 1-use wound and is healed when the unit is recalled the first time.

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2022-12-24 05:24 UTC\n"
-"PO-Revision-Date: 2022-12-24 10:25+0100\n"
+"PO-Revision-Date: 2022-12-25 02:41+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -1338,7 +1338,7 @@ msgstr "Establece el estado de Muerte."
 #. [option]
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:211
 msgid "Activate Death, Undeath and Ghosts"
-msgstr "Activar Muerte, No-muerte y Fantasmas"
+msgstr "Activar Muerte, Zombi y Fantasma"
 
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:260
