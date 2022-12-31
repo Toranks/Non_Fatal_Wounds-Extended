@@ -79,4 +79,4 @@ v2.1
 - Fixed wounds that if suffered a second time after being healed, it would automatically heal again on the next post_advance event (display_healing cleaned)
 - New Wounds: Nebulaphobia, fear of fog, -40% movement when fog is active. Damaged, only mechanic units, -5% to HP, movement, damage and accuracy (Repairable).
 - Fixed excess of "Capture" again.
-
+- Better LoW Costly Revenge filter.
