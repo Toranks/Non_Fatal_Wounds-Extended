@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-01 00:42 UTC\n"
-"PO-Revision-Date: 2023-01-01 01:51+0100\n"
+"PO-Revision-Date: 2023-01-01 02:06+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -1076,7 +1076,7 @@ msgstr ""
 #: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:382
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:210
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
-msgstr "<b><i>Heridas No Fatales:</i></b>"
+msgstr "<b><i>Heridas No Fatales: </i></b>"
 
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:382
