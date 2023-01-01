@@ -69,7 +69,7 @@ v2.0.1
 v2.0.2
 - Fixed character error on 1.16 help menu. Only for 1.16 server.
 
-v2.1
+v2.2
 ============
 - Separated arm and wing wounds, so now Drakes can have both wounds.
 - Adjusted probabilities for almost all wounds, for example now sick and infection are more probable when the unit is wounded when is slowed or poisoned, respectively.
@@ -82,3 +82,5 @@ v2.1
 - Better LoW S19 Costly Revenge filter.
 - Support to filter future 'bird' race.
 - Undead and ghost wounds debuffed, they are excessively powerful.
+- Filtered plagued wound to no be activated if the victim is on a village.
+- Fear of weapon -20% accuracy extra when effect applies, and applies also when the enemy carries that weapon, even if is not using it.
