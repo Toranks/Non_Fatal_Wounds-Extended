@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-01 00:42 UTC\n"
-"PO-Revision-Date: 2023-01-01 02:06+0100\n"
+"POT-Creation-Date: 2023-01-01 06:50 UTC\n"
+"PO-Revision-Date: 2023-01-01 07:53+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -836,17 +836,17 @@ msgid "Stepped on Lego"
 msgstr "Pisó LEGOs"
 
 #. [effect]
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1154
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1151
 msgid "spectral $unit.attack[0].description"
 msgstr "$unit.attack[0].description espectral"
 
 #. [drains]: id=drains
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1160
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1158
 msgid "drains"
 msgstr "drena"
 
 #. [drains]: id=drains
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1161
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1159
 msgid ""
 "This unit drains health from living units, healing itself for half the "
 "amount of damage it deals (rounded down)."
@@ -855,21 +855,21 @@ msgstr ""
 "causado, redondeado hacia abajo."
 
 #. [effect]
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1178
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1176
 msgid "spectral $unit.attack[$($unit.attack.length - 1)].description"
 msgstr "$unit.attack[$($unit.attack.length - 1)].description espectral"
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1200
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1204
 msgid "Ghost"
 msgstr "Fantasma"
 
 #. [plague]: id=plague, type=Walking Corpse
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1254
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1257
 msgid "plague"
 msgstr "plaga"
 
 #. [plague]: id=plague, type=Walking Corpse
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1255
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1258
 msgid ""
 "When a unit is killed by a Plague attack, that unit is replaced with a "
 "Walking Corpse on the same side as the unit with the Plague attack. This "
@@ -880,36 +880,36 @@ msgstr ""
 "funciona con unidades no muertas o que se encuentren en aldeas."
 
 #. [chance_to_hit]: id=marksman
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1278
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1280
 msgid "poor marksmanship"
 msgstr "mala puntería"
 
 #. [chance_to_hit]: id=marksman
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1279
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1281
 msgid ""
-"When used offensively, this attack always has at least a 50% chance to hit."
+"When used offensively, this attack always has at least a 40% chance to hit."
 msgstr ""
-"Cuando se usa ofensivamente, este ataque siempre tiene al menos un 50% de "
+"Cuando se usa ofensivamente, este ataque siempre tiene al menos un 40% de "
 "posibilidades de acertar."
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1375
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1376
 msgid "Zombie"
 msgstr "Zombie"
 
 #. [display]: id=wild_magic_display
 #. [chance_to_hit]: id=magical
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1389
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1402
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1390
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1403
 msgid "wild magic"
 msgstr "magia salvaje"
 
 #. [display]: id=wild_magic_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1390
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1391
 msgid "Magical attacks have a 50% chance to hit."
 msgstr "Ataques mágicos tienen un 50% de posibilidades de acertar."
 
 #. [chance_to_hit]: id=magical
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1403
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1404
 msgid ""
 "This attack always has a 50% chance to hit regardless of the defensive "
 "ability of the unit being attacked."
@@ -918,35 +918,35 @@ msgstr ""
 "independientemente de la capacidad defensiva de la unidad atacada."
 
 #. [advancement]: id=NFWME_wild_magic_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1413
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1414
 msgid "Recover from wild magic"
 msgstr "Recuperar de magia salvaje"
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1426
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1427
 msgid "Wild Magic"
 msgstr "Magia salvaje"
 
 #. [display]: id=damaged_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1439
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1440
 msgid "damaged"
 msgstr "averiado"
 
 #. [display]: id=damaged_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1440
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1441
 msgid "female^damaged"
 msgstr "averiada"
 
 #. [display]: id=damaged_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1441
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1442
 msgid "Attack damage, movement, accuracy and HP -5%"
 msgstr "Daño, movimiento, precisión y PV -5%"
 
 #. [advancement]: id=NFWME_damaged_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1461
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1462
 msgid "Repair"
 msgstr "Reparar"
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1474
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1475
 msgid "Damage"
 msgstr "Avería"
 
@@ -1317,26 +1317,27 @@ msgstr "(0 = Desactivado, 1 = Muerte, 2 = Muerte + No-muerte)"
 msgid ""
 "<b>Wounds list:</b>\n"
 "* <i>Death</i> (definitive death)\n"
-"* <i>Turning into a ghost</i>: -40% HP, spirit type movement, defenses and "
-"resistances, chaotic alignment, ranged attack changed to cold if not "
-"magical, arcane or fire, melee attack changed to arcane and with drain if "
-"not magical, cold or fire > Units that are not already spirits or ghosts\n"
-"* <i>Turning into a zombie</i>: -20% HP, slower, low arcane resistance,  "
-"chaotic alignment, plague on melee, -50% magical attacks damage, -25& ranged "
-"attacks damage, and poor markmanship on marksmans > Units that are not "
-"already undead"
+"* <i>Turning into a ghost</i>: -50% HP; -20% general attack damage; spirit "
+"type movement, defenses and resistances; chaotic alignment; ranged attack "
+"changed to cold if not magical, arcane or fire; melee attack changed to "
+"arcane, with drain, and with -25% damage if not magical, cold or fire > "
+"Units that are not already spirits or ghosts\n"
+"* <i>Turning into a zombie</i>: -30% HP, -25% general attack damage, -25% "
+"movement, -50% magical attacks strikes, low arcane resistance, chaotic "
+"alignment, plague on melee, and poor markmanship on marksmans > Units that "
+"are not already undead"
 msgstr ""
 "<b>Lista de heridas:</b>\n"
 "* <i>Muerte</i> (muerte definitiva)\n"
-"* <i>Convertirse en fantasma</i>: -40% de PV; movimiento, defensas y "
-"resistencias de tipo espíritu; alineación caótica; ataque a distancia "
-"cambiado a frío si no es mágico, arcano o fuego; ataque cuerpo a cuerpo "
-"cambiado a arcano y con drenaje si no es mágico, frío o fuego > Unidades que "
-"aún no son espíritus o fantasmas\n"
-"* <i>Convertirse en zombi</i>: -20 % de PV, más lento, baja resistencia "
-"arcana, alineación caótica, plaga cuerpo a cuerpo, -50 % de daño de ataques "
-"mágicos, -25 % de daño de ataques a distancia y mala puntería en tiradores > "
-"Unidades que aún no son muertos vivientes"
+"* <i>Convertirse en fantasma</i>: -50% PV; -20% daño de ataque general; "
+"movimiento, defensas y resistencias de tipo espíritu; alineación caótica; "
+"ataque a distancia cambiado a frío si no es mágico, arcano o fuego; ataque "
+"cuerpo a cuerpo cambiado a arcano, con drenaje y un -25% de daño si no es "
+"mágico, frío o fuego > Unidades que aún no son espíritus o fantasmas\n"
+"* <i>Convertirse en zombi</i>: -30 % PV, -20% daño de ataque general, -25% "
+"movimiento, -50 % golpes mágicos, baja resistencia arcana, alineación "
+"caótica, plaga cuerpo a cuerpo y mala puntería en tiradores > Unidades que "
+"aún no son muertos vivientes"
 
 #. [option]
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:185
