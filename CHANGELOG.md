@@ -84,3 +84,8 @@ v2.2
 - Undead and ghost wounds debuffed, they are excessively powerful.
 - Filtered plagued wound to no be activated if the victim is on a village.
 - Fear of weapon -20% accuracy extra when effect applies, and applies also when the enemy carries that weapon, even if is not using it.
+- Increase chance of healing Fear of fog to 10% when fog is active
+
+v2.3
+============
+- Drain ability on ghost wound doesn't applies to weapons that already have drain or heal.
