@@ -96,5 +96,5 @@ v2.3
 - Removed exception of Surprise Attack from Advanced Wesnoth Wars, now is fully compatible. Update AWW if is the case.
 - Ghosts with colored transparent image, with bluish tint instead of totally blue.
 - Ghost and undead wounds indicated as red trait.
-- New Option: Elementals. Set of 6 differents permanent elemental wounds that triggers randomly on certain conditions. Fire, cold, poison, earth, arcane and wind.
+- New Option: Elementals. Set of 6 differents permanent elemental wounds that triggers randomly on certain conditions. Fire, cold, poison, earth, arcane and wind. All of them have some healing methods.
 - Fixed damaged wound, now can't be healed for free the second time.
