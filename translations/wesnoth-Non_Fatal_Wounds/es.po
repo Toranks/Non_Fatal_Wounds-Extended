@@ -226,7 +226,7 @@ msgstr "brazo roto"
 msgid "Non-magical damage -20%"
 msgstr "Daño no mágico -20%"
 
-#. [advancement]: id=NFWME_broken_arm_Healing
+#. [advancement]: id=NFW_broken_arm_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:39
 msgid "Recover from broken arm"
 msgstr "Recuperar del brazo roto"
@@ -247,7 +247,7 @@ msgstr "ala rota"
 msgid "Movement points -20%"
 msgstr "Puntos de movimiento -20%"
 
-#. [advancement]: id=NFWME_broken_wing_Healing
+#. [advancement]: id=NFW_broken_wing_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:78
 msgid "Recover from broken wing"
 msgstr "Recuperar del ala rota"
@@ -261,7 +261,7 @@ msgstr "Ala rota"
 msgid "broken leg"
 msgstr "pierna rota"
 
-#. [advancement]: id=NFWME_broken_leg_Healing
+#. [advancement]: id=NFW_broken_leg_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:117
 msgid "Recover from broken leg"
 msgstr "Recuperar de pierna rota"
@@ -280,7 +280,7 @@ msgstr "costilla rota"
 msgid "Impact resistance -30%"
 msgstr "Resistencia a impacto -30%"
 
-#. [advancement]: id=NFWME_broken_rib_Healing
+#. [advancement]: id=NFW_broken_rib_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:159
 msgid "Recover from broken rib"
 msgstr "Recuperar de costilla rota"
@@ -304,7 +304,7 @@ msgstr "quemada"
 msgid "Fire resistance -30%"
 msgstr "Resistencia al fuego -30%"
 
-#. [advancement]: id=NFWME_burned_Healing
+#. [advancement]: id=NFW_burned_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:202
 msgid "Recover from burn"
 msgstr "Recuperar de quemadura"
@@ -351,7 +351,7 @@ msgstr "conmocionada"
 msgid "Magical damage -25%"
 msgstr "Daño mágico -25%"
 
-#. [advancement]: id=NFWME_concussion_Healing
+#. [advancement]: id=NFW_concussion_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:274
 msgid "Recover from concussion"
 msgstr "Recuperar de conmoción"
@@ -604,7 +604,7 @@ msgstr "congelación"
 msgid "Cold resistance -30%"
 msgstr "Resistencia a frío -30%"
 
-#. [advancement]: id=NFWME_frostbite_Healing
+#. [advancement]: id=NFW_frostbite_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:679
 msgid "Recover from frostbite"
 msgstr "Recuperar de congelación"
@@ -623,7 +623,7 @@ msgstr "tajo"
 msgid "Blade resistance -30%"
 msgstr "Resistencia a corte -30%"
 
-#. [advancement]: id=NFWME_gash_Healing
+#. [advancement]: id=NFW_gash_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:721
 msgid "Recover from gash"
 msgstr "Recuperar de tajo"
@@ -647,7 +647,7 @@ msgstr "infectada"
 msgid "10% chance of being poisoned every turn."
 msgstr "Posibilidad del 10% de ser envenenado cada turno."
 
-#. [advancement]: id=NFWME_infectiont_Healing
+#. [advancement]: id=NFW_infectiont_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:757
 msgid "Recover from infection"
 msgstr "Recuperar de infección"
@@ -686,7 +686,7 @@ msgstr ""
 "hasta la muerte de uno de los combatientes, con un máximo de 30 rondas de "
 "ataques."
 
-#. [advancement]: id=NFWME_insane_Healing
+#. [advancement]: id=NFW_insane_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:807
 msgid "Recover from insanity"
 msgstr "Recuperar de locura"
@@ -710,7 +710,7 @@ msgstr "mutilada"
 msgid "-20% HP"
 msgstr "Puntos de vida -20%"
 
-#. [advancement]: id=NFWME_maimed_Healing
+#. [advancement]: id=NFW_maimed_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:843
 msgid "Recover from mutilation"
 msgstr "Recuperar de mutilación"
@@ -738,7 +738,7 @@ msgstr ""
 "Está cerca de la no-muerte.\n"
 "Resistencia a Arcano -30%"
 
-#. [advancement]: id=NFWME_neccrosis_Healing
+#. [advancement]: id=NFW_neccrosis_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:891
 msgid "Recover from necrosis"
 msgstr "Recuperar de necrosis"
@@ -778,7 +778,7 @@ msgstr "amnesia"
 msgid "Every round you lose 2 exp."
 msgstr "Cada turno perderá 2 Exp."
 
-#. [advancement]: id=NFWME_amnesia_Healing
+#. [advancement]: id=NFW_amnesia_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:978
 msgid "Recover from amnesia"
 msgstr "Recuperar de amnesia"
@@ -802,7 +802,7 @@ msgstr "enferma"
 msgid "20% chance of being slowed every turn."
 msgstr "Posibilidad del 20% de ser ralentizado cada turno."
 
-#. [advancement]: id=NFWME_sick_Healing
+#. [advancement]: id=NFW_sick_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1014
 msgid "Recover from sickness"
 msgstr "Recuperar de enfermedad"
@@ -915,7 +915,7 @@ msgstr ""
 "Este ataque siempre tiene un 50% de posibilidades de acertar "
 "independientemente de la capacidad defensiva de la unidad atacada."
 
-#. [advancement]: id=NFWME_wild_magic_Healing
+#. [advancement]: id=NFW_wild_magic_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1416
 msgid "Recover from wild magic"
 msgstr "Recuperar de magia salvaje"
@@ -939,7 +939,7 @@ msgstr "averiada"
 msgid "Attack damage, movement, accuracy and HP -5%"
 msgstr "Daño, movimiento, precisión y PV -5%"
 
-#. [advancement]: id=NFWME_damaged_Healing
+#. [advancement]: id=NFW_damaged_Healing
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1464
 msgid "Repair"
 msgstr "Reparar"
