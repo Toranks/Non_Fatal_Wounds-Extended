@@ -93,7 +93,7 @@ v2.2.1
 
 v2.3
 ============
-- New Option: Elementals. Set of 6 differents permanent elemental wounds that triggers randomly on certain conditions. Fire, cold, poison, earth, arcane and wind. All of them have some healing methods.
+- New Option: Elementals. Set of 6 differents permanent elemental wounds that triggers randomly on certain conditions. Fire, water, poison, earth, arcane and wind. All of them have some healing methods.
 - Removed exception of Surprise Attack from Advanced Wesnoth Wars to the Fear of Weapon wound, now is fully compatible. Update AWW if is the case.
 - Ghosts with colored transparent image, with bluish tint instead of totally blue.
 - Ghost and undead wounds indicated as red trait.
