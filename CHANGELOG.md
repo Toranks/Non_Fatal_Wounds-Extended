@@ -98,5 +98,9 @@ v2.3
 - Ghosts with colored transparent image, with bluish tint instead of totally blue.
 - Ghost and undead wounds indicated as red trait.
 - Fixed damaged wound, now can't be healed for free the second time.
-- Undead variations filtered on arm, leg and wing wounds
-- Minor changes on probabilities
+- Undead variations filtered on arm, leg and wing wounds.
+- Minor changes on probabilities.
+
+v2.3.2
+============
+- New event SOTBE S8, first elf death is "Execution".

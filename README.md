@@ -66,8 +66,9 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 * Death (definitive death) > All, random
 * Turning into a ghost (custom ghost, cant advance beyond level 2) > Not spirit or ghost, random
 * Turning into a zombie (custom zombie) > Not undead, random
-* Paper cut (the second worst thing to ever happen) > All units
-* Stepping on a Lego (the worst thing to ever happen) > All units
+* Turning into an elemental (fire, water, air, earth, arcane and poison) > Not mechanical, undead, or elemental, random
+* Paper cut (the second worst thing to ever happen) > All units, random
+* Stepping on a Lego (the worst thing to ever happen) > All units, random
 
 
 **WOUNDS HEALING SYSTEM**
