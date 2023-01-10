@@ -401,22 +401,22 @@ msgstr ""
 msgid "Cowardice"
 msgstr "Cobardía"
 
-#. [trait]: id=nfwme_dead
+#. [trait]: id=nfw_dead
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:323
 msgid "dead"
 msgstr "muerto"
 
-#. [trait]: id=nfwme_dead
+#. [trait]: id=nfw_dead
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:324
 msgid "female^dead"
 msgstr "muerta"
 
-#. [trait]: id=nfwme_plagued
+#. [trait]: id=nfw_plagued
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:338
 msgid "plagued"
 msgstr "convertido"
 
-#. [trait]: id=nfwme_plagued
+#. [trait]: id=nfw_plagued
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:339
 msgid "female^plagued"
 msgstr "convertida"

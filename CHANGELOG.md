@@ -85,22 +85,21 @@ v2.2
 - Filtered plagued wound to no be activated if the victim is on a village.
 - Fear of weapon -20% accuracy extra when effect applies, and applies also when the enemy carries that weapon, even if is not using it.
 - Increase chance of healing Fear of fog to 10% when fog is active
-
 v2.2.1
-============
 - Drain ability on ghost wound doesn't applies to weapons that already have drain or heal.
 - Undead trait doesn't applies twice.
 
 v2.3
 ============
-- New Option: Elementals. Set of 6 differents permanent elemental wounds that triggers randomly on certain conditions. Fire, water, poison, earth, arcane and wind. All of them have some healing methods.
+- New Option: Elementals. Set of 6 differents permanent elemental wounds that triggers randomly on certain conditions. Fire, water, poison, earth, arcane and wind. All of them have some regeneration methods.
 - Removed exception of Surprise Attack from Advanced Wesnoth Wars to the Fear of Weapon wound, now is fully compatible. Update AWW if is the case.
 - Ghosts with colored transparent image, with bluish tint instead of totally blue.
 - Ghost and undead wounds indicated as red trait.
 - Fixed damaged wound, now can't be healed for free the second time.
 - Undead variations filtered on arm, leg and wing wounds.
 - Minor changes on probabilities.
-
 v2.3.2
-============
 - New event SOTBE S8, first elf death is "Execution".
+v2.3.3
+- New event SOTBE S10, the unit that blows up the bridge and and the stranded units on the other side allways receives "death" wound. This is mandatory to mantain plot consistency with the saurian units.
+- New event EI S12 (Evacuation), you can choose if you want units stranded on the other side of the bridge to always receive death wound or not.
