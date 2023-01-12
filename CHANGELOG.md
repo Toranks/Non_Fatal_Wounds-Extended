@@ -103,3 +103,5 @@ v2.3.2
 v2.3.3
 - New event SOTBE S10, the unit that blows up the bridge and and the stranded units on the other side allways receives "death" wound. This is mandatory to mantain plot consistency with the saurian units.
 - New event EI S12 (Evacuation), you can choose if you want units stranded on the other side of the bridge to always receive death wound or not.
+- Slow and poison status are checked simultaneously to sick and infection wounds, making them even more probable. Slowed>sick takes precedence.
+- Damaged much more probable
