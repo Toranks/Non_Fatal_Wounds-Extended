@@ -105,3 +105,4 @@ v2.3.3
 - New event EI S12 (Evacuation), you can choose if you want units stranded on the other side of the bridge to always receive death wound or not.
 - Slow and poison status are checked simultaneously to sick and infection wounds, making them even more probable. Slowed>sick takes precedence.
 - Damaged much more probable
+- Agoraphobia probability to half, because flat terrains is much frequent
