@@ -109,3 +109,4 @@ v2.3.3
 - Damaged much more probable
 - Agoraphobia probability to half, because flat terrains is much frequent
 - Fixed sick, now works as expected, at new turn instead of turn end
+- Bigger help icon
