@@ -111,3 +111,5 @@ v2.3.3
 - Fixed sick, now works as expected, at new turn instead of turn end
 - Bigger help icon
 v2.3.4
+- Deactivation option changes if you manually deactivates NFW to reflect that
+- Fear of weapon now do -50% strikes instead of -1 strike
