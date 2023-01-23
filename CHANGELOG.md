@@ -107,13 +107,21 @@ v2.3.3
 - New event EI S12 (Evacuation), you can choose if you want units stranded on the other side of the bridge to always receive death wound or not.
 - Slow and poison status are checked simultaneously to sick and infection wounds, making them even more probable. Slowed>sick takes precedence.
 - Damaged much more probable
-- Agoraphobia probability to half, because flat terrains is much frequent
-- Fixed sick, now works as expected, at new turn instead of turn end
-- Bigger help icon
-v2.3.4
-- Deactivation option changes if you manually deactivates NFW to reflect that
-- Fear of weapon now do -50% strikes instead of -1 strike
-- Translatable female version of some messages
-- Amnesia now works correctly when the unit have 2 or less XP
-- Fear of weapon now is correctly healed, and cannot be applied twice on the same unit
-- Changed float text of wounds recoverings and elementals healings with animation + float text
+- Agoraphobia probability to half, because flat terrains is much frequent.
+- Fixed sick, now works as expected, at new turn instead of turn end.
+- Bigger help icon.
+
+v2.4
+============
+- Deactivation option changes if you manually deactivates NFW to reflect that.
+- Fear of weapon now do -50% strikes instead of -1 strike.
+- Translatable female version of some messages.
+- Amnesia now works correctly when the unit have 2 or less XP.
+- Changed float text of wounds recoverings and elementals healings with animation + float text.
+- Fixed first wound message, that reappears on every scenario instead of only once per campaign.
+- New healing method, now multiple wounds of the same type are correctly managed. If the unit has two wounds of the same type, only can heal one per AMLA or healing event.
+- Time of day now filtered again by lawful or chaotic, to make compatible with differents time setups.
+- General wounds rework, more harmful, included ghost, undead, and elementals.
+- Improved some filters (mechanic units now doesn't receives maimed, light and dark fears are mutually exclusive, etc).
+- Fixed bad filtered plant terrain, error present since Maimed Edition.
+- New message when mechanical units are wounded or die.

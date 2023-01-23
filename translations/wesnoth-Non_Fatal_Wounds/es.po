@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-01-23 04:10 UTC\n"
-"PO-Revision-Date: 2023-01-23 05:14+0100\n"
+"PO-Revision-Date: 2023-01-23 11:30+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -200,7 +200,7 @@ msgstr "Recuperado de cobardía"
 #. [animate_unit]
 #: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:466
 msgid "Recovered from fear of $second_unit.variables.scary_weapon_translated"
-msgstr "Recuperado de miedo a $second_unit.variables.scary_weapon_translated"
+msgstr "Recuperado del miedo a $second_unit.variables.scary_weapon_translated"
 
 #. [animate_unit]
 #: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:467
@@ -221,7 +221,7 @@ msgstr "Recuperado del miedo a la oscuridad"
 #. [case]
 #: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:563
 msgid "Recovered from fear of fog"
-msgstr "Recuperado del miedo a la oscuridad"
+msgstr "Recuperado del miedo a la niebla"
 
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:10
 msgid "Memory Loss"
