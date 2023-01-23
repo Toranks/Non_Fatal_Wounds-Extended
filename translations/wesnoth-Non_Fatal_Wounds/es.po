@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-23 00:57 UTC\n"
-"PO-Revision-Date: 2023-01-23 02:09+0100\n"
+"POT-Creation-Date: 2023-01-23 04:10 UTC\n"
+"PO-Revision-Date: 2023-01-23 05:14+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -73,7 +73,7 @@ msgstr "Sí"
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:13
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:28
 msgid "No"
-msgstr "No"
+msgstr ""
 
 #. [item]
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:17
@@ -187,33 +187,39 @@ msgstr "Recuperado de claustrofobia"
 msgid "Recovered from Dendrophobia"
 msgstr "Recuperado de dendrofobia"
 
-#. [case]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:355
+#. [animate_unit]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:361
 msgid "Recovered from Agoraphobia"
 msgstr "Recuperado de agorafobia"
 
-#. [then]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:392
+#. [animate_unit]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:412
 msgid "Recovered from Cowardice"
 msgstr "Recuperado de cobardía"
 
-#. [case]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:426
+#. [animate_unit]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:466
 msgid "Recovered from fear of $second_unit.variables.scary_weapon_translated"
-msgstr "Recovered from fear of $second_unit.variables.scary_weapon_translated"
+msgstr "Recuperado de miedo a $second_unit.variables.scary_weapon_translated"
+
+#. [animate_unit]
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:467
+msgid ""
+"female^Recovered from fear of $second_unit.variables.scary_weapon_translated"
+msgstr "Recuperada de miedo a $second_unit.variables.scary_weapon_translated"
 
 #. [case]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:457
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:506
 msgid "Recovered from fear of light"
 msgstr "Recuperado del miedo a la luz"
 
 #. [case]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:486
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:535
 msgid "Recovered from fear of dark"
 msgstr "Recuperado del miedo a la oscuridad"
 
 #. [case]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:514
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:563
 msgid "Recovered from fear of fog"
 msgstr "Recuperado del miedo a la oscuridad"
 
@@ -1167,7 +1173,7 @@ msgstr "Volver al menú de ayuda"
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:18
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:391
 msgid "Exit"
-msgstr "Salida"
+msgstr "Salir"
 
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:29
@@ -1596,8 +1602,8 @@ msgstr "$unit.name, un $nfwe_unit_type.name, fue destruido."
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:90
-msgid "female^$unit.name a $nfwe_unit_type.name was destroyed."
-msgstr "$unit.name, una $nfwe_unit_type.name, fue destruida."
+msgid "female^$unit.name a $nfwe_unit_type.female.name was destroyed."
+msgstr "$unit.name, una $nfwe_unit_type.female.name, fue destruida."
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:108
@@ -1606,8 +1612,9 @@ msgstr "$unit.name, un $nfwe_unit_type.name, fue revivido como no-muerto."
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:109
-msgid "female^$unit.name a $nfwe_unit_type.name was revived as undead."
-msgstr "$unit.name, una $nfwe_unit_type.name, fue revivida como no-muerta."
+msgid "female^$unit.name a $nfwe_unit_type.female.name was revived as undead."
+msgstr ""
+"$unit.name, una $nfwe_unit_type.female.name, fue revivida como no-muerta."
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:128
@@ -1616,8 +1623,9 @@ msgstr "$unit.name, un $nfwe_unit_type.name, regresó como un fantasma."
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:129
-msgid "female^$unit.name a $nfwe_unit_type.name returned as a ghost."
-msgstr "$unit.name, una $nfwe_unit_type.name, regresó como una fantasma."
+msgid "female^$unit.name a $nfwe_unit_type.female.name returned as a ghost."
+msgstr ""
+"$unit.name, una $nfwe_unit_type.female.name, regresó como una fantasma."
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:143
@@ -1631,8 +1639,10 @@ msgstr "$unit.name, un $nfwe_unit_type.name, fue convertido por el enemigo."
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:149
-msgid "female^$unit.name a $nfwe_unit_type.name was converted by the enemy."
-msgstr "$unit.name, una $nfwe_unit_type.name, fue convertida por el enemigo."
+msgid ""
+"female^$unit.name a $nfwe_unit_type.female.name was converted by the enemy."
+msgstr ""
+"$unit.name, una $nfwe_unit_type.female.name, fue convertida por el enemigo."
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:163
@@ -1656,11 +1666,11 @@ msgstr ""
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:169
 msgid ""
-"female^$unit.name a $nfwe_unit_type.name was captured by the enemy. You will "
-"have to pay a ransom."
+"female^$unit.name a $nfwe_unit_type.female.name was captured by the enemy. "
+"You will have to pay a ransom."
 msgstr ""
-"$unit.name, una $nfwe_unit_type.name, fue capturada por el enemigo. Tendrás "
-"que pagar un rescate."
+"$unit.name, una $nfwe_unit_type.female.name, fue capturada por el enemigo. "
+"Tendrás que pagar un rescate."
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:176

@@ -114,3 +114,6 @@ v2.3.4
 - Deactivation option changes if you manually deactivates NFW to reflect that
 - Fear of weapon now do -50% strikes instead of -1 strike
 - Translatable female version of some messages
+- Amnesia now works correctly when the unit have 2 or less XP
+- Fear of weapon now is correctly healed, and cannot be applied twice on the same unit
+- Changed float text of wounds recoverings and elementals healings with animation + float text
