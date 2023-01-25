@@ -37,28 +37,28 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 **CURRENT WOUNDS**
 
 * Amnesia (lose 2 xp/turn) > All units, random
-* Broken arm (-20% non-magical damage) > Races with arms, random
-* Broken wing (-20% mp) > Races with wings, random
-* Broken leg (-20% mp) > Races with legs, random
-* Broken rib (-30% impact resistance) > Not mechanical, wounded with impact attack
-* Burned (-30% fire resistance) > All units, wounded with fire attack
+* Broken arm (-30% non-magical damage) > Races with arms, random
+* Broken wing (-40% mp) > Races with wings, random
+* Broken leg (-30% mp) > Races with legs, random
+* Broken rib (-40% impact resistance) > Not mechanical, wounded with impact attack
+* Burned (-40% fire resistance) > All units, wounded with fire attack
 * Captured (increased recall cost based on level) > All units, random but on leaders and heroes is much more probable
-* Concussion (-20% magical damage) > Units with magical attacks, random
-* Coward (-15% accuracy) > Not mechanical, random
-* Fear of weapon (reduced 1 strikes against what wounded them) > Not mechanical, wounded with any weapon
-* Fear of the dark/light (reduced 1 strikes during the time they were wounded) > Not mechanical, wounded on day, night, or underground
+* Concussion (-30% magical damage) > Units with magical attacks, random
+* Coward (-20% accuracy) > Not mechanical, random
+* Fear of weapon (-50% strikes and -30% accuracy against what wounded them) > Not mechanical, wounded with any weapon
+* Fear of the dark/light (-50% strikes during the time they were wounded) > Not mechanical, wounded on day, night, or underground
 * Fear of terrain (increased 1-2 move cost for the terrain they were wounded on) > Not mechanical, wounded on some terrains
-* Fear of fog (-40% mp when fog is active) > Not mechanical, wounded with fog active
-* Frostbite (-30% cold resistance) > All units, wounded with ice attack
-* Gash (-30% blade resistance) > All units, wounded with blade attack
-* Infection (10% chance to be poisoned every turn) > Not mechanical or not unpoisonable, random
-* Sick (20% chance of being slowed every turn) > All units, random
+* Fear of fog (-50% mp when fog is active) > Not mechanical, wounded with fog active
+* Frostbite (-40% cold resistance) > All units, wounded with ice attack
+* Gash (-40% blade resistance) > All units, wounded with blade attack
+* Infection (20% chance to be poisoned every turn) > Not mechanical or not unpoisonable, random
+* Sick (30% chance of being slowed every turn) > All units, random
 * Insanity (berserk on melee attacks) > Units without berserk ability
-* Maimed (-20% hp) > All units, random
-* Necrosis (-30% arcane resistance) > Not mechanical, random
-* Damage (-5% mp, hp, damage and accuracy) > Mechanical, random
+* Maimed (-30% hp) > All units, random
+* Necrosis (-40% arcane resistance) > Not mechanical, random
+* Damage (-10% mp, hp, damage and accuracy) > Mechanical, random
 * Short-term memory loss (resets experience) > Units with more than 1/2 of the max experience, random
-* Wild magic (magical attacks now are 50% chance) > Units with magical attacks, random
+* Wild magic (magical attacks now are 40% chance) > Units with magical attacks, random
 * Plagued (equivalent to death) > Units non unplagueables, killed with plague attack, allways
 
 **OPTIONAL WOUNDS**
@@ -82,6 +82,7 @@ This was inspired by Armagedonus’s suggestion in [a thread discussing save-scu
 * Short-term memory loss: is an 1-use wound and is healed inmediately.
 * Captured: is an 1-use wound and is healed when the unit is recalled the first time.
 * The rest of wounds can be healed choosing a recover AMLA instead of the advancement or default AMLA (still can advance later to the next advancement).
+* Only one wound of the same type can be healed at a time and they can be stacked indefinitely with cumulative effects if is allowed.
 * Optional wounds can't be healed at all.
 
 
