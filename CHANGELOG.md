@@ -127,3 +127,4 @@ v3.0
 - New message when mechanical units are wounded or die.
 v3.1
 - Deleted duplicated macro
+- Added a way to avoid duplicate units on nfw_wounded variable
