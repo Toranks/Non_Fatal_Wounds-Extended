@@ -114,7 +114,7 @@ v2.3.3
 v3.0
 ============
 - Deactivation option changes if you manually deactivates NFW to reflect that.
-- Fear of weapon now do -50% strikes instead of -1 strike.
+- Fear of weapon now do -50% strikes instead of -1 strike and can not be suffered several times (even if it is to different weapons)
 - Translatable female version of some messages.
 - Amnesia now works correctly when the unit have 2 or less XP.
 - Changed float text of wounds recoverings and elementals healings with animation + float text.
@@ -125,3 +125,5 @@ v3.0
 - Improved some filters (mechanic units now doesn't receives maimed, light and dark fears are mutually exclusive, etc).
 - Fixed bad filtered plant terrain, error present since Maimed Edition.
 - New message when mechanical units are wounded or die.
+v3.1
+- Deleted duplicated macro
