@@ -128,3 +128,4 @@ v3.0
 v3.1
 - Deleted duplicated macro
 - Added a way to avoid duplicate units on nfw_wounded variable
+- Reduced to half the chance to merman and naga gets aquaphobia 
