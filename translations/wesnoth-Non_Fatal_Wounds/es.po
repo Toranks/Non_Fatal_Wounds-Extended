@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-25 04:53 UTC\n"
-"PO-Revision-Date: 2023-01-25 05:55+0100\n"
+"POT-Creation-Date: 2023-01-29 20:09 UTC\n"
+"PO-Revision-Date: 2023-01-29 21:10+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -1202,14 +1202,19 @@ msgstr ""
 "Tal vez como un fantasma, pero incluso entonces ya no tendría los poderes de "
 "un lich."
 
+#. [event]: id=nfw_alien_filter
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:478
+msgid "Destruction"
+msgstr "Destrucción"
+
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:508
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:522
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:226
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr "<b><i>Heridas No Fatales: </i></b>"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:508
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:522
 msgid ""
 "Because this is the last scenario, all units can die, without exception, and "
 "will count as such for the ending scene."
