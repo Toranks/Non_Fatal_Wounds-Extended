@@ -106,7 +106,7 @@ v2.3.3
 - New event SOTBE S14, Thelarion allways receives frostbite wound.
 - New event EI S12 (Evacuation), you can choose if you want units stranded on the other side of the bridge to always receive death wound or not.
 - Slow and poison status are checked simultaneously to sick and infection wounds, making them even more probable. Slowed>sick takes precedence.
-- Damaged much more probable
+- Damaged much more probable.
 - Agoraphobia probability to half, because flat terrains is much frequent.
 - Fixed sick, now works as expected, at new turn instead of turn end.
 - Bigger help icon.
@@ -119,7 +119,7 @@ v3.0
 - Amnesia now works correctly when the unit have 2 or less XP.
 - Changed float text of wounds recoverings and elementals healings with animation + float text.
 - Fixed first wound message, that reappears on every scenario instead of only once per campaign.
-- New healing method, now multiple wounds of the same type are correctly managed. If the unit has two wounds of the same type, only can heal one per AMLA or healing event.
+- New healing method, now multiple wounds of the same type are correctly managed. If the unit has two wounds of the same type, the effects are cumulative, but only can heal one per AMLA or healing event.
 - Time of day now filtered again by lawful or chaotic, to make compatible with differents time setups.
 - General wounds rework, more harmful, included ghost, undead, and elementals.
 - Improved some filters (mechanic units now doesn't receives maimed, light and dark fears are mutually exclusive, etc).
@@ -128,5 +128,9 @@ v3.0
 v3.1
 - Deleted duplicated macro.
 - Added a way to avoid duplicate units on nfw_wounded variable.
-- Reduced to half the chance to merman and naga gets aquaphobia.
+- Reduced to half the chance to merfolk and naga gets aquaphobia.
 - New event UTBS S12, "Destruction" when Aliens die.
+- Changed uploading method on 1.17. Reset downloads: 22
+v3.2
+- Added define NON_FATAL_WOUNDS_EXTENDED
+- Compatibility with Advanced Wesnoth Wars AMLA Bonus when a unit chooses a healing AMLA, optional.
