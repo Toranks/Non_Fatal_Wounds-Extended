@@ -134,3 +134,5 @@ v3.1
 v3.2
 - Added define NON_FATAL_WOUNDS_EXTENDED
 - Compatibility with Advanced Wesnoth Wars AMLA Bonus when a unit chooses a healing AMLA, optional.
+- Agoraphobia not received or suffered on underground or indoors.
+- Removed debug message on cowardice healing.
