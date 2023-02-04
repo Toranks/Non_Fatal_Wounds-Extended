@@ -136,3 +136,4 @@ v3.2
 - Compatibility with Advanced Wesnoth Wars AMLA Bonus when a unit chooses a healing AMLA, optional.
 - Agoraphobia not received on underground or indoors, but still can be suffered (movement cost applies to flat terrain, no matter the environment).
 - Removed debug message on cowardice healing.
+- New event NR S6a, "Dissolution" of Malifor.
