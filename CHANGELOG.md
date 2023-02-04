@@ -137,3 +137,4 @@ v3.2
 - Agoraphobia not received on underground or indoors, but still can be suffered (movement cost applies to flat terrain, no matter the environment).
 - Removed debug message on cowardice healing.
 - New event NR S6a, "Dissolution" of Malifor.
+- New event NR S6 and following, optional wounds for Sister Thera and Father Morvin, excluded some wounds and death.
