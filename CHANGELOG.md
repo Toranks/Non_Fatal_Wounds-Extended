@@ -138,4 +138,5 @@ v3.2
 - Removed debug message on cowardice healing.
 - New event NR S6a, "Dissolution" of Malifor.
 - New event NR S6 and following, optional wounds for Sister Thera and Father Morvin, excluded some wounds and death.
+- New event NR S7a, "Capture" of Ro'Sothian.
 - Fixed healing when the unit have two wounds, and choose healing > normal level up > healing, and the normal level up heals accidentally the second wound.
