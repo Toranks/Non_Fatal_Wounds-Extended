@@ -140,4 +140,12 @@ v3.2
 - New event NR S6 and following, optional wounds for Sister Thera and Father Morvin, excluded some wounds and death.
 - New event NR S7a, "Capture" of Ro'Sothian and Ro'Arthian.
 - Fixed healing when the unit have two wounds, and choose healing > normal level up > healing, and the normal level up heals accidentally the second wound.
-- Changed method for the randomizer to avoid improbable stack overflows (>800)
+- Completely rework of the wounds filter and probabilities:
+ * Avoided improbable stack overflows (>800)
+ * Mechanical units now have is own set of wounds, with less probability to be destroyed than living units. Can only receives some wounds, included the exclusive wounds damaged and destruction.
+ * Death and elemental wounds triggers on separated events, to match better the probabilities with different option combinations.
+ * Captured triggers on a separated event for heroes, to reduce the probability of death and elemental only on heroes in favor of captured.
+ * 
+- New wound: Destroyed. Same as death but for mechanic units.
+- Float text when normal wounds are disabled and a unit is directly sent to recall list.
+- All messages and floating text are now optional independently.
