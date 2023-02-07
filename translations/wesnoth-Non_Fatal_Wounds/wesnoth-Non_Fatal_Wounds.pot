@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-04 14:36 UTC\n"
+"POT-Creation-Date: 2023-02-07 02:55 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. [modification]: id=nfw_extended
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\_main.cfg:16
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:226
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:223
 msgid ""
 "With this modification enabled, units are merely wounded instead of killed. If you choose the possibility of dead or undead, some units still can definitely die. If you win this scenario the wounded units will be added to your recall list.\n"
 "\n"
@@ -33,16 +33,14 @@ msgid "Activate Wounds"
 msgstr ""
 
 #. [choice]: id=nfw_01
-#. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:7
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:27
 msgid "Activate or deactivate random wounds. If you deactivate, the units will disappear without any message and will return in the next scenario unchanged (except in special cases). If you choose to allow lose plagued units, they will disappear forever, since they were converted by the enemy."
 msgstr ""
 
 #. [item]
 #. [option]
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:9
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:360
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:423
 msgid "Yes"
 msgstr ""
 
@@ -65,22 +63,22 @@ msgstr ""
 #. [choice]: id=nfw_02
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:26
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:141
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:203
 msgid "Adds death as a possibility to the table. Undeath option will bring some of them back as undead or ghost."
 msgstr ""
 
 #. [choice]: id=nfw_02
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:26
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:141
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:203
 msgid "Only applies with Wounds enabled."
 msgstr ""
 
 #. [item]
 #. [option]
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:32
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:337
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:331
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:14
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:394
 msgid "Death"
 msgstr ""
 
@@ -93,15 +91,15 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [option]
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:43
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:197
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:337
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:260
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:400
 msgid "Elementals"
 msgstr ""
 
 #. [checkbox]: id=nfw_05
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:44
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:197
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:260
 msgid "Add transformation to elemental as a possibility to the table."
 msgstr ""
 
@@ -109,15 +107,15 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [option]
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:50
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:257
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:343
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:320
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:406
 msgid "Funny wounds"
 msgstr ""
 
 #. [checkbox]: id=nfw_03
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:51
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:257
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:320
 msgid "Add Stepped on LEGO and Paper cut as a possibility to the table."
 msgstr ""
 
@@ -132,955 +130,972 @@ msgid "Add a contextual menu on right click with help and configurations for all
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:280
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:250
 msgid "Recovered from Aquaphobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:281
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:251
 msgid "female^Recovered from Aquaphobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:318
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:288
 msgid "Recovered from Acrophobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:319
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:289
 msgid "female^Recovered from Acrophobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:356
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:326
 msgid "Recovered from Erimophobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:357
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:327
 msgid "female^Recovered from Erimophobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:394
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:364
 msgid "Recovered from Claustrophobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:395
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:365
 msgid "female^Recovered from Claustrophobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:432
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:402
 msgid "Recovered from Dendrophobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:433
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:403
 msgid "female^Recovered from Dendrophobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:474
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:444
 msgid "Recovered from Agoraphobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:475
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:445
 msgid "female^Recovered from Agoraphobia"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:527
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:497
 msgid "Recovered from Cowardice"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:528
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:498
 msgid "female^Recovered from Cowardice"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:582
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:552
 msgid "Recovered from fear of $second_unit.variables.scary_weapon_translated"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:583
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:553
 msgid "female^Recovered from fear of $second_unit.variables.scary_weapon_translated"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:631
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:601
 msgid "Recovered from fear of light"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:632
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:602
 msgid "female^Recovered from fear of light"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:673
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:643
 msgid "Recovered from fear of dark"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:674
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:644
 msgid "female^Recovered from fear of dark"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:711
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:681
 msgid "Recovered from fear of fog"
 msgstr ""
 
 #. [animate_unit]
-#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:712
+#: Non_Fatal_Wounds_Extended\utils\Wound_Healing.cfg:682
 msgid "female^Recovered from fear of fog"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:11
+#. [trait]: id=nfw_dead
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:9
+msgid "dead"
+msgstr ""
+
+#. [trait]: id=nfw_dead
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:10
+msgid "female^dead"
+msgstr ""
+
+#. [trait]: id=nfw_plagued
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:23
+msgid "plagued"
+msgstr ""
+
+#. [trait]: id=nfw_plagued
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:24
+msgid "female^plagued"
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:28
+msgid "Lost"
+msgstr ""
+
+#. [trait]: id=nfw_dead
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:36
+msgid "destroyed"
+msgstr ""
+
+#. [trait]: id=nfw_dead
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:37
+msgid "female^destroyed"
+msgstr ""
+
+#. [event]: id=nfw_alien_filter
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:41
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:607
+msgid "Destruction"
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:45
+msgid "Retreat"
+msgstr ""
+
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:57
 msgid "Memory Loss"
 msgstr ""
 
 #. [display]: id=broken_arm_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:25
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:71
 msgid "broken arm"
 msgstr ""
 
 #. [display]: id=broken_arm_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:26
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:72
 msgid "Non-magical damage -30%"
 msgstr ""
 
 #. [advancement]: id=NFW_broken_arm_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:41
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:87
 msgid "Recover from broken arm"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:54
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:100
 msgid "Broken Arm"
 msgstr ""
 
 #. [display]: id=broken_wing_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:68
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:114
 msgid "broken wing"
 msgstr ""
 
 #. [display]: id=broken_wing_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:69
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:115
 msgid "Movement points -40%"
 msgstr ""
 
 #. [advancement]: id=NFW_broken_wing_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:81
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:127
 msgid "Recover from broken wing"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:94
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:140
 msgid "Broken Wing"
 msgstr ""
 
 #. [display]: id=broken_leg_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:108
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:154
 msgid "broken leg"
 msgstr ""
 
 #. [display]: id=broken_leg_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:109
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:155
 msgid "Movement points -30%"
 msgstr ""
 
 #. [advancement]: id=NFW_broken_leg_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:121
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:167
 msgid "Recover from broken leg"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:134
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:180
 msgid "Broken Leg"
 msgstr ""
 
 #. [display]: id=broken_Rib_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:148
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:194
 msgid "broken rib"
 msgstr ""
 
 #. [display]: id=broken_Rib_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:149
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:195
 msgid "Impact resistance -40%"
 msgstr ""
 
 #. [advancement]: id=NFW_broken_rib_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:164
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:210
 msgid "Recover from broken rib"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:177
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:223
 msgid "Broken Rib"
 msgstr ""
 
 #. [display]: id=burned_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:191
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:237
 msgid "burned"
 msgstr ""
 
 #. [display]: id=burned_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:192
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:238
 msgid "female^burned"
 msgstr ""
 
 #. [display]: id=burned_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:193
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:239
 msgid "Fire resistance -40%"
 msgstr ""
 
 #. [advancement]: id=NFW_burned_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:208
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:254
 msgid "Recover from burn"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:221
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:267
 msgid "Burn"
 msgstr ""
 
 #. [display]: id=captured_unit_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:240
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:286
 msgid "captured"
 msgstr ""
 
 #. [display]: id=captured_unit_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:241
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:287
 msgid "female^captured"
 msgstr ""
 
 #. [display]: id=captured_unit_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:242
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:288
 msgid "Captured units have a increased recall cost untill you recall them once (recall+(10xlevel))."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:253
+#. [event]: id=nfw_RoSothian_filter
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:299
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:49
 msgid "Capture"
 msgstr ""
 
 #. [display]: id=concussion_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:267
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:313
 msgid "concussed"
 msgstr ""
 
 #. [display]: id=concussion_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:268
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:314
 msgid "female^concussed"
 msgstr ""
 
 #. [display]: id=concussion_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:269
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:315
 msgid "Magical damage -30%"
 msgstr ""
 
 #. [advancement]: id=NFW_concussion_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:282
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:328
 msgid "Recover from concussion"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:295
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:341
 msgid "Concussion"
 msgstr ""
 
 #. [display]: id=coward_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:309
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:355
 msgid "coward"
 msgstr ""
 
 #. [display]: id=coward_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:310
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:356
 msgid "female^coward"
 msgstr ""
 
 #. [display]: id=coward_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:311
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:357
 msgid ""
 "Accuracy -20%\n"
 "Redeem yourself by defeating an opponent with at least 1 level higher than you or at his higher level."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:322
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:368
 msgid "Cowardice"
 msgstr ""
 
-#. [trait]: id=nfw_dead
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:332
-msgid "dead"
-msgstr ""
-
-#. [trait]: id=nfw_dead
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:333
-msgid "female^dead"
-msgstr ""
-
-#. [trait]: id=nfw_plagued
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:348
-msgid "plagued"
-msgstr ""
-
-#. [trait]: id=nfw_plagued
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:349
-msgid "female^plagued"
-msgstr ""
-
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:353
-msgid "Lost"
-msgstr ""
-
 #. [display]: id=nfw_scared_of_weapon
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:369
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:383
 msgid "weakness"
 msgstr ""
 
 #. [display]: id=nfw_scared_of_weapon
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:370
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:384
 msgid ""
 "-50% strikes and -30% accuracy when facing an enemy with $second_weapon.description|.\n"
 "Face your fears and defeat them to try to overcome them."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:410
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:424
 msgid "Scared of $second_weapon.description"
 msgstr ""
 
 #. [display]: id=fear_of_water_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:424
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:438
 msgid "aquaphobia"
 msgstr ""
 
 #. [display]: id=fear_of_water_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:425
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:439
 msgid ""
 "Scared of water. Movement points -1 on aquatic terrains, -2 on deep waters.\n"
 "Face your fears to try to overcome them."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:441
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:455
 msgid "Aquaphobia"
 msgstr ""
 
 #. [display]: id=fear_of_hight_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:455
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:469
 msgid "acrophobia"
 msgstr ""
 
 #. [display]: id=fear_of_hight_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:456
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:470
 msgid ""
 "Scared of hights. Movement points -1 on hills terrains, -2 on mountains.\n"
 "Face your fears to try to overcome them."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:470
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:484
 msgid "Acrophobia"
 msgstr ""
 
 #. [display]: id=fear_of_desert_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:484
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:498
 msgid "erimophobia"
 msgstr ""
 
 #. [display]: id=fear_of_desert_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:485
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:499
 msgid ""
 "Scared of deserts. Movement points -2 on frozen and sand terrains.\n"
 "Face your fears to try to overcome them."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:499
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:513
 msgid "Erimophobia"
 msgstr ""
 
 #. [display]: id=fear_of_cave_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:513
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:527
 msgid "claustrophobia"
 msgstr ""
 
 #. [display]: id=fear_of_cave_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:514
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:528
 msgid ""
 "Scared of tight spaces. Movement points -2 on cave terrains.\n"
 "Face your fears to try to overcome them."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:527
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:541
 msgid "Claustrophobia"
 msgstr ""
 
 #. [display]: id=fear_of_plant_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:541
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:555
 msgid "dendrophobia"
 msgstr ""
 
 #. [display]: id=fear_of_plant_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:542
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:556
 msgid ""
 "Scared of plants. Movement points -2 on forest and fungus terrains.\n"
 "Face your fears to try to overcome them."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:556
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:570
 msgid "Dendrophobia"
 msgstr ""
 
 #. [display]: id=fear_of_open_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:570
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:584
 msgid "agoraphobia"
 msgstr ""
 
 #. [display]: id=fear_of_open_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:571
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:585
 msgid ""
 "Scared of open spaces. Movement points -2 on flat terrains.\n"
 "Face your fears to try to overcome them."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:584
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:598
 msgid "Agoraphobia"
 msgstr ""
 
 #. [attacks]: id=nfw_scared_of_dark
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:597
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:611
 msgid "nyctophobia"
 msgstr ""
 
 #. [attacks]: id=nfw_scared_of_dark
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:598
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:612
 msgid ""
 "-50% strikes in the dark.\n"
 "Face your fears to try to overcome them."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:613
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:627
 msgid "Scared of the dark"
 msgstr ""
 
 #. [attacks]: id=nfw_scared_of_light
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:626
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:640
 msgid "photophobia"
 msgstr ""
 
 #. [attacks]: id=nfw_scared_of_light
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:627
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:641
 msgid ""
 "-50% strikes in the light.\n"
 "Face your fears to try and overcome them."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:642
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:656
 msgid "Scared of the light"
 msgstr ""
 
 #. [display]: id=fear_of_fog_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:656
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:670
 msgid "nebulaphobia"
 msgstr ""
 
 #. [display]: id=fear_of_fog_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:657
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:671
 msgid ""
 "Scared of fog. Movement points -50% when fog is enabled.\n"
 "Face your fears to try to overcome them."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:673
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:687
 msgid "Nebulaphobia"
 msgstr ""
 
 #. [display]: id=frostbite_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:687
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:701
 msgid "frostbite"
 msgstr ""
 
 #. [display]: id=frostbite_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:688
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:702
 msgid "Cold resistance -40%"
 msgstr ""
 
 #. [advancement]: id=NFW_frostbite_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:703
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:717
 msgid "Recover from frostbite"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:716
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:730
 msgid "Frostbite"
 msgstr ""
 
 #. [display]: id=gash_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:730
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:744
 msgid "gash"
 msgstr ""
 
 #. [display]: id=gash_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:731
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:745
 msgid "Blade resistance -40%"
 msgstr ""
 
 #. [advancement]: id=NFW_gash_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:746
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:760
 msgid "Recover from gash"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:759
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:773
 msgid "Gash"
 msgstr ""
 
 #. [display]: id=infection_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:773
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:787
 msgid "infected"
 msgstr ""
 
 #. [display]: id=infection_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:774
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:788
 msgid "female^infected"
 msgstr ""
 
 #. [display]: id=infection_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:775
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:789
 msgid "10% chance of being poisoned every turn."
 msgstr ""
 
 #. [advancement]: id=NFW_infectiont_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:783
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:797
 msgid "Recover from infection"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:796
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:810
 msgid "Infection"
 msgstr ""
 
 #. [display]: id=insanity_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:810
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:824
 msgid "insane"
 msgstr ""
 
 #. [display]: id=insanity_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:811
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:825
 msgid "female^insane"
 msgstr ""
 
 #. [display]: id=insanity_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:812
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:826
 msgid "Melee attacks gain berserk."
 msgstr ""
 
 #. [berserk]: id=nfwme_berserk
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:823
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:837
 msgid "berserk"
 msgstr ""
 
 #. [berserk]: id=nfwme_berserk
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:824
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:838
 msgid "Whether used offensively or defensively, this attack presses the engagement until one of the combatants is slain, or 30 rounds of attacks have occurred."
 msgstr ""
 
 #. [advancement]: id=NFW_insane_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:834
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:848
 msgid "Recover from insanity"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:847
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:861
 msgid "Insanity"
 msgstr ""
 
 #. [display]: id=maimed_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:861
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:875
 msgid "maimed"
 msgstr ""
 
 #. [display]: id=maimed_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:862
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:876
 msgid "female^maimed"
 msgstr ""
 
 #. [display]: id=maimed_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:863
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:877
 msgid "-30% HP"
 msgstr ""
 
 #. [advancement]: id=NFW_maimed_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:875
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:889
 msgid "Recover from mutilation"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:897
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:911
 msgid "Mutilation"
 msgstr ""
 
 #. [display]: id=necrosis_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:911
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:925
 msgid "necrotic"
 msgstr ""
 
 #. [display]: id=necrosis_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:912
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:926
 msgid "female^necrotic"
 msgstr ""
 
 #. [display]: id=necrosis_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:913
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:927
 msgid ""
 "You are closer to undeath.\n"
 "Arcane resistance -40%"
 msgstr ""
 
 #. [advancement]: id=NFW_neccrosis_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:929
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:943
 msgid "Recover from necrosis"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:942
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:956
 msgid "Necrosis"
 msgstr ""
 
 #. [display]: id=amnesia_dummy
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:956
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:970
 msgid "amnesia"
 msgstr ""
 
 #. [display]: id=amnesia_dummy
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:957
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:971
 msgid "Every round you lose 2 exp."
 msgstr ""
 
 #. [advancement]: id=NFW_amnesia_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:965
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:979
 msgid "Recover from amnesia"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:978
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:992
 msgid "Amnesia"
 msgstr ""
 
 #. [display]: id=sick_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:992
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1006
 msgid "sick"
 msgstr ""
 
 #. [display]: id=sick_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:993
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1007
 msgid "female^sick"
 msgstr ""
 
 #. [display]: id=sick_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:994
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1008
 msgid "20% chance of being slowed every turn."
 msgstr ""
 
 #. [advancement]: id=NFW_sick_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1002
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1016
 msgid "Recover from sickness"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1015
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1029
 msgid "Sickness"
 msgstr ""
 
 #. [display]: id=wild_magic_display
 #. [chance_to_hit]: id=magical
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1029
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1042
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1043
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1056
 msgid "wild magic"
 msgstr ""
 
 #. [display]: id=wild_magic_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1030
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1044
 msgid "Magical attacks have a 40% chance to hit."
 msgstr ""
 
 #. [chance_to_hit]: id=magical
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1043
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1057
 msgid "This attack always has a 40% chance to hit regardless of the defensive ability of the unit being attacked."
 msgstr ""
 
 #. [advancement]: id=NFW_wild_magic_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1053
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1067
 msgid "Recover from wild magic"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1066
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1080
 msgid "Wild Magic"
 msgstr ""
 
 #. [display]: id=damaged_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1080
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1094
 msgid "damaged"
 msgstr ""
 
 #. [display]: id=damaged_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1081
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1095
 msgid "female^damaged"
 msgstr ""
 
 #. [display]: id=damaged_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1082
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1096
 msgid "Attack damage, movement, accuracy and HP -10%"
 msgstr ""
 
 #. [advancement]: id=NFW_damaged_Healing
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1106
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1120
 msgid "Repair"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1125
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1139
 msgid "Damage"
 msgstr ""
 
 #. [display]: id=paper_cut_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1140
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1154
 msgid "paper cut"
 msgstr ""
 
 #. [display]: id=paper_cut_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1141
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1155
 msgid ""
 "Due to the intense pain from your cut you cant concentrait on the fight.\n"
 "\n"
 "All damage is reduced by 20% and blade resistance is lowered by 30%. You will never recover from this."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1160
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1174
 msgid "Paper Cut"
 msgstr ""
 
 #. [display]: id=lego_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1173
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1187
 msgid "lego"
 msgstr ""
 
 #. [display]: id=lego_display
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1174
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1188
 msgid ""
 "Due to the intense pain of stepping on plastic brick you cant walk properly.\n"
 "\n"
 "Movement is reduced by 20% and accuracy is reduced by 15%. You will never recover from this."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1190
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1204
 msgid "Stepped on Lego"
 msgstr ""
 
 #. [trait]: id=ghost_trait
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1205
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1219
 msgid "ghost"
 msgstr ""
 
 #. [trait]: id=ghost_trait
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1206
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1220
 msgid "female^ghost"
 msgstr ""
 
 #. [effect]
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1281
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1295
 msgid "spectral $unit.attack[0].description"
 msgstr ""
 
 #. [drains]: id=drains
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1288
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1302
 msgid "drains"
 msgstr ""
 
 #. [drains]: id=drains
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1289
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1303
 msgid "This unit drains health from living units, healing itself for half the amount of damage it deals (rounded down)."
 msgstr ""
 
 #. [effect]
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1306
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1320
 msgid "spectral $unit.attack[$($unit.attack.length - 1)].description"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1344
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1358
 msgid "Ghost"
 msgstr ""
 
 #. [chance_to_hit]: id=marksman
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1442
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1456
 msgid "poor marksmanship"
 msgstr ""
 
 #. [chance_to_hit]: id=marksman
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1443
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1457
 msgid "When used offensively, this attack always has at least a 30% chance to hit."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1549
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1563
 msgid "Zombie"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1617
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1631
 msgid "Fire elemental"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1692
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1706
 msgid "Water elemental"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1766
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1780
 msgid "Poison elemental"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1832
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1846
 msgid "Arcane elemental"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1902
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1916
 msgid "Earth elemental"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1974
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1988
 msgid "Air elemental"
 msgstr ""
 
 #. [event]: id=nfw_malifor_filter
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:36
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:35
 msgid "Dissolution"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:90
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:135
 msgid "<b><i>Non-Fatal Wounds:</i></b> Sister Thera and Father Morvin will revive each other indefinitely every time they lose all of their health. Choose if you want each time this happens to receive a wound like any other unit or not. The effects will be applied immediately, and they cannot receive capture, death, elemental, ghost, or undeath wounds."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:93
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:138
 msgid "Allows them to get wounds"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:100
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:145
 msgid "Don't let them get wounds"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. generic message which could apply to any scenario where the storyline already explains why even the surviving units don't reappear later in the campaign
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:137
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:150
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:178
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:191
 msgid "<b><i>Non-Fatal Wounds</i></b> modification is disabled for this scenario."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:165
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:206
 msgid "<b><i>Non-Fatal Wounds</i></b> modification might work unusually with this campaign. The recall lists change during the campaign, and units that are non-fatally wounded may reappear on the wrong recall list."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:177
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:218
 msgid "<b><i>Non-Fatal Wounds:</i></b> As long as the Lich-Lord Lenvan is alive, all your dead units will rise as undead regardless of cause of death. Choose if you want to lose them all forever or you prefer to let chance decide. You can still irretrievably lose your units forever if you are attacked by a unit with plague."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:180
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:221
 msgid "Disable Non-Fatal Wounds until Lord Lenvan dies"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:193
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:241
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:234
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:282
 msgid "Continues normal Non-Fatal Wounds behavior"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:203
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:244
 msgid "<b><i>Non-Fatal Wounds</i></b> modification does not affect the objectives for this scenario. The unit can survives, but still triggers the same events as if it died."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:211
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:252
 msgid "<b><i>Non-Fatal Wounds:</i></b> As long as the Lich-Lord Jevyan is alive, all your dead units will rise as undead regardless of cause of death."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:228
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:269
 msgid "<b><i>Non-Fatal Wounds:</i></b> Choose if you want units stranded on the other side of the bridge to always receive death wound or not. Units still on the recall list will die if the bridge is blown up. The rest will receive a wound according to the settings."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:231
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:272
 msgid "Kill all units stranded on the other side of the bridge"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:252
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:293
 msgid "<b><i>Non-Fatal Wounds:</i></b> All units stranded on the other side of the bridge, and the unit that sacrifices itself to blow the bridge up, will receive a death wound."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:281
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:322
 msgid "<b><i>Non-Fatal Wounds</i></b> works normally again."
 msgstr ""
 
 #. [then]
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:308
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:349
 msgid "Surrender"
 msgstr ""
 
 #. [else]
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:311
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:318
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:352
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:359
 msgid "Escape"
 msgstr ""
 
 #. [event]: id=nfw_execution_filter
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:342
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:381
 msgid "Execution"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:414
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:453
 msgid "<b><i>Non-Fatal Wounds:</i></b> in all of mainline Wesnoth, this scenario is probably the most evil act by the player’s own side. The scenario is called Costly Revenge, and for the story it’s meant to be costly to the elves as well as these innocent saurians."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:417
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:456
 msgid "Disable Non-Fatal Wounds and let the story proceed as expected"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:426
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:465
 msgid "Let all the elves survive"
 msgstr ""
 
 #. [message]: speaker=Shynal
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:458
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:497
 msgid "Ow, that was close. I’ll rest until the next battle."
 msgstr ""
 
 #. [message]: speaker=Carcyn
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:467
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:506
 msgid "You could have brought her back anyway, right?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
 #. without this mod, she's brought back as a walking corpse
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:479
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:518
 msgid "Only in part. She would never have the powers of a lich."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:485
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:524
 msgid "Maybe as a ghost, but even then she would no longer have the powers of a lich."
 msgstr ""
 
-#. [event]: id=nfw_alien_filter
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:568
-msgid "Destruction"
-msgstr ""
-
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:612
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:226
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:651
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:223
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:612
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:651
 msgid "Because this is the last scenario, all units can die, without exception, and will count as such for the ending scene."
 msgstr ""
 
@@ -1091,30 +1106,50 @@ msgstr ""
 
 #. [option]
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:18
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:392
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:455
 msgid "Exit"
 msgstr ""
 
 #. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:27
+msgid "Activate or deactivate random wounds. If you deactivate, the units will return to recall list unchanged on the next scenario (except in special cases). If you choose to allow lose plagued units, they will disappear forever, since they were converted by the enemy. An optional floating text and a message from the unit or narrator will indicate the wound received and help, if applicable."
+msgstr ""
+
+#. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:29
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:143
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:199
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:259
+msgid "Note: You can disable wounds along with any combination of activated optional wounds. It will be decided randomly with the same percentage chance as if you had normal wounds activated. Units that do not receive any optional or scripted wounds will return to the recall list unchanged."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:31
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:205
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:262
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:322
 msgid "Set to"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:30
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:32
 msgid "(0 = Activated, 1 = Deactivated, 2 = Deactivated but with plague losses)"
 msgstr ""
 
-#. [option]
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:33
+msgid "Float text"
+msgstr ""
+
+#. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:34
+msgid "Messages"
+msgstr ""
+
+#. [option]
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:38
 msgid "List of Wounds"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:40
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:44
 msgid ""
 "* <b><i>Wound</i> (effect) > Possible destination units, previous conditions, cumulative</b>\n"
 "\n"
@@ -1136,21 +1171,21 @@ msgid ""
 "* <b><i>Frostbite</i></b> (-40% cold resistance) > All units, wounded with ice attack or on a cold terrain, cumulative\n"
 "* <b><i>Gash</i></b> (-40% blade resistance) > All units, wounded with blade attack, cumulative\n"
 "* <b><i>Infection</i></b> (20% chance to be poisoned every turn) > Not unpoisonable, random but more probable if poisoned\n"
-"* <b><i>Sickness</i></b> (30% chance of being slowed every turn) > All units, random but more probable if slowed\n"
-"* <b><i>Insanity</i></b> (berserk on melee attacks) > Units without berserk ability\n"
-"* <b><i>Mutilation</i></b> (-30% hp) > All units, random, cumulative\n"
+"* <b><i>Sickness</i></b> (30% chance of being slowed every turn) > Not mechanical, random but more probable if slowed\n"
+"* <b><i>Insanity</i></b> (berserk on melee attacks) > Not mechanical, without berserk ability\n"
+"* <b><i>Mutilation</i></b> (-30% hp) > Not mechanical, random, cumulative\n"
 "* <b><i>Necrosis</i></b> (-40% arcane resistance) > Not mechanical, random, cumulative\n"
 "* <b><i>Damage</i></b> (-10% mp, hp, damage and accuracy) > Mechanical, random, cumulative\n"
 "* <b><i>Lost</i></b> (equivalent to death) > Units non unplagueables, killed with plague attack, allways"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:73
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:77
 msgid "List of healing methods"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:78
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:82
 msgid ""
 "<b>Wounds healing:</b>\n"
 "\n"
@@ -1167,78 +1202,103 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:97
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:101
 msgid "Change status of Wounds"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:101
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:105
 msgid "Set status of Wounds."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:104
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:229
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:274
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:108
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:146
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:175
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:292
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:337
 msgid "Activate"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:113
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:160
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:238
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:283
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:117
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:155
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:184
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:223
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:301
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:346
 msgid "Deactivate"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:122
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:126
 msgid "Deactivate, but can lost plagued unit"
 msgstr ""
 
 #. [option]
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:139
+msgid "Change float text"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:169
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:141
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:143
+msgid "Set float text with the wound received."
+msgstr ""
+
+#. [option]
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:168
+msgid "Change messages"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:172
+msgid "Set messages when receives a wound. Units or narrator will do differents dialogues depending on the type of wound received, with indications or help if applicable."
+msgstr ""
+
+#. [option]
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:232
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:203
 msgid "Activate Death"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:144
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:206
 msgid "(0 = Deactivated, 1 = Death, 2 = Death + Undeath)"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:146
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:208
 msgid ""
 "<b>Wounds list:</b>\n"
 "* <b><i>Death</i></b> (definitive death)\n"
+"* <b><i>Destruction</i></b> (definitive death)\n"
 "* <b><i>Turning into a ghost</i></b>: -60% HP; -30% general attack damage; spirit type movement, defenses and resistances; chaotic alignment; ranged attack changed to cold if not magical, arcane or fire; melee attack changed to arcane, with drain, and with -25% damage if not magical, cold, fire or arcane > Units that are not already spirits or ghosts\n"
 "* <b><i>Turning into a zombie</i></b>: -40% HP, -30% general attack damage, -30% movement, -50% magical attacks strikes, low arcane resistance, chaotic alignment and fearless, plague on melee, and poor markmanship on marksmans > Units that are not already undead"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:153
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:216
 msgid "Change status of Death"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:157
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:220
 msgid "Set status of Death."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:178
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:241
 msgid "Activate Death, Undeath and Ghosts"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:203
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:266
 msgid "List of elemental transformations"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:207
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:270
 msgid ""
 "* <b><i>Wound</i> +Buffs -Debuffs > Possible units and conditions = Healing method</b>\n"
 "\n"
@@ -1252,17 +1312,17 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:222
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:285
 msgid "Change status of Elementals"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:226
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:289
 msgid "Set status of Elementals."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:261
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:324
 msgid ""
 "<b>Wounds list:</b>\n"
 "* <b><i>Paper cut</i></b> (-20% to all damage and -30% blade resistance) > All units\n"
@@ -1270,141 +1330,141 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:267
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:330
 msgid "Change status of Funny wounds"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:271
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:334
 msgid "Set status of Funny wounds."
 msgstr ""
 
 #. [set_menu_item]: id=nfw_help
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:306
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:369
 msgid "NFW help"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:321
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:384
 msgid "Choose the feature you want help with"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:325
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:388
 msgid "Wounds"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:349
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:412
 msgid "Stop Non-Fatal Wounds for this scenario"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:356
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:419
 msgid "Are you sure? This cannot be undone. Non-Fatal Wounds will be activated again the next scenario."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:364
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:427
 msgid "The non-fatal wound modification is disabled for this scenario."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:381
+#: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:444
 msgid "Non-Fatal Wounds is manually disabled for this scenario"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:87
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:109
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:132
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:84
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:106
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:129
 msgid "Argh, I’m dying!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:88
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:110
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:133
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:85
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:107
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:130
 msgid "female^Argh, I’m dying!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:92
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:89
 msgid "$unit.name a $nfwe_unit_type.name was destroyed."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:93
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:90
 msgid "female^$unit.name a $nfwe_unit_type.female.name was destroyed."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:114
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:111
 msgid "$unit.name a $nfwe_unit_type.name was revived as undead."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:115
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:112
 msgid "female^$unit.name a $nfwe_unit_type.female.name was revived as undead."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:137
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:134
 msgid "$unit.name a $nfwe_unit_type.name returned as a ghost."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:138
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:135
 msgid "female^$unit.name a $nfwe_unit_type.female.name returned as a ghost."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:155
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:152
 msgid "Argh!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:159
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:156
 msgid "$unit.name a $nfwe_unit_type.name was converted by the enemy."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:160
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:157
 msgid "female^$unit.name a $nfwe_unit_type.female.name was converted by the enemy."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:177
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:174
 msgid "Please rescue me!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:178
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:175
 msgid "female^Please rescue me!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:182
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:179
 msgid "$unit.name a $nfwe_unit_type.name was captured by the enemy. You will have to pay a ransom."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:183
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:180
 msgid "female^$unit.name a $nfwe_unit_type.female.name was captured by the enemy. You will have to pay a ransom."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:198
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:195
 msgid "Crash!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:204
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:201
 msgid "Argh, I’m wounded!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:205
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:202
 msgid "female^Argh, I’m wounded!"
 msgstr ""
 
