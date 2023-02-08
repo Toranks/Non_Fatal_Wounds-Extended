@@ -1,0 +1,85 @@
+author=Toranks
+icon="units/human-loyalists/duelist-die5.png"
+version="3.2"
+tags=difficulty
+title="Non-Fatal Wounds Extended"
+type="mod_mp"
+email="toranksmervat@gmail.com"
+## forum_auth=true
+[feedback]
+  topic_id=56108
+[/feedback]
+description=_ "This is an improved version of the Non-Fatal Wounds and Non-Fatal Wounds: Maimed Edition add-ons which acts as a standalone addon with many new features.
+Authors of the previous addons: Octalot, Armagedonus and CookieLord
+
+When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound).
+If you activate wounds, most of them are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other wounds and death depend solely on chance. In like manner, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
+The injured or wounded units go back into the “recall” pool for next mission.
+All wounds have some healing mechanism, except for optional ones.
+If a unit is killed by a plague attack and isn't unplagueable, receives the death wound even if you don't choose the death wound as an option, so be careful.
+
+This does not protect your heroes or other specific units — you’ll still lose if any character who has to survive is wounded. The enemy isn’t going to miss the chance of finishing the battle by letting a leader escape. Some mainline campaign events have also been adapted to change their behavior depending on the situation.
+
+Note: You don't need to install original or Maimed Non-Fatal Wounds. Read CHANGELOG.md file for more details of the changes.
+
+CURRENT WOUNDS
+Amnesia (lose 2 xp/turn)
+Broken arm (-30% non-magical damage)
+Broken wing (-40% mp)
+Broken leg (-30% mp)
+Broken rib (-40% impact resistance)
+Burned (-40% fire resistance)
+Captured (increased recall cost based on level)
+Concussion (-30% magical damage)
+Coward (-20% accuracy)
+Fear of weapon (-50% strikes and -30% accuracy against what wounded them)
+Fear of enemy (-50% strikes and -30% accuracy against the type of unit that wound them)
+Fear of the dark/light (-50$ strikes during the time they were wounded)
+Fear of terrain (increased 1-2 move cost for the terrain they were wounded on)
+Fear of fog (-50% mp when fog is active)
+Frostbite (-40% cold resistance)
+Gash (-40% blade resistance)
+Infection (chance to be poisoned)
+Sick (chance to be slowed)
+Insanity (berserk on melee attacks)
+Maimed (-30% hp)
+Necrosis (-40% arcane resistance)
+Damage (-10% mp, hp, damage and accuracy)
+Rot (-20% arcane and impact resistance)
+Short-term memory loss (resets experience)
+Wild magic (magical attacks now are 40% chance)
+Plagued (equivalent to death, with plague attack)
+
+OPTIONAL WOUNDS
+Death (definitive death)
+Destruction (definitive death)
+Turning into a ghost (custom ghost, cant advance beyond level 2)
+Turning into a zombie (custom zombie)
+Turning into an elemental (fire, water, air, earth, arcane and poison)
+Paper cut (the second worst thing to ever happen)
+Stepping on a Lego (the worst thing to ever happen)
+
+WOUND HEALING SYSTEM
+Some wounds can be healed directly facing your fears.
+Fear of terrain: 10% chance of recovery when defeating an opponent while standing on the terrain unit is scared of.
+Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of.
+Fear of enemy: 20% chance of recovery when defeating an opponent of same type.
+Fear of light/dark: 5% chance of recovery when defeating an opponent during the day/night.
+Fear of fog: 5% chance of recovery when defeating an opponent when fog is active.
+Coward: 20% chance of recovery when defeat an enemy 1 level higher or at his highest level.
+Short-term memory loss: is an 1-use wound and is healed inmediately.
+Captured: is an 1-use wound and is healed when the unit is recalled the first time.
+The rest of wounds can be healed choosing a recover AMLA instead of the advancement or default AMLA (still can advance later to the next advancement).
+Only one wound of the same type can be healed at a time and they can be stacked indefinitely with cumulative effects if is allowed.
+Optional wounds can't be healed at all."
+
+[translation]
+    language="es"
+	title="Heridas No Fatales"
+    description=""
+[/translation]
+[translation]
+    language="de"
+	title="Non-Fatal Wounds Extended"
+    description=""
+[/translation]

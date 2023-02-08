@@ -24,7 +24,6 @@ Desktop.ini
 !.git*
 !.editorconfig
 /_info.cfg
-/_server.pbl
 *-bak
 
 *.dev
