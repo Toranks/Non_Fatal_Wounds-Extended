@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-02-08 00:05 UTC\n"
-"PO-Revision-Date: 2023-02-08 01:06+0100\n"
+"PO-Revision-Date: 2023-02-08 01:53+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -532,8 +532,8 @@ msgid ""
 "-50% strikes and -30% accuracy when facing a $nfwe_second_unit_type.name|.\n"
 "Face your fears and defeat them to try to overcome them."
 msgstr ""
-"Golpes -50% y precisión -30% cuando se enfrenta a un enemigo con "
-"$nfwe_second_unit_type.name|.\n"
+"Golpes -50% y precisión -30% cuando se enfrenta a un $nfwe_second_unit_type."
+"name|.\n"
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:485
@@ -1935,12 +1935,12 @@ msgstr "¡Crash!"
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:227
 msgid "I can't fight anymore, I retreat!"
-msgstr "No puedo luchar más, me retiro!"
+msgstr "¡No puedo luchar más, me retiro!"
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:228
 msgid "female^I can't fight anymore, I retreat!"
-msgstr "No puedo luchar más, me retiro!"
+msgstr "¡No puedo luchar más, me retiro!"
 
 #. [message]: speaker=$unit.id
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:246
