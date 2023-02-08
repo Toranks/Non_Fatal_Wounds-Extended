@@ -57,21 +57,7 @@ Turning into a ghost (custom ghost, cant advance beyond level 2)
 Turning into a zombie (custom zombie)
 Turning into an elemental (fire, water, air, earth, arcane and poison)
 Paper cut (the second worst thing to ever happen)
-Stepping on a Lego (the worst thing to ever happen)
-
-WOUND HEALING SYSTEM
-Some wounds can be healed directly facing your fears.
-Fear of terrain: 10% chance of recovery when defeating an opponent while standing on the terrain unit is scared of.
-Fear of weapon: 20% chance of recovery when defeating an opponent wielding the weapon the unit is scared of.
-Fear of enemy: 20% chance of recovery when defeating an opponent of same type.
-Fear of light/dark: 5% chance of recovery when defeating an opponent during the day/night.
-Fear of fog: 5% chance of recovery when defeating an opponent when fog is active.
-Coward: 20% chance of recovery when defeat an enemy 1 level higher or at his highest level.
-Short-term memory loss: is an 1-use wound and is healed inmediately.
-Captured: is an 1-use wound and is healed when the unit is recalled the first time.
-The rest of wounds can be healed choosing a recover AMLA instead of the advancement or default AMLA (still can advance later to the next advancement).
-Only one wound of the same type can be healed at a time and they can be stacked indefinitely with cumulative effects if is allowed.
-Optional wounds can't be healed at all."
+Stepping on a Lego (the worst thing to ever happen)"
 
 [translation]
     language="es"

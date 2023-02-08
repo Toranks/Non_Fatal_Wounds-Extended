@@ -149,3 +149,5 @@ v3.2
 - New fear: Fear of enemy, same debuffs as fear of weapon, but applies to the unit type that hurts you.
 - Float text when normal wounds are disabled and a unit is directly sent to recall list.
 - All messages and floating text are now optional independently.
+- Help menu revised: Wounds divided in two pages and added indication of chance % for all wounds.
+- Mechanical units filtered by trait or race, to be sure.
