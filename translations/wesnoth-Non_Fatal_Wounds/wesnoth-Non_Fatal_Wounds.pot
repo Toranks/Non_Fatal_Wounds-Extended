@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-08 05:32 UTC\n"
+"POT-Creation-Date: 2023-02-08 08:06 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. [modification]: id=nfw_extended
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\_main.cfg:16
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:304
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:310
 msgid ""
 "With this modification enabled, units are merely wounded instead of killed. If you choose the possibility of dead or undead, some units still can definitely die. If you win this scenario the wounded units will be added to your recall list.\n"
 "\n"
@@ -473,12 +473,12 @@ msgstr ""
 #. [display]: id=nfw_scared_of_weapon
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:394
 msgid ""
-"-50% strikes and -30% accuracy when facing an enemy with $second_weapon.description|.\n"
+"-50% strikes and -30% accuracy when facing an enemy with $nfw_scary_weapon_translated|.\n"
 "Face your fears and defeat them to try to overcome them."
 msgstr ""
 
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:434
-msgid "Scared of $second_weapon.description"
+msgid "Scared of $nfw_scary_weapon_translated"
 msgstr ""
 
 #. [display]: id=nfw_scared_of_type
@@ -1170,7 +1170,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:651
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:304
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:310
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr ""
 
@@ -1299,7 +1299,7 @@ msgid ""
 "* <b><i>Sickness</i></b> (30% chance of being slowed every turn) > Not mechanical, random, 1% - 33% on slowed status\n"
 "* <b><i>Mutilation</i></b> (-30% hp) > Not mechanical, random, cumulative, 2%\n"
 "* <b><i>Necrosis</i></b> (-40% arcane resistance) > Not mechanical, random, cumulative, 1%\n"
-"* <b><i>Rot</i></b> (-20% arcane and impact resistance) > Mechanical, random but more probable with impact or arcane attack, cumulative, 10%\n"
+"* <b><i>Rot</i></b> (-20% arcane and impact resistance) > Mechanical, random, cumulative, 10% - 30% with impact or arcane attack\n"
 "* <b><i>Damage</i></b> (-10% mp, hp, damage and accuracy) > Mechanical, random, cumulative, 50%\n"
 "* <b><i>Lost</i></b> (equivalent to death) > Units non unplagueables, killed with plague attack, 100%"
 msgstr ""
@@ -1315,7 +1315,7 @@ msgid ""
 "* <b><i>Wound</i> (effect) > Possible destination units, previous conditions, cumulative, percentaje if all conditions are met - with additional conditions</b>\n"
 "\n"
 "* <b><i>Amnesia</i></b> (loses 2 xp/turn) > All units, random, 1% - ~&lt;10% mechanical\n"
-"* <b><i>Short-term memory loss</i></b> (resets experience) > Units with more than 3/4 of the max experience, random, ~&lt;10% - ~&lt;25% mechanical\n"
+"* <b><i>Short-term memory loss</i></b> (resets experience) > Units with more than 3/4 of the max experience, random, 10% - 25% mechanical\n"
 "* <b><i>Concussion</i></b> (-30% magical damage) > Units with magical attacks, random, cumulative, 3%\n"
 "* <b><i>Wild magic</i></b> (magical attacks now are 40% chance) > Units with magical attacks, random, 2%\n"
 "* <b><i>Cowardice</i></b> (-20% accuracy) > Not mechanical, random, cumulative, 1%\n"
@@ -1470,113 +1470,113 @@ msgid "Non-Fatal Wounds is manually disabled for this scenario"
 msgstr ""
 
 #. [then]
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:94
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:100
 msgid "This unit"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:113
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:138
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:158
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:119
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:144
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:164
 msgid "Argh, I’m dying!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:114
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:139
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:159
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:120
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:145
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:165
 msgid "female^Argh, I’m dying!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:118
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:247
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:124
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:253
 msgid "$unit.name a $nfwe_unit_type.name was destroyed."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:119
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:248
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:125
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:254
 msgid "female^$unit.name a $nfwe_unit_type.female.name was destroyed."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:143
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:149
 msgid "$unit.name a $nfwe_unit_type.name was revived as undead."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:144
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:150
 msgid "female^$unit.name a $nfwe_unit_type.female.name was revived as undead."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:163
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:169
 msgid "$unit.name a $nfwe_unit_type.name returned as a ghost."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:164
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:170
 msgid "female^$unit.name a $nfwe_unit_type.female.name returned as a ghost."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:178
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:184
 msgid "Argh!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:182
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:188
 msgid "$unit.name a $nfwe_unit_type.name was converted by the enemy."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:183
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:189
 msgid "female^$unit.name a $nfwe_unit_type.female.name was converted by the enemy."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:210
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:216
 msgid "Please rescue me!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:211
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:217
 msgid "female^Please rescue me!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:217
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:223
 msgid "$unit.name, a $nfwe_unit_type.name, was captured by the enemy. You will have to pay a ransom."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:218
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:224
 msgid "female^$unit.name, a $nfwe_unit_type.female.name, was captured by the enemy. You will have to pay a ransom."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:235
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:241
 msgid "Crash!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:265
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:271
 msgid "I can't fight anymore, I retreat!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:266
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:272
 msgid "female^I can't fight anymore, I retreat!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:284
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:290
 msgid "Argh, I’m wounded!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:285
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:291
 msgid "female^Argh, I’m wounded!"
 msgstr ""
 

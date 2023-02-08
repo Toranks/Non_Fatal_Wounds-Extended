@@ -9,8 +9,10 @@ email="toranksmervat@gmail.com"
 [feedback]
   topic_id=56108
 [/feedback]
-description=_ "This is an improved version of the Non-Fatal Wounds and Non-Fatal Wounds: Maimed Edition add-ons which acts as a standalone addon with many new features.
-Authors of the previous addons: Octalot, Armagedonus and CookieLord
+description=_ "<b><i>This is an improved version of the Non-Fatal Wounds and Non-Fatal Wounds: Maimed Edition add-ons which acts as a standalone addon with many new features.<i></b>
+
+<b>Authors of the previous addons: Octalot and CookieLord (Maimed)</b>
+<b>Original idea from: Armagedonus<b>
 
 When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound).
 If you activate wounds, most of them are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other wounds and death depend solely on chance. In like manner, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.

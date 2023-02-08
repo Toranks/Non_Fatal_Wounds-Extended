@@ -148,6 +148,7 @@ v3.2
 - New wound: Destroyed, same as death but for mechanic units. Rot, same as necrosis but for mechanical units.
 - New fear: Fear of enemy, same debuffs as fear of weapon, but applies to the unit type that hurts you.
 - Float text when normal wounds are disabled and a unit is directly sent to recall list.
-- All messages and floating text are now optional independently.
+- All messages and floating text are now optional independently and can be activated even if Wounds are deactivated.
 - Help menu revised: Wounds divided in two pages and added indication of chance % for all wounds.
 - Mechanical units filtered by trait or race, to be sure.
+- Units without name shows "This unit" (translatable) instead of a blank space on the wounds messages.

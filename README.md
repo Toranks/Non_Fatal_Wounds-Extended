@@ -2,7 +2,7 @@ Non-Fatal Wounds Extended
 ================
 
 This is an add-on for the game [Wesnoth](https://www.wesnoth.org/).
-* Author :  [CookieLord](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=248402), [stevecotton - Octalot](https://github.com/stevecotton), Armagedonus, [Toranks](http://toranks.blogspot.com/)
+* Authors :  [CookieLord](https://forums.wesnoth.org/memberlist.php?mode=viewprofile&u=248402), [stevecotton - Octalot](https://github.com/stevecotton), [Toranks](http://toranks.blogspot.com/)
 * Mantainer : [Toranks](http://toranks.blogspot.com/)
 * Changelog : see [CHANGELOG.md](CHANGELOG.md)
 * License : [GNU-GPL](LICENSE.md)

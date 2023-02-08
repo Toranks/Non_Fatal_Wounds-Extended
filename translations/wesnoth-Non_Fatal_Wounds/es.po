@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-08 05:32 UTC\n"
-"PO-Revision-Date: 2023-02-08 06:47+0100\n"
+"POT-Creation-Date: 2023-02-08 08:06 UTC\n"
+"PO-Revision-Date: 2023-02-08 09:09+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -21,7 +21,7 @@ msgstr "Heridas No Fatales Extendida"
 #. [modification]: id=nfw_extended
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\_main.cfg:16
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:304
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:310
 msgid ""
 "With this modification enabled, units are merely wounded instead of killed. "
 "If you choose the possibility of dead or undead, some units still can "
@@ -514,17 +514,17 @@ msgstr "debilidad"
 #. [display]: id=nfw_scared_of_weapon
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:394
 msgid ""
-"-50% strikes and -30% accuracy when facing an enemy with $second_weapon."
-"description|.\n"
+"-50% strikes and -30% accuracy when facing an enemy with "
+"$nfw_scary_weapon_translated|.\n"
 "Face your fears and defeat them to try to overcome them."
 msgstr ""
 "Golpes -50% y precisión -30% cuando se enfrenta a un enemigo con "
-"$second_weapon.description|.\n"
+"$nfw_scary_weapon_translated|.\n"
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:434
-msgid "Scared of $second_weapon.description"
-msgstr "Asustado de $second_weapon.description"
+msgid "Scared of $nfw_scary_weapon_translated"
+msgstr "Asustado de $nfw_scary_weapon_translated"
 
 #. [display]: id=nfw_scared_of_type
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:449
@@ -1335,7 +1335,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:651
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:304
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:310
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr "<b><i>Heridas No Fatales: </i></b>"
 
@@ -1511,8 +1511,8 @@ msgid ""
 "2%\n"
 "* <b><i>Necrosis</i></b> (-40% arcane resistance) > Not mechanical, random, "
 "cumulative, 1%\n"
-"* <b><i>Rot</i></b> (-20% arcane and impact resistance) > Mechanical, random "
-"but more probable with impact or arcane attack, cumulative, 10%\n"
+"* <b><i>Rot</i></b> (-20% arcane and impact resistance) > Mechanical, "
+"random, cumulative, 10% - 30% with impact or arcane attack\n"
 "* <b><i>Damage</i></b> (-10% mp, hp, damage and accuracy) > Mechanical, "
 "random, cumulative, 50%\n"
 "* <b><i>Lost</i></b> (equivalent to death) > Units non unplagueables, killed "
@@ -1548,7 +1548,7 @@ msgstr ""
 "* <b><i>Necrosis</i></b> (-40 % resistencia arcana) > No mecánico, azar, "
 "acumulativo, 1%\n"
 "* <b><i>Pudre</i></b> (-20 % resistencia arcana y de impacto) > Mecánico, "
-"azar pero más probable con ataques arcanos o de impacto, acumulativo, 10%\n"
+"azar, 10% - 30% con ataque arcano o de impacto\n"
 "* <b><i>Avería</i></b> (-10% PV, movimiento, daño y precisión) > Mecánico, "
 "azar, acumulativo, 50%\n"
 "* <b><i>Perdido</i></b> (equivalente a muerte) > Unidades convertibles "
@@ -1569,7 +1569,7 @@ msgid ""
 "* <b><i>Amnesia</i></b> (loses 2 xp/turn) > All units, random, 1% - ~&lt;10% "
 "mechanical\n"
 "* <b><i>Short-term memory loss</i></b> (resets experience) > Units with more "
-"than 3/4 of the max experience, random, ~&lt;10% - ~&lt;25% mechanical\n"
+"than 3/4 of the max experience, random, 10% - 25% mechanical\n"
 "* <b><i>Concussion</i></b> (-30% magical damage) > Units with magical "
 "attacks, random, cumulative, 3%\n"
 "* <b><i>Wild magic</i></b> (magical attacks now are 40% chance) > Units with "
@@ -1598,8 +1598,7 @@ msgstr ""
 "* <b><i>Amnesia</i></b> (pierde 2 exp/turno) > Todas las unidades, azar, 1% "
 "- ~&lt;10% mecánico\n"
 "* <b><i>Pérdida de memoria</i></b> (reinicia la experiencia) > Unidades con "
-"más de tres cuartos de la experiencia máxima, azar, ~&lt;10% - ~&lt;25% "
-"mecánico\n"
+"más de tres cuartos de la experiencia máxima, azar, 10% - 25% mecánico\n"
 "* <b><i>Conmoción</i></b> (-30% daño mágico) > Unidades con ataques mágicos, "
 "azar, acumulativo, 3%\n"
 "* <b><i>Magia salvaje</i></b> (los ataques mágicos ahora tienen un 40 % de "
@@ -1900,87 +1899,87 @@ msgid "Non-Fatal Wounds is manually disabled for this scenario"
 msgstr "Heridas no fatales está manualmente desactivado en este escenario"
 
 #. [then]
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:94
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:100
 msgid "This unit"
 msgstr "Esta unidad"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:113
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:138
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:158
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:119
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:144
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:164
 msgid "Argh, I’m dying!"
 msgstr "¡Argh...! ¡Estoy muriendo!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:114
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:139
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:159
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:120
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:145
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:165
 msgid "female^Argh, I’m dying!"
 msgstr "¡Argh...! ¡Estoy muriendo!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:118
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:247
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:124
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:253
 msgid "$unit.name a $nfwe_unit_type.name was destroyed."
 msgstr "$unit.name, un $nfwe_unit_type.name, fue destruido."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:119
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:248
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:125
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:254
 msgid "female^$unit.name a $nfwe_unit_type.female.name was destroyed."
 msgstr "$unit.name, una $nfwe_unit_type.female.name, fue destruida."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:143
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:149
 msgid "$unit.name a $nfwe_unit_type.name was revived as undead."
 msgstr "$unit.name, un $nfwe_unit_type.name, fue revivido como no-muerto."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:144
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:150
 msgid "female^$unit.name a $nfwe_unit_type.female.name was revived as undead."
 msgstr ""
 "$unit.name, una $nfwe_unit_type.female.name, fue revivida como no-muerta."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:163
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:169
 msgid "$unit.name a $nfwe_unit_type.name returned as a ghost."
 msgstr "$unit.name, un $nfwe_unit_type.name, regresó como un fantasma."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:164
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:170
 msgid "female^$unit.name a $nfwe_unit_type.female.name returned as a ghost."
 msgstr ""
 "$unit.name, una $nfwe_unit_type.female.name, regresó como una fantasma."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:178
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:184
 msgid "Argh!"
 msgstr "¡Argh!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:182
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:188
 msgid "$unit.name a $nfwe_unit_type.name was converted by the enemy."
 msgstr "$unit.name, un $nfwe_unit_type.name, fue convertido por el enemigo."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:183
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:189
 msgid ""
 "female^$unit.name a $nfwe_unit_type.female.name was converted by the enemy."
 msgstr ""
 "$unit.name, una $nfwe_unit_type.female.name, fue convertida por el enemigo."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:210
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:216
 msgid "Please rescue me!"
 msgstr "¡Por favor, rescatadme...!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:211
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:217
 msgid "female^Please rescue me!"
 msgstr "¡Por favor, rescatadme...!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:217
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:223
 msgid ""
 "$unit.name, a $nfwe_unit_type.name, was captured by the enemy. You will have "
 "to pay a ransom."
@@ -1989,7 +1988,7 @@ msgstr ""
 "que pagar un rescate."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:218
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:224
 msgid ""
 "female^$unit.name, a $nfwe_unit_type.female.name, was captured by the enemy. "
 "You will have to pay a ransom."
@@ -1998,26 +1997,26 @@ msgstr ""
 "Tendrás que pagar un rescate."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:235
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:241
 msgid "Crash!"
 msgstr "¡Crash!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:265
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:271
 msgid "I can't fight anymore, I retreat!"
 msgstr "¡No puedo luchar más, me retiro!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:266
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:272
 msgid "female^I can't fight anymore, I retreat!"
 msgstr "¡No puedo luchar más, me retiro!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:284
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:290
 msgid "Argh, I’m wounded!"
 msgstr "¡Argh...! ¡Estoy herido!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:285
+#: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:291
 msgid "female^Argh, I’m wounded!"
 msgstr "¡Argh...! ¡Estoy herida!"
