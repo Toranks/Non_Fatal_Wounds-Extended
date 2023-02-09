@@ -152,3 +152,4 @@ v3.2
 - Help menu revised: Wounds divided in two pages and added indication of chance % for all wounds.
 - Mechanical units filtered by trait or race, to be sure.
 - Units without name shows "This unit" (translatable) instead of a blank space on the wounds messages.
+- Excluded Drake Clasher tree unit types from broken wing, because they don't use their wings to fly.
