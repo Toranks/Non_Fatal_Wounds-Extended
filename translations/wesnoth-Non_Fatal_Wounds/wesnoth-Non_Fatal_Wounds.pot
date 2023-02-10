@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-10 00:31 UTC\n"
+"POT-Creation-Date: 2023-02-10 03:48 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,7 +116,7 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:51
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:334
-msgid "Add Stepped on LEGO and Paper cut as a possibility to the table."
+msgid "Add funny and silly wounds that are incurable as a possibility to the table."
 msgstr ""
 
 #. [checkbox]: id=nfw_04
@@ -937,8 +937,8 @@ msgstr ""
 #. [display]: id=dumb_display
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1338
 msgid ""
-"Se quedó tan tonto de la última pedrada, que ya no sabe cuándo atacar.\n"
-"20% de posibilidades de quedarse sin atacar un turno."
+"Turned so stupid from the last stone on his head, that he no longer knows when to attack.\n"
+"20% chance to lost all attacks every turn."
 msgstr ""
 
 #: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1345
@@ -965,102 +965,102 @@ msgid "Jinx"
 msgstr ""
 
 #. [trait]: id=nfw_elemental_devil
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1383
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1382
 msgid "devil"
 msgstr ""
 
 #. [trait]: id=nfw_elemental_devil
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1384
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1383
 msgid "female^devil"
 msgstr ""
 
 #. [trait]: id=nfw_elemental_devil
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1385
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1384
 msgid "He has misbehaved and has been punished to a terrible fate. Immune to drain, poison, and plague."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1432
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1431
 msgid "Go to Hell"
 msgstr ""
 
 #. [trait]: id=nfw_elemental_angel
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1443
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1442
 msgid "angel"
 msgstr ""
 
 #. [trait]: id=nfw_elemental_angel
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1444
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1443
 msgid "female^angel"
 msgstr ""
 
 #. [trait]: id=nfw_elemental_angel
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1445
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1444
 msgid "He behaved well and was returned to a divine mission. Immune to drain, poison, and plague."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1494
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1493
 msgid "Go to Heaven"
 msgstr ""
 
 #. [trait]: id=ghost_trait
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1509
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1508
 msgid "ghost"
 msgstr ""
 
 #. [trait]: id=ghost_trait
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1510
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1509
 msgid "female^ghost"
 msgstr ""
 
 #. [effect]
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1585
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1584
 msgid "spectral $unit.attack[0].description"
 msgstr ""
 
 #. [effect]
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1611
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1610
 msgid "spectral $unit.attack[$($unit.attack.length - 1)].description"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1649
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1648
 msgid "Ghost"
 msgstr ""
 
 #. [chance_to_hit]: id=marksman
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1747
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1746
 msgid "poor marksmanship"
 msgstr ""
 
 #. [chance_to_hit]: id=marksman
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1748
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1747
 msgid "When used offensively, this attack always has at least a 30% chance to hit."
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1854
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1853
 msgid "Zombie"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1921
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1920
 msgid "Fire elemental"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1995
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:1994
 msgid "Water elemental"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:2069
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:2068
 msgid "Poison elemental"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:2135
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:2134
 msgid "Arcane elemental"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:2205
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:2204
 msgid "Earth elemental"
 msgstr ""
 
-#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:2277
+#: Non_Fatal_Wounds_Extended\utils\Wounds.cfg:2276
 msgid "Air elemental"
 msgstr ""
 
