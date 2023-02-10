@@ -146,6 +146,7 @@ v3.2
  * Death and elemental wounds triggers on separated events, to match better the probabilities with different option combinations.
  * Captured triggers on a separated event for heroes, to reduce the probability of death and elemental only on heroes in favor of captured.
 - New wound: Destroyed, same as death but for mechanic units. Rot, same as necrosis but for mechanical units.
+- New funny wounds: Jinx, Dumb, Angel, Devil.
 - New fear: Fear of enemy, same debuffs as fear of weapon, but applies to the unit type that hurts you.
 - Float text when normal wounds are disabled and a unit is directly sent to recall list.
 - All messages and floating text are now optional independently and can be activated even if Wounds are deactivated.
