@@ -5,61 +5,34 @@ tags=difficulty
 title="Non-Fatal Wounds Extended"
 type="mod_mp"
 email="toranksmervat@gmail.com"
-## forum_auth=true
+#forum_auth=true
 [feedback]
   topic_id=56108
 [/feedback]
-description=_ "<b><i>This is an improved version of the Non-Fatal Wounds and Non-Fatal Wounds: Maimed Edition add-ons which acts as a standalone addon with many new features.<i></b>
+description=_ "This is an improved version of the Non-Fatal Wounds and Non-Fatal Wounds: Maimed Edition add-ons which acts as a standalone addon with a complete help menu and many new features.
 
-<b>Authors of the previous addons: Octalot and CookieLord (Maimed)</b>
-<b>Original idea from: Armagedonus<b>
+Authors of the previous addons: Octalot and CookieLord (Maimed)
+Original idea from: Armagedonus
 
-When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound).
-If you activate wounds, most of them are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other wounds and death depend solely on chance. In like manner, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
-The injured or wounded units go back into the “recall” pool for next mission.
-All wounds have some healing mechanism, except for optional ones.
-If a unit is killed by a plague attack and isn't unplagueable, receives the death wound even if you don't choose the death wound as an option, so be careful.
+* When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound).
 
-This does not protect your heroes or other specific units — you’ll still lose if any character who has to survive is wounded. The enemy isn’t going to miss the chance of finishing the battle by letting a leader escape. Some mainline campaign events have also been adapted to change their behavior depending on the situation.
+* If you activate wounds, most of them are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other wounds and death depend solely on chance. In like manner, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
 
-Note: You don't need to install original or Maimed Non-Fatal Wounds. Read CHANGELOG.md file for more details of the changes.
+* There are more than 50 psychological and physical wounds, plus 2 fears (to the enemy's weapon, and the type of enemy) that can have a virtually infinite variety. Optional wounds are death, undeath, ghosts, elementals and funny wounds. Ghost, undeath, elementals and some funny wounds affect not only the unit's stats, but also its appearance and abilities, and are permanent.
 
-CURRENT WOUNDS
-Amnesia (lose 2 xp/turn)
-Broken arm (-30% non-magical damage)
-Broken wing (-40% mp)
-Broken leg (-30% mp)
-Broken rib (-40% impact resistance)
-Burned (-40% fire resistance)
-Captured (increased recall cost based on level)
-Concussion (-30% magical damage)
-Coward (-20% accuracy)
-Fear of weapon (-50% strikes and -30% accuracy against what wounded them)
-Fear of enemy (-50% strikes and -30% accuracy against the type of unit that wound them)
-Fear of the dark/light (-50$ strikes during the time they were wounded)
-Fear of terrain (increased 1-2 move cost for the terrain they were wounded on)
-Fear of fog (-50% mp when fog is active)
-Frostbite (-40% cold resistance)
-Gash (-40% blade resistance)
-Infection (chance to be poisoned)
-Sick (chance to be slowed)
-Insanity (berserk on melee attacks)
-Maimed (-30% hp)
-Necrosis (-40% arcane resistance)
-Damage (-10% mp, hp, damage and accuracy)
-Rot (-20% arcane and impact resistance)
-Short-term memory loss (resets experience)
-Wild magic (magical attacks now are 40% chance)
-Plagued (equivalent to death, with plague attack)
+* All wounds -except for optional wounds and plagued- can be healed with different methods.
 
-OPTIONAL WOUNDS
-Death (definitive death)
-Destruction (definitive death)
-Turning into a ghost (custom ghost, cant advance beyond level 2)
-Turning into a zombie (custom zombie)
-Turning into an elemental (fire, water, air, earth, arcane and poison)
-Paper cut (the second worst thing to ever happen)
-Stepping on a Lego (the worst thing to ever happen)"
+* Surviving wounded units go back into the recall list for next mission with the wound received.
+
+* If a unit is killed by a plague attack and isn't unplagueable, is lost even if you don't choose the death wound as an option, so be careful. You can disable this behavior by also disabling basic wounds.
+
+* All wounds info, probabilities, and healing methods can be consulted at any time in the help menu, with the possibility of disable the addon for certain scenarios.
+
+* This does not protect your heroes or other specific units — you’ll still lose if any character who has to survive is wounded. The enemy isn’t going to miss the chance of finishing the battle by letting a leader escape. Some mainline campaign events have also been adapted to change their behavior depending on the situation.
+
+* This addon may affects campaign balance, but makes the RNG much less punishing of mistakes, while still being not too lenient since you will lose the opportunity to continue leveling on that scenario, in addition to an important debuff that will be expensive to cure (if possible). With deaths activated, the campaigns will remain balanced in most.
+
+NOTE: You don't need to install original or Maimed Non-Fatal Wounds. Read CHANGELOG.md file for more details of the changes."
 
 [translation]
     language="es"

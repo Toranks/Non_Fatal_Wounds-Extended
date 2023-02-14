@@ -152,12 +152,12 @@ v3.2
 - All messages and floating text are now optional independently and can be activated even if Wounds are deactivated.
 - Help menu revised: Wounds divided in two pages and added indication of chance % for all wounds.
 - Mechanical units filtered by trait or race, to be sure.
-- Units without name shows "This unit" (translatable) instead of a blank space on the wounds messages.
 - Excluded Drake Clasher tree unit types from broken wing, because they don't use their wings to fly.
 - Added icon to healing advancements. Different icon for Rot and Damaged.
 - Magical units treated as if there were ghosts or elementals and Rocs as birds (Era of Magic).
 - Kamikaze units have a 66% possibility of die with death enabled (Era of Magic).
-- The unit with Collar of Recall will not die or receive any wound, but the third time lost his HP, it will die definitely (Era of Magic).
 - Dimensional Portal with soul catcher now works properly, same as plagued units, with an exclusive info message (Era of Magic).
+- The unit with Collar of Recall will not die or receive any wound, but the third time lost his HP, it will die definitely (To Lands Unknow).
+- Units without name shows "This unit" (translatable) instead of a blank space on the wounds messages.
 - Messages compatible with female units that doesn't have a female unit type name.
 - When a unit type or weapon doesn't have a translatable name or, for whatever reason, is not detected, the respective "fear of" wound is now skipped.
