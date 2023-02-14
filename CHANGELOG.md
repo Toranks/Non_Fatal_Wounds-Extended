@@ -143,8 +143,8 @@ v3.2
 - Completely rework of the wounds filter and probabilities:
  * Avoided improbable stack overflows (>800)
  * Mechanical units now have is own set of wounds, with less probability to be destroyed than living units. Can only receives some wounds, included the exclusive wounds damaged and destruction.
- * Death and elemental wounds triggers on separated events, to match better the probabilities with different option combinations.
- * Captured triggers on a separated event for heroes, to reduce the probability of death and elemental only on heroes in favor of captured.
+ * Death, funny and elemental wounds triggers on separated events, and can be activated or deactivated independently of normal Wounds.
+ * Captured triggers on a separated event for heroes, to increase probability only on heroes.
 - New wound: Destroyed, same as death but for mechanic units. Rot, same as necrosis but for mechanical units.
 - New funny wounds: Jinx, Dumb, Angel, Devil.
 - New fear: Fear of enemy, same debuffs as fear of weapon, but applies to the unit type that hurts you.
@@ -157,5 +157,7 @@ v3.2
 - Added icon to healing advancements. Different icon for Rot and Damaged.
 - Magical units treated as if there were ghosts or elementals and Rocs as birds (Era of Magic).
 - Kamikaze units have a 66% possibility of die with death enabled (Era of Magic).
-- The unit Collar of Recall will not die or receive any wound, but the third time lost his HP, it will die definitely (Era of Magic).
+- The unit with Collar of Recall will not die or receive any wound, but the third time lost his HP, it will die definitely (Era of Magic).
+- Dimensional Portal with soul catcher now works properly, same as plagued units, with an exclusive info message (Era of Magic).
 - Messages compatible with female units that doesn't have a female unit type name.
+- When a unit type or weapon doesn't have a translatable name or, for whatever reason, is not detected, the respective "fear of" wound is now skipped.
