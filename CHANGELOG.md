@@ -157,3 +157,5 @@ v3.2
 - Added icon to healing advancements. Different icon for Rot and Damaged.
 - Magical units (treated as if there were ghosts or elementals) and Rocs (as birds) from Era of Magic supported.
 - Kamikaze units have a 66% possibility of die with death enabled (Era of Magic).
+- The unit Collar of Recall will not die or receive any wound, but the third time lost his HP, it will die definitely.
+- Messages compatible with female units that doesn't have a female unit type name.
