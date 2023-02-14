@@ -155,7 +155,7 @@ v3.2
 - Units without name shows "This unit" (translatable) instead of a blank space on the wounds messages.
 - Excluded Drake Clasher tree unit types from broken wing, because they don't use their wings to fly.
 - Added icon to healing advancements. Different icon for Rot and Damaged.
-- Magical units (treated as if there were ghosts or elementals) and Rocs (as birds) from Era of Magic supported.
+- Magical units treated as if there were ghosts or elementals and Rocs as birds (Era of Magic).
 - Kamikaze units have a 66% possibility of die with death enabled (Era of Magic).
-- The unit Collar of Recall will not die or receive any wound, but the third time lost his HP, it will die definitely.
+- The unit Collar of Recall will not die or receive any wound, but the third time lost his HP, it will die definitely (Era of Magic).
 - Messages compatible with female units that doesn't have a female unit type name.
