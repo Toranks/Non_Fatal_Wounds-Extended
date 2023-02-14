@@ -156,3 +156,4 @@ v3.2
 - Excluded Drake Clasher tree unit types from broken wing, because they don't use their wings to fly.
 - Added icon to healing advancements. Different icon for Rot and Damaged.
 - Magical units (treated as if there were ghosts or elementals) and Rocs (as birds) from Era of Magic supported.
+- Kamikaze units have a 66% possibility of die with death enabled (Era of Magic).
