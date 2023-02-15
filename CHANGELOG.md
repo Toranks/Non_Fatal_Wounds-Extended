@@ -125,13 +125,17 @@ v3.0
 - Improved some filters (mechanic units now doesn't receives maimed, light and dark fears are mutually exclusive, etc).
 - Fixed bad filtered plant terrain, error present since Maimed Edition.
 - New message when mechanical units are wounded or die.
+
 v3.1
+============
 - Deleted duplicated macro.
 - Added a way to avoid duplicate units on nfw_wounded variable.
 - Reduced to half the chance to merfolk and naga gets aquaphobia.
 - New event UTBS S12, "Destruction" when Aliens die.
 - Changed uploading method on 1.17. Reset downloads: 22
+
 v3.2
+============
 - Added define NON_FATAL_WOUNDS_EXTENDED
 - Compatibility with Advanced Wesnoth Wars AMLA Bonus when a unit chooses a healing AMLA, optional.
 - Agoraphobia not received on underground or indoors, but still can be suffered (movement cost applies to flat terrain, no matter the environment).
@@ -161,3 +165,7 @@ v3.2
 - Units without name shows "This unit" (translatable) instead of a blank space on the wounds messages.
 - Messages compatible with female units that doesn't have a female unit type name.
 - When a unit type or weapon doesn't have a translatable name or, for whatever reason, is not detected, the respective "fear of" wound is now skipped.
+
+v3.3
+============
+- Elementals can't transform to undead.
