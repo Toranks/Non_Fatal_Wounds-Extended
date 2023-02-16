@@ -169,3 +169,5 @@ v3.2
 v3.3
 ============
 - Elementals can't transform to undead.
+- Help menu updated with Era of Magic units.
+- New event: TLU S12, Malib units on your side always receives death wound.
