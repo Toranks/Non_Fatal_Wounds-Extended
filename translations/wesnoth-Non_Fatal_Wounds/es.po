@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-16 03:22 UTC\n"
-"PO-Revision-Date: 2023-02-16 04:25+0100\n"
+"POT-Creation-Date: 2023-02-17 19:20 UTC\n"
+"PO-Revision-Date: 2023-02-17 20:23+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -71,7 +71,7 @@ msgstr "Sí"
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:13
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:28
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #. [item]
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:17
@@ -1393,18 +1393,28 @@ msgstr ""
 "un lich."
 
 #. [event]: id=nfw_collar_filter
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:677
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:676
 msgid "Disipated"
 msgstr "Disipado"
 
+#. [event]: id=nfw_witch_suicide
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:691
+msgid "Suicide"
+msgstr "Suicidio"
+
+#. [event]: id=nfw_reficul_banish
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:705
+msgid "Banished"
+msgstr "Destierro"
+
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:725
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:757
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:441
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr "<b><i>Heridas No Fatales: </i></b>"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:725
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:757
 msgid ""
 "Because this is the last scenario, all units can die, without exception, and "
 "will count as such for the ending scene."
@@ -1557,8 +1567,8 @@ msgid ""
 "cumulative, 5%\n"
 "* <b><i>Broken leg</i></b> (-30% mp) > Races with legs, random, cumulative, "
 "2%\n"
-"* <b><i>Broken rib</i></b> (-40% impact resistance) > Not mechanical or "
-"spirits, random, cumulative, 1% - 4% with impact attack\n"
+"* <b><i>Broken rib</i></b> (-40% impact resistance) > Not mechanical, "
+"spirits or magical, random, cumulative, 1% - 4% with impact attack\n"
 "* <b><i>Burn</i></b> (-40% fire resistance) > All units, wounded with fire "
 "attack or on a terrain with lava or fire, cumulative, 9% - 20% mechanical\n"
 "* <b><i>Capture</i></b> (increased recall cost based on level) > All units, "
@@ -1594,8 +1604,9 @@ msgstr ""
 "acumulativo, 5%\n"
 "* <b><i>Pierna rota</i></b> (-30% movimiento) > Razas con piernas, azar, "
 "acumulativo, 2%\n"
-"* <b><i>Costilla rota</i></b> (-40% resistencia al impacto) > No mecánico ni "
-"espíritus, azar, acumulativo, 1% - 4% con ataque de impacto\n"
+"* <b><i>Costilla rota</i></b> (-40% resistencia al impacto) > No mecánico, "
+"espíritus, fantasmas o mágicos, azar, acumulativo, 1% - 4% con ataque de "
+"impacto\n"
 "* <b><i>Quemadura</i></b> (-40% resistencia al fuego) > Todas las unidades, "
 "herido con ataque de fuego o en un terreno con lava o fuego, acumulativo, 9% "
 "- 20% mecánico\n"

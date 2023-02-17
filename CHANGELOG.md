@@ -170,4 +170,6 @@ v3.3
 ============
 - Elementals can't transform to undead.
 - Help menu updated with Era of Magic units.
-- New event: TLU S12, Malib units on your side always receives death wound.
+- Dimensional Gate and DG II always receives destroyed wound.
+- New event: TLU S12, Malib units on your side always receives death wound. Matriarch3 suicide.
+- New event: TLU S15, Reficul banishes.

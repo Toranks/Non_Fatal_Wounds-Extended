@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-16 03:22 UTC\n"
+"POT-Creation-Date: 2023-02-17 19:20 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1214,18 +1214,28 @@ msgid "Maybe as a ghost, but even then she would no longer have the powers of a 
 msgstr ""
 
 #. [event]: id=nfw_collar_filter
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:677
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:676
 msgid "Disipated"
 msgstr ""
 
+#. [event]: id=nfw_witch_suicide
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:691
+msgid "Suicide"
+msgstr ""
+
+#. [event]: id=nfw_reficul_banish
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:705
+msgid "Banished"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:725
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:757
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:441
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:725
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:757
 msgid "Because this is the last scenario, all units can die, without exception, and will count as such for the ending scene."
 msgstr ""
 
@@ -1340,7 +1350,7 @@ msgid ""
 "* <b><i>Broken arm</i></b> (-30% non-magical damage) > Races with arms, random, cumulative, 2%\n"
 "* <b><i>Broken wing</i></b> (-40% mp) > Races with wings, random, cumulative, 5%\n"
 "* <b><i>Broken leg</i></b> (-30% mp) > Races with legs, random, cumulative, 2%\n"
-"* <b><i>Broken rib</i></b> (-40% impact resistance) > Not mechanical or spirits, random, cumulative, 1% - 4% with impact attack\n"
+"* <b><i>Broken rib</i></b> (-40% impact resistance) > Not mechanical, spirits or magical, random, cumulative, 1% - 4% with impact attack\n"
 "* <b><i>Burn</i></b> (-40% fire resistance) > All units, wounded with fire attack or on a terrain with lava or fire, cumulative, 9% - 20% mechanical\n"
 "* <b><i>Capture</i></b> (increased recall cost based on level) > All units, random, 1% - 10% mechanical - 25% leaders and heroes\n"
 "* <b><i>Frostbite</i></b> (-40% cold resistance) > All units, wounded with ice attack or on a cold terrain, cumulative, 7% - 20% mechanical\n"
