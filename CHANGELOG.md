@@ -173,3 +173,5 @@ v3.3
 - Dimensional Gate and DG II always receives destroyed wound.
 - New event: TLU S12, Malib units on your side always receives death wound. Matriarch3 suicide.
 - New event: TLU S15, Reficul banishes.
+- TLU Rashti divided doesn't receive any wound, both are inmortal.
+- New event: TLU S20, mages vanishes instead of receive a wound.

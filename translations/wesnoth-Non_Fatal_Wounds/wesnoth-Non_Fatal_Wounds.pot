@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-17 19:20 UTC\n"
+"POT-Creation-Date: 2023-02-18 08:35 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1228,14 +1228,19 @@ msgstr ""
 msgid "Banished"
 msgstr ""
 
+#. [event]: id=nfw_mages_no_wound
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:738
+msgid "Vanished"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:757
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:790
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:441
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:757
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:790
 msgid "Because this is the last scenario, all units can die, without exception, and will count as such for the ending scene."
 msgstr ""
 

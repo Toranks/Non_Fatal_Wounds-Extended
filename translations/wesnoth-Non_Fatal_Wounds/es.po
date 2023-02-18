@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-17 19:20 UTC\n"
-"PO-Revision-Date: 2023-02-17 20:23+0100\n"
+"POT-Creation-Date: 2023-02-18 08:35 UTC\n"
+"PO-Revision-Date: 2023-02-18 09:36+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -65,7 +65,7 @@ msgstr ""
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:9
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:442
 msgid "Yes"
-msgstr "Sí"
+msgstr "Sí."
 
 #. [item]
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:13
@@ -1407,14 +1407,19 @@ msgstr "Suicidio"
 msgid "Banished"
 msgstr "Destierro"
 
+#. [event]: id=nfw_mages_no_wound
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:738
+msgid "Vanished"
+msgstr "Desvanece"
+
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:757
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:790
 #: Non_Fatal_Wounds_Extended\utils\nfw_main.cfg:441
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr "<b><i>Heridas No Fatales: </i></b>"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:757
+#: Non_Fatal_Wounds_Extended\utils\campaigns.cfg:790
 msgid ""
 "Because this is the last scenario, all units can die, without exception, and "
 "will count as such for the ending scene."
