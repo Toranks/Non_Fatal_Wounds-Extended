@@ -170,8 +170,9 @@ v3.3
 ============
 - Elementals can't transform to undead.
 - Help menu updated with Era of Magic units.
-- Dimensional Gate and DG II always receives destroyed wound.
+- Dimensional Gate and DG II always receives destroyed wound and doesn't trigger any message.
 - New event: TLU S12, Malib units on your side always receives death wound. Matriarch3 suicide.
 - New event: TLU S15, Reficul banishes.
 - TLU Rashti divided doesn't receive any wound, both are inmortal.
 - New event: TLU S20, mages vanishes instead of receive a wound.
+- Print a message when any option is changed.
