@@ -1,24 +1,21 @@
 author=Toranks
 icon="units/human-loyalists/duelist-die5.png"
-version="3.2"
-tags=difficulty
+version="3.3"
+tags=difficulty,wound,Toranks,elemental,octalot,cookielord,maimed,fatal,undead,ghost,lego,funny
 title="Non-Fatal Wounds Extended"
 type="mod_mp"
 email="toranksmervat@gmail.com"
-#forum_auth=true
-[feedback]
-  topic_id=56108
-[/feedback]
-description=_ "This is an improved version of the Non-Fatal Wounds and Non-Fatal Wounds: Maimed Edition add-ons which acts as a standalone addon with a complete help menu and many new features.
+forum_auth=true
+description="This is an improved version of the Non-Fatal Wounds and Non-Fatal Wounds: Maimed Edition add-ons which acts as a standalone addon with a complete help menu and many new features.
 
 Authors of the previous addons: Octalot and CookieLord (Maimed)
 Original idea from: Armagedonus
 
-* When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound).
+* When a unit reaches 0 hp, it's removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound).
 
 * If you activate wounds, most of them are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other wounds and death depend solely on chance. In like manner, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
 
-* There are more than 50 psychological and physical wounds, plus 2 fears (to the enemy's weapon, and the type of enemy) that can have a virtually infinite variety. Optional wounds are death, undeath, ghosts, elementals and funny wounds. Ghost, undeath, elementals and some funny wounds affect not only the unit's stats, but also its appearance and abilities, and are permanent.
+* There are more than 50 physical and psychological wounds, plus 2 fears (to the enemy's weapon, and the type of enemy) that can have a virtually infinite variety. Optional wounds are death, undeath, ghosts, elementals and funny wounds. Ghost, undeath, elementals and some funny wounds affect not only the unit's stats, but also its appearance and abilities, and are permanent.
 
 * All wounds -except for optional wounds and plagued- can be healed with different methods.
 
@@ -28,12 +25,14 @@ Original idea from: Armagedonus
 
 * All wounds info, probabilities, and healing methods can be consulted at any time in the help menu, with the possibility of disable the addon for certain scenarios.
 
-* This does not protect your heroes or other specific units — you’ll still lose if any character who has to survive is wounded. The enemy isn’t going to miss the chance of finishing the battle by letting a leader escape. Some mainline campaign events have also been adapted to change their behavior depending on the situation.
+* This does not protect your heroes or other specific units, you'll still lose if any character who has to survive is wounded. The enemy isn't going to miss the chance of finishing the battle by letting a leader escape. Some mainline campaign events have also been adapted to change their behavior depending on the situation.
 
 * This addon may affects campaign balance, but makes the RNG much less punishing of mistakes, while still being not too lenient since you will lose the opportunity to continue leveling on that scenario, in addition to an important debuff that will be expensive to cure (if possible). With deaths activated, the campaigns will remain balanced in most.
 
 NOTE: You don't need to install original or Maimed Non-Fatal Wounds. Read CHANGELOG.md file for more details of the changes."
-
+[feedback]
+  topic_id=56108
+[/feedback]
 [translation]
     language="es"
 	title="Heridas No Fatales"
