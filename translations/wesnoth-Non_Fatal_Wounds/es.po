@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-02-18 08:35 UTC\n"
-"PO-Revision-Date: 2023-02-18 09:36+0100\n"
+"PO-Revision-Date: 2023-02-20 03:33+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -65,7 +65,7 @@ msgstr ""
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:9
 #: Non_Fatal_Wounds_Extended\utils\help_menu.cfg:442
 msgid "Yes"
-msgstr "Sí."
+msgstr "Sí"
 
 #. [item]
 #: Non_Fatal_Wounds_Extended\utils\Options.cfg:13
@@ -1749,7 +1749,7 @@ msgstr ""
 "* <b><i>Miedo a la luz/oscuridad</i></b>: 5% de probabilidad de recuperación "
 "al derrotar a un oponente durante el día/la noche.\n"
 "* <b><i>Miedo a la niebla</i></b>: 10% de probabilidad de recuperación al "
-"derrotar a un oponente cuando la niebla esta activa.\n"
+"derrotar a un oponente cuando la niebla está activa.\n"
 "* <b><i>Cobardía</i></b>: 20% de probabilidad de recuperación al derrotar a "
 "un enemigo de al menos 1 nivel superior o en su nivel más alto.\n"
 "* <b><i>Pérdida de memoria</i></b>: es una herida de 1 uso y se cura "

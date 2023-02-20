@@ -176,3 +176,5 @@ v3.3
 - TLU Rashti divided doesn't receive any wound, both are inmortal.
 - New event: TLU S20, mages vanishes instead of receive a wound.
 - Print a message when any option is changed.
+- Fixed bug with non fatal wounds disabled, that also disables messages and float text on some situations.
+- Fixed duplicated message when a player unit is consumed by a dimensional gate.
