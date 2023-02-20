@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-20 11:22 UTC\n"
+"POT-Creation-Date: 2023-02-20 13:03 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgstr ""
 
 #. [choice]: id=nfw_01
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:7
-msgid "Activate or deactivate random wounds. If you deactivate, the units will disappear without any message and will return in the next scenario unchanged (except in special cases). If you choose to allow lose plagued units, they will disappear forever, since they were converted by the enemy."
+msgid "Activate or deactivate random wounds. If you deactivate, the units will return in the next scenario unchanged (except in special cases). If you choose to allow lose plagued units, they will disappear forever, since they were converted by the enemy."
 msgstr ""
 
 #. [item]
