@@ -20,15 +20,13 @@ As the first line of the Git commit messages is shown in Github’s directory li
 In-game description (for the add-ons server)
 --------------------------------------------
 
-* When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound).
+* When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound). This unit go back into the recall list for next mission with the wound received.
 
 * If you activate wounds, most of them are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other wounds and death depend solely on chance. In like manner, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
 
 * There are more than 50 psychological and physical wounds, plus 2 fears (to the enemy's weapon, and the type of enemy) that can have a virtually infinite variety. Optional wounds are death, undeath, ghosts, elementals and funny wounds. Ghost, undeath, elementals and some funny wounds affect not only the unit's stats, but also its appearance and abilities, and are permanent.
 
-* All wounds -except for optional wounds and plagued- can be healed with different methods.
-
-* Surviving wounded units go back into the recall list for next mission with the wound received.
+* Almost all wounds -except for optional wounds and plagued- can be healed with different methods.
 
 * If a unit is killed by a plague attack and isn't unplagueable, is lost even if you don't choose the death wound as an option, so be careful. You can disable this behavior by also disabling basic wounds.
 

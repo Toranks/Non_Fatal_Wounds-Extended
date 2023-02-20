@@ -178,3 +178,5 @@ v3.3
 - Print a message when any option is changed.
 - Fixed bug with non fatal wounds disabled, that also disables messages and float text on some situations.
 - Fixed duplicated message when a player unit is consumed by a dimensional gate.
+v3.3.1
+- 
