@@ -179,4 +179,4 @@ v3.3
 - Fixed bug with non fatal wounds disabled, that also disables messages and float text on some situations.
 - Fixed duplicated message when a player unit is consumed by a dimensional gate.
 v3.3.1
-- 
+- Reduced probability of aquaphobia of almost any aquatic unit.
