@@ -180,3 +180,5 @@ v3.3
 - Fixed duplicated message when a player unit is consumed by a dimensional gate.
 v3.3.1
 - Reduced probability of aquaphobia of almost any aquatic unit.
+- New event: WoF S02, NFW deactivated on this scenario, because has is own system.
+- Avoid to suffer Vanished and Consumed at same time when a Dimensional Gate kills a human on TLU S19.
