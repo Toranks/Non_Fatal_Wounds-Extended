@@ -184,3 +184,5 @@ v3.3.1
 - Avoid to suffer Vanished and Consumed at same time when a Dimensional Gate kills a human on TLU S19.
 - Gate is always destroyed (WoF and other campaigns)
 - Wyrm,Cave Wyrmlet,Cave Wyrm,Red Wyrmlet,Red Wyrm added to flying units without legs or arms.
+v3.3.2
+- New Event: ANO S04, NFW deactivated on this scenario, all units can die.
