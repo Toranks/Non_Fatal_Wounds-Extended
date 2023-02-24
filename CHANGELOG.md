@@ -182,3 +182,5 @@ v3.3.1
 - Reduced probability of aquaphobia of almost any aquatic unit.
 - New event: WoF S02, NFW deactivated on this scenario, because has is own system.
 - Avoid to suffer Vanished and Consumed at same time when a Dimensional Gate kills a human on TLU S19.
+- Gate is always destroyed (WoF and other campaigns)
+- Wyrm,Cave Wyrmlet,Cave Wyrm,Red Wyrmlet,Red Wyrm added to flying units without legs or arms.
