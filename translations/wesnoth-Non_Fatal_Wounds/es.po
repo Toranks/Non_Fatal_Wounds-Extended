@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-02-21 03:05 UTC\n"
-"PO-Revision-Date: 2023-02-26 11:06+0100\n"
+"POT-Creation-Date: 2023-02-26 12:32 UTC\n"
+"PO-Revision-Date: 2023-02-26 15:50+0100\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -21,7 +21,7 @@ msgstr "Heridas No Fatales Extendida"
 #. [modification]: id=nfw_extended
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended/_main.cfg:16
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:459
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:481
 msgid ""
 "With this modification enabled, units are merely wounded instead of killed. "
 "If you choose the possibility of dead or undead, some units still can "
@@ -345,7 +345,7 @@ msgstr "destruida"
 
 #. [event]: id=nfw_alien_filter
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:54
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:639
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:686
 msgid "Destruction"
 msgstr "Destrucción"
 
@@ -1228,14 +1228,16 @@ msgstr "No permitas que reciban heridas"
 #. [message]: speaker=narrator
 #. generic message which could apply to any scenario where the storyline already explains why even the surviving units don't reappear later in the campaign
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:196
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:209
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:213
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:343
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:361
 msgid ""
 "<b><i>Non-Fatal Wounds</i></b> modification is disabled for this scenario."
 msgstr ""
 "<b><i>Heridas No Fatales</i></b> se ha desactivado para este escenario."
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:224
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:232
 msgid ""
 "<b><i>Non-Fatal Wounds</i></b> modification might work unusually with this "
 "campaign. The recall lists change during the campaign, and units that are "
@@ -1247,7 +1249,7 @@ msgstr ""
 "incorrecta."
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:236
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:244
 msgid ""
 "<b><i>Non-Fatal Wounds:</i></b> As long as the Lich-Lord Lenvan is alive, "
 "all your dead units will rise as undead regardless of cause of death. Choose "
@@ -1263,18 +1265,18 @@ msgstr ""
 "con plaga."
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:239
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:247
 msgid "Disable Non-Fatal Wounds until Lord Lenvan dies"
 msgstr "Desactiva Heridas No Fatales hasta que Lord Lenvan muera"
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:252
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:300
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:260
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:308
 msgid "Continues normal Non-Fatal Wounds behavior"
 msgstr "Continúa con el comportamiento normal de Heridas No Fatales"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:262
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:270
 msgid ""
 "<b><i>Non-Fatal Wounds</i></b> modification does not affect the objectives "
 "for this scenario. The unit can survives, but still triggers the same events "
@@ -1285,7 +1287,7 @@ msgstr ""
 "si hubiera muerto."
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:270
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:278
 msgid ""
 "<b><i>Non-Fatal Wounds:</i></b> As long as the Lich-Lord Jevyan is alive, "
 "all your dead units will rise as undead regardless of cause of death."
@@ -1295,7 +1297,7 @@ msgstr ""
 "independientemente de la causa de muerte."
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:287
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:295
 msgid ""
 "<b><i>Non-Fatal Wounds:</i></b> Choose if you want units stranded on the "
 "other side of the bridge to always receive death wound or not. Units still "
@@ -1308,12 +1310,12 @@ msgstr ""
 "puente es explotado. El resto recibirán una herida acorde a la configuración."
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:290
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:298
 msgid "Kill all units stranded on the other side of the bridge"
 msgstr "Matar a todas las unidades abandonadas al otro lado del puente"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:311
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:319
 msgid ""
 "<b><i>Non-Fatal Wounds:</i></b> All units stranded on the other side of the "
 "bridge, and the unit that sacrifices itself to blow the bridge up, will "
@@ -1324,7 +1326,7 @@ msgstr ""
 "una herida de muerte."
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:324
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:332
 msgid ""
 "<b><i>Non-Fatal Wounds:</i></b> All Malib units that join your side will "
 "receive a death wound in battle, as they will not be recoverable."
@@ -1334,28 +1336,28 @@ msgstr ""
 "recuperables."
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:354
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:397
 msgid "<b><i>Non-Fatal Wounds</i></b> works normally again."
 msgstr "<b><i>Heridas No Fatales</i></b> funciona normalmente de nuevo."
 
 #. [then]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:381
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:428
 msgid "Surrender"
 msgstr "Rendición"
 
 #. [else]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:384
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:391
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:431
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:438
 msgid "Escape"
 msgstr "Escape"
 
 #. [event]: id=nfw_execution_filter
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:413
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:460
 msgid "Execution"
 msgstr "Ejecución"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:485
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:532
 msgid ""
 "<b><i>Non-Fatal Wounds:</i></b> in all of mainline Wesnoth, this scenario is "
 "probably the most evil act by the player’s own side. The scenario is called "
@@ -1368,33 +1370,33 @@ msgstr ""
 "ser costoso tanto para los elfos como para estos inocentes saurios."
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:488
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:535
 msgid "Disable Non-Fatal Wounds and let the story proceed as expected"
 msgstr "Desactiva Heridas No Fatales y continúa la historia como es esperado"
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:497
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:544
 msgid "Let all the elves survive"
 msgstr "Permite a los elfos sobrevivir"
 
 #. [message]: speaker=Shynal
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:529
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:576
 msgid "Ow, that was close. I’ll rest until the next battle."
 msgstr "Uff, eso estuvo cerca. Descansaré hasta la siguiente batalla."
 
 #. [message]: speaker=Carcyn
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:538
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:585
 msgid "You could have brought her back anyway, right?"
 msgstr "Podrías haberla traído de todos modos, ¿verdad?"
 
 #. [message]: speaker=Ras-Tabahn
 #. without this mod, she's brought back as a walking corpse
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:550
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:597
 msgid "Only in part. She would never have the powers of a lich."
 msgstr "Sólo en parte. Ella nunca tendría los poderes de un lich."
 
 #. [message]: speaker=Ras-Tabahn
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:556
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:603
 msgid ""
 "Maybe as a ghost, but even then she would no longer have the powers of a "
 "lich."
@@ -1403,33 +1405,33 @@ msgstr ""
 "un lich."
 
 #. [event]: id=nfw_collar_filter
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:676
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:723
 msgid "Disipated"
 msgstr "Disipado"
 
 #. [event]: id=nfw_witch_suicide
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:691
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:738
 msgid "Suicide"
 msgstr "Suicidio"
 
 #. [event]: id=nfw_reficul_banish
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:705
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:752
 msgid "Banished"
 msgstr "Destierro"
 
 #. [event]: id=nfw_mages_no_wound
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:735
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:782
 msgid "Vanished"
 msgstr "Desvanece"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:788
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:459
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:835
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:481
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr "<b><i>Heridas No Fatales: </i></b>"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:788
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:835
 msgid ""
 "Because this is the last scenario, all units can die, without exception, and "
 "will count as such for the ending scene."
@@ -1579,11 +1581,12 @@ msgstr "Cambiar mensajes"
 msgid ""
 "Set messages when receives a wound. Units or narrator will do differents "
 "dialogues depending on the type of wound received, with indications or help "
-"if applicable."
+"if applicable. This message is visible only for the wounded unit owner."
 msgstr ""
-"Establece los mensajes cuando reciben una herida. Las unidades o el narrador "
+"Activa mensajes cuando reciben una herida. Las unidades o el narrador "
 "realizarán diferentes diálogos según el tipo de herida recibida, con "
-"indicaciones o ayuda si procede."
+"indicaciones o ayuda si procede. Este mensaje sólo será visible para el "
+"propietario de la unidad herida."
 
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:177
@@ -1930,10 +1933,10 @@ msgstr ""
 "frío, o en un terreno con agua = 2 HP cuando el atacante o el defensor están "
 "en un terreno con agua, una vez por ataque\n"
 "* <b><i><span color='#00AF00'>Elemental de veneno</span></i></b> +30% "
-"resistencia a penetración +Todos los ataques son de penetración -40% daño "
-"-50% PV > Unidades con penetración o veneno, o heridas con penetración o "
-"veneno = 8 HP cuando el defensor es atacado con veneno, sólo en defensa, una "
-"vez por ataque\n"
+"resistencia a penetración +Todos los ataques son de penetración con veneno "
+"-40% daño -50% PV > Unidades con penetración o veneno, o heridas con "
+"penetración o veneno = 8 HP cuando el defensor es atacado con veneno, sólo "
+"en defensa, una vez por ataque\n"
 "* <b><i><span color='#963296'>Elemental arcano</span></i></b> +30% "
 "resistencia arcana +Todos los ataques son arcanos -30% daño -40% PV > "
 "Unidades con ataque arcano, o heridos con ataque arcano, o en un terreno de "
@@ -2044,129 +2047,129 @@ msgid "Non-Fatal Wounds is disabled for this scenario"
 msgstr "Heridas no fatales está desactivado en este escenario"
 
 #. [then]
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:119
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:124
 msgid "This unit"
 msgstr "Esta unidad"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:138
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:178
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:213
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:144
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:181
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:219
 msgid "Argh, I’m dying!"
 msgstr "¡Argh...! ¡Estoy muriendo!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:139
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:179
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:214
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:145
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:182
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:220
 msgid "female^Argh, I’m dying!"
 msgstr "¡Argh...! ¡Estoy muriendo!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:149
 #: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:156
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:164
 msgid "$unit.name a $nfwe_unit_type.name died."
 msgstr "$unit.name, un $nfwe_unit_type.name, murió."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:150
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:157
 msgid "female^$unit.name a $nfwe_unit_type.name died."
 msgstr "$unit.name, una $nfwe_unit_type.name, murió."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:157
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:165
 msgid "female^$unit.name a $nfwe_unit_type.female.name died."
 msgstr "$unit.name, una $nfwe_unit_type.female.name, murió."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:189
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:196
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:193
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:201
 msgid "$unit.name a $nfwe_unit_type.name was revived as undead."
 msgstr "$unit.name, un $nfwe_unit_type.name, fue revivido como no-muerto."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:190
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:194
 msgid "female^$unit.name a $nfwe_unit_type.name was revived as undead."
 msgstr "$unit.name, una $nfwe_unit_type.name, fue revivida como no-muerta."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:197
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:202
 msgid "female^$unit.name a $nfwe_unit_type.female.name was revived as undead."
 msgstr ""
 "$unit.name, una $nfwe_unit_type.female.name, fue revivida como no-muerta."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:224
 #: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:231
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:239
 msgid "$unit.name a $nfwe_unit_type.name returned as a ghost."
 msgstr "$unit.name, un $nfwe_unit_type.name, regresó como un fantasma."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:225
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:232
 msgid "female^$unit.name a $nfwe_unit_type.name returned as a ghost."
 msgstr "$unit.name, una $nfwe_unit_type.name, regresó como una fantasma."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:232
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:240
 msgid "female^$unit.name a $nfwe_unit_type.female.name returned as a ghost."
 msgstr ""
 "$unit.name, una $nfwe_unit_type.female.name, regresó como una fantasma."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:248
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:285
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:257
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:297
 msgid "Argh!"
 msgstr "¡Argh!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:258
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:265
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:268
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:276
 msgid "$unit.name a $nfwe_unit_type.name was converted by the enemy."
 msgstr "$unit.name, un $nfwe_unit_type.name, fue convertido por el enemigo."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:259
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:269
 msgid "female^$unit.name a $nfwe_unit_type.name was converted by the enemy."
 msgstr "$unit.name, una $nfwe_unit_type.name, fue convertida por el enemigo."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:266
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:277
 msgid ""
 "female^$unit.name a $nfwe_unit_type.female.name was converted by the enemy."
 msgstr ""
 "$unit.name, una $nfwe_unit_type.female.name, fue convertida por el enemigo."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:295
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:302
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:308
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:316
 msgid "$unit.name a $nfwe_unit_type.name was consumed by the enemy."
 msgstr "$unit.name, un $nfwe_unit_type.name, fue consumido por el enemigo."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:296
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:309
 msgid "female^$unit.name a $nfwe_unit_type.name was consumed by the enemy."
 msgstr "$unit.name, una $nfwe_unit_type.name, fue consumida por el enemigo."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:303
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:317
 msgid ""
 "female^$unit.name a $nfwe_unit_type.female.name was consumed by the enemy."
 msgstr ""
 "$unit.name, una $nfwe_unit_type.female.name, fue consumida por el enemigo."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:335
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:350
 msgid "Please rescue me!"
 msgstr "¡Por favor, rescatadme...!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:336
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:351
 msgid "female^Please rescue me!"
 msgstr "¡Por favor, rescatadme...!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:348
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:355
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:364
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:372
 msgid ""
 "$unit.name, a $nfwe_unit_type.name, was captured by the enemy. You will have "
 "to pay a ransom."
@@ -2175,7 +2178,7 @@ msgstr ""
 "que pagar un rescate."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:349
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:365
 msgid ""
 "female^$unit.name, a $nfwe_unit_type.name, was captured by the enemy. You "
 "will have to pay a ransom."
@@ -2184,7 +2187,7 @@ msgstr ""
 "que pagar un rescate."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:356
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:373
 msgid ""
 "female^$unit.name, a $nfwe_unit_type.female.name, was captured by the enemy. "
 "You will have to pay a ransom."
@@ -2193,42 +2196,42 @@ msgstr ""
 "Tendrás que pagar un rescate."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:375
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:393
 msgid "Crash!"
 msgstr "¡Crash!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:393
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:400
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:412
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:420
 msgid "$unit.name a $nfwe_unit_type.name was destroyed."
 msgstr "$unit.name, un $nfwe_unit_type.name, fue destruido."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:394
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:413
 msgid "female^$unit.name a $nfwe_unit_type.name was destroyed."
 msgstr "$unit.name, una $nfwe_unit_type.name, fue destruida."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:401
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:421
 msgid "female^$unit.name a $nfwe_unit_type.female.name was destroyed."
 msgstr "$unit.name, una $nfwe_unit_type.female.name, fue destruida."
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:420
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:441
 msgid "I can't fight anymore, I retreat!"
 msgstr "¡No puedo luchar más, me retiro!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:421
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:442
 msgid "female^I can't fight anymore, I retreat!"
 msgstr "¡No puedo luchar más, me retiro!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:439
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:461
 msgid "Argh, I’m wounded!"
 msgstr "¡Argh...! ¡Estoy herido!"
 
 #. [message]: speaker=$unit.id
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:440
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:462
 msgid "female^Argh, I’m wounded!"
 msgstr "¡Argh...! ¡Estoy herida!"
