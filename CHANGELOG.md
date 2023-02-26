@@ -186,3 +186,4 @@ v3.3.1
 - Wyrm,Cave Wyrmlet,Cave Wyrm,Red Wyrmlet,Red Wyrm added to flying units without legs or arms.
 v3.3.2
 - New Event: ANO S04, NFW deactivated on this scenario, all units can die.
+- (SPOILER) ANO, Gawen excluded from dead dialog.
