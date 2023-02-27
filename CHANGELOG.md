@@ -188,3 +188,4 @@ v3.3.2
 - New Event: ANO S04, NFW deactivated on this scenario, all units can die.
 - (SPOILER) ANO, Gawen excluded from dead dialog.
 - Now the wound messages are only visible to the owner of the wounded unit. Other general messages are visible for all.
+- Event ANO S08 - If the Outlaw leader is hired, doesn't receives a wound.
