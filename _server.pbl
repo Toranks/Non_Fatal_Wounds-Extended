@@ -1,11 +1,11 @@
 author=Toranks
 icon="units/human-loyalists/duelist-die5.png"
-version="3.3.1"
+version="3.3.3"
 tags=difficulty,wound,Toranks,elemental,octalot,cookielord,maimed,fatal,undead,ghost,lego,funny
 title="Non-Fatal Wounds Extended"
 type="mod_mp"
 email="toranksmervat@gmail.com"
-#forum_auth=true
+forum_auth=true
 description="This is an improved version of the Non-Fatal Wounds and Non-Fatal Wounds: Maimed Edition add-ons which acts as a standalone addon with a complete help menu and many new features.
 
 Authors of the previous addons: Octalot and CookieLord (Maimed)

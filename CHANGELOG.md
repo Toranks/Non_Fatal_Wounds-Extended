@@ -191,3 +191,5 @@ v3.3.2
 - Event ANO S08 - If the Outlaw leader is hired, doesn't receives a wound.
 - Changed message when the unit has the same unit name and type name.
 - New icons and portraits on help menu.
+v3.3.3
+- Fixed translations not working.
