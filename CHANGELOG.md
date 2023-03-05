@@ -195,3 +195,5 @@ v3.3.3
 - Fixed translations not working.
 v3.3.4
 - Updated spanish translation.
+v3.3.5
+- Filtered units without advancements or AMLAs to not receive a experience-related wound (amnesia or memory loss).
