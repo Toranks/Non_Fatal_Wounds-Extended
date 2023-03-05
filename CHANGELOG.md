@@ -193,3 +193,5 @@ v3.3.2
 - New icons and portraits on help menu.
 v3.3.3
 - Fixed translations not working.
+v3.3.4
+- Updated spanish translation.

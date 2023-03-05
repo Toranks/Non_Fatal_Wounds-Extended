@@ -1,6 +1,6 @@
 author=Toranks
 icon="units/human-loyalists/duelist-die5.png"
-version="3.3.3"
+version="3.3.4"
 tags=difficulty,wound,Toranks,elemental,octalot,cookielord,maimed,fatal,undead,ghost,lego,funny
 title="Non-Fatal Wounds Extended"
 type="mod_mp"
@@ -17,15 +17,15 @@ Original idea from: Armagedonus
 
 * There are more than 50 psychological and physical wounds, plus 2 fears (to the enemy's weapon, and the type of enemy) that can have a virtually infinite variety. Optional wounds are death, undeath, ghosts, elementals and funny wounds. Ghost, undeath, elementals and some funny wounds affect not only the unit's stats, but also its appearance and abilities, and are permanent.
 
+* If a unit is killed by a plague attack and isn't unplagueable, is lost even if you don't choose the death wound as an option, so be careful. You can disable this behavior by also disabling all basic wounds.
+
 * Almost all wounds -except for optional wounds and plagued- can be healed with different methods.
 
-* If a unit is killed by a plague attack and isn't unplagueable, is lost even if you don't choose the death wound as an option, so be careful. You can disable this behavior by also disabling basic wounds.
+* All wounds info, probabilities, and healing methods can be consulted at any time in the optional help menu, with the possibility of disable the addon for certain scenarios.
 
-* All wounds info, probabilities, and healing methods can be consulted at any time in the help menu, with the possibility of disable the addon for certain scenarios.
+* This does not protect your heroes or other specific units, you'll still lose if any character who has to survive is wounded. The enemy isn't going to miss the chance of finishing the battle by letting a leader escape. All mainline campaigns and some UMC campaigns has been adapted to change their behavior on certain events depending on the situation, some of them optionals.
 
-* This does not protect your heroes or other specific units, you'll still lose if any character who has to survive is wounded. The enemy isn't going to miss the chance of finishing the battle by letting a leader escape. Some mainline campaign events have also been adapted to change their behavior depending on the situation.
-
-* This addon may affects campaign balance, but makes the RNG much less punishing of mistakes, while still being not too lenient since you will lose the opportunity to continue leveling on that scenario, in addition to an important debuff that will be expensive to cure (if possible). With deaths activated, the campaigns will remain balanced in most.
+* This addon may affects campaign balance, but makes the RNG much less punishing of mistakes, while still being not too lenient since you will lose the opportunity to continue leveling on that scenario, in addition to an important debuff that will be expensive to cure (if possible). With deaths activated, the campaigns will remain balanced in most. The severity of the consequences of injuries has been greatly increased compared to the Maimed version.
 
 NOTE: You don't need to install original or Maimed Non-Fatal Wounds. Read CHANGELOG.md file for more details of the changes."
 [feedback]
@@ -34,7 +34,28 @@ NOTE: You don't need to install original or Maimed Non-Fatal Wounds. Read CHANGE
 [translation]
     language="es"
 	title="Heridas No Fatales"
-    description=""
+    description="Versión mejorada de los complementos Heridas No Fatales y Heridas No Fatales: Edición Mutilaciones que actúa como un complemento independiente con un completo menú de ayuda y muchas características nuevas.
+
+Autores de los complementos anteriores: Octalot y CookieLord (Maimed)
+Idea original de: Armagedonus
+
+* Cuando una unidad llega a 0 PV, se retira del escenario actual y recibe una herida en lugar de morir (excepto si recibe una herida de "muerte"). Esta unidad vuelve a la lista de retirada para la próxima misión con la herida recibida.
+
+* Si activas las heridas, la mayoría de ellas se basan en los ataques fatales recibidos, el tipo de terreno en el que se encuentra la víctima y otras condiciones adicionales. Otras heridas y la muerte dependen únicamente del azar. Asimismo, todas las heridas están diseñadas para ser aplicadas a unidades que la puedan sufrir o verse afectadas de alguna forma. Heridas mágicas para unidades mágicas, heridas en brazos, piernas o alas en razas que poseen dichas extremidades, las unidades mecánicas son inmunes al miedo, los fantasmas no pueden convertirse en fantasmas, los muertos vivientes no pueden recibir transformación a muerto viviente pero pueden convertirse en fantasmas , etc.
+
+* Hay más de 50 heridas psicológicas y físicas, más 2 miedos (al arma del enemigo, y al tipo de enemigo) que pueden tener una variedad prácticamente infinita. Las heridas opcionales son la muerte, la no-muerte, fantasmas, elementales y heridas absurdas. Fantasmas, muertos vivientes, elementales y algunas heridas absurdas afectan no sólo las estadísticas de la unidad, sino también a su apariencia y habilidades, y son permanentes.
+
+* Si una unidad muere a causa de un ataque de plaga y puede sufrir plaga, se pierde incluso si no eliges la muerte como opción, así que ten cuidado. Puedes desactivar este comportamiento desactivando también todas las heridas básicas.
+
+* Casi todas las heridas -excepto las opcionales y pérdidas por plaga- se pueden curar con diferentes métodos.
+
+* Toda la información sobre heridas, probabilidades y métodos de curación se puede consultar en cualquier momento en un menú de ayuda opcional, con la posibilidad de desactivar Heridas No Fatales en ciertos escenarios.
+
+* Esto no protege a tus héroes u otras unidades específicas, ya que aún perderás si algún personaje que debería sobrevivir resulta herido. El enemigo no desaprovechará la oportunidad de terminar la batalla dejando escapar a un líder. Todas las campañas principales y algunas campañas UMC también se han adaptado para cambiar su comportamiento en determinados eventos, algunos de ellos opcionales.
+
+* Este complemento puede afectar el equilibrio de la campaña, pero permite que el azar sea menos influyente en los errores, sin llegar a ser demasiado fácil, ya que perderás la oportunidad de seguir ganando experiencia en ese escenario, además de un perjuicio importante que será costoso de curar (si es posible). Activando la posibilidad de muerte, las campañas se mantendrán bastante equilibradas en su mayoría. La gravedad de las consecuencias de ser herido se ha incrementado mucho respecto de la Edición Mutilaciones.
+
+NOTA: No es necesario instalar la versión original de Heridas No Fatales o la Edición Mutilaciones. Lea el archivo CHANGELOG.md para conocer más detalles sobre los cambios."
 [/translation]
 [translation]
     language="de"
