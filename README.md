@@ -30,7 +30,7 @@ In-game description (for the add-ons server)
 
 * If a unit is killed by a plague attack and isn't unplagueable, is lost even if you don't choose the death wound as an option, so be careful. You can disable this behavior by also disabling basic wounds.
 
-* All wounds info, probabilities, and healing methods can be consulted at any time in the help menu, with the possibility of disable the addon for certain scenarios.
+* All wounds info, probabilities, and healing methods can be consulted at any time in the help menu, with the possibility of disable the addon for certain scenarios, or change the available wounds and other options.
 
 * This does not protect your heroes or other specific units — you’ll still lose if any character who has to survive is wounded. The enemy isn’t going to miss the chance of finishing the battle by letting a leader escape. Some mainline campaign events have also been adapted to change their behavior depending on the situation.
 
