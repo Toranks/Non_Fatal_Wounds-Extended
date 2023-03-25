@@ -201,3 +201,4 @@ v3.3.5
 v3.3.6
 - New Event: LOTI Ascension, Enslave wound.
 - Safer unstoring of potentially duplicated units.
+- Safer unstoring of units to not interfere with advances (advance=no)
