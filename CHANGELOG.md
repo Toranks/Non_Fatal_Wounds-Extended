@@ -198,8 +198,10 @@ v3.3.4
 v3.3.5
 - Filtered units without advancements or AMLAs to not receive a experience-related wound (amnesia or memory loss).
 - Fixed icons on healing advancements not working
-v3.3.6
-- New Event: LOTI Ascension, Enslave wound.
+
+v3.4
+============
+- New Events: LOTI C1S11, Enslave wound. LOTI C1S14, Captured Zorox.
 - Safer unstoring of potentially duplicated units.
 - Safer unstoring of units to not interfere with advances (advance=no)
 - Frostbite wound less probable on units with ice attacks, that practically all are resistant to cold.
