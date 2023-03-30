@@ -201,7 +201,7 @@ v3.3.5
 
 v3.4
 ============
-- New Events: LOTI C1S11, Enslave wound. LOTI C1S14, Captured Zorox.
+- New Events: LOTI P1C1S11, Enslave wound. LOTI P1C1S14, Captured Zorox. LOTI P1C2S1, Umbra vanished.
 - Safer unstoring of potentially duplicated units.
 - Safer unstoring of units to not interfere with advances (advance=no)
 - Frostbite wound less probable on units with ice attacks, that practically all are resistant to cold.
