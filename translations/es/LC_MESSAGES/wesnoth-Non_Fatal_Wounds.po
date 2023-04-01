@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-03-31 21:48 UTC\n"
-"PO-Revision-Date: 2023-03-31 23:52+0200\n"
+"POT-Creation-Date: 2023-04-01 05:45 UTC\n"
+"PO-Revision-Date: 2023-04-04 03:52+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -1442,14 +1442,19 @@ msgstr "Esclaviza"
 msgid "Captured"
 msgstr "Captura"
 
+#. [event]: id=nfw_elven_raised
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:943
+msgid "Raised"
+msgstr "Alzamiento"
+
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:950
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:967
 #: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:580
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr "<b><i>Heridas No Fatales: </i></b>"
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:950
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:967
 msgid ""
 "Because this is the last scenario, all units can die, without exception, and "
 "will count as such for the ending scene."
@@ -2091,7 +2096,7 @@ msgid ""
 "deactivate on units that are wounded or have advanced at least once since "
 "the time you changed the option."
 msgstr ""
-"Establece el estado de la Curación de heridas. Si eliges \"sí\", en el "
+"Establece el estado de la Curación de heridas. Si eliges \"Activar\", en el "
 "siguiente avance de unidad podrás elegir entre las posibles curaciones de "
 "esta unidad, en lugar de las potentes mejoras que tiene por defecto. A menos "
 "que lo cambies manualmente con el menú de intercambio AMLA, sólo se activará/"

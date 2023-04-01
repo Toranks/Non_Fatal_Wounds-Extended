@@ -201,7 +201,8 @@ v3.3.5
 
 v3.4
 ============
-- New Events: LOTI P1C1S11, Enslave wound. LOTI P1C1S14, Captured Zorox. LOTI P1C2S1, Umbra vanished.
+- New Events: LOTI P1C1S11, Enslave wound. LOTI P1C1S14, Captured Zorox. LOTI P1C2S1, Umbra vanished. LOTI P2C2S1y2, Elven raised.
+- Compatibility of Wounds healing and AMLA of high level units, with his own menu, only available on LOTI campaign.
 - Safer unstoring of potentially duplicated units.
 - Safer unstoring of units to not interfere with advances (advance=no)
 - Frostbite wound less probable on units with ice attacks, that practically all are resistant to cold.
