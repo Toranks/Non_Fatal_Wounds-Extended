@@ -206,3 +206,4 @@ v3.4
 - Safer unstoring of potentially duplicated units.
 - Safer unstoring of units to not interfere with advances (advance=no)
 - Frostbite wound less probable on units with ice attacks, that practically all are resistant to cold.
+- Elves have less probability, and woses will never get dendrophobia.
