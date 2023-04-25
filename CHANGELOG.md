@@ -208,3 +208,4 @@ v3.4
 - Frostbite wound less probable on units with ice attacks, that practically all are resistant to cold.
 - Elves have less probability, and woses will never get dendrophobia.
 - Reorder events and added extra check to avoid harming and healing at the same time on units that hurts himself (intended or because a bad harm_unit/lua code use)
+- Walking corpse and Soulless don't speak
