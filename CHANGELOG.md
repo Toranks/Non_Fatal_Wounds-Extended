@@ -210,4 +210,4 @@ v3.4
 - Reorder events and added extra check to avoid harming and healing at the same time on units that hurts himself (intended or because a bad harm_unit/lua code use)
 - Walking corpse and Soulless don't speak
 - Increased 5% chance to get necrosis when killed with arcane attacks
-- Help menu icon.
+- Help menu icon and better ordered.
