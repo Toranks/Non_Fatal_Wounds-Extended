@@ -212,3 +212,4 @@ v3.4
 - Increased 5% chance to get necrosis when killed with arcane attacks.
 - Help menu icon and better ordered.
 - Arrow icon for all options without icon, now is more readable.
+- Filtered necromancy ability
