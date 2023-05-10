@@ -207,6 +207,11 @@ v3.4
 - Safer unstoring of units to not interfere with advances (advance=no)
 - Frostbite wound less probable on units with ice attacks, that practically all are resistant to cold.
 - Elves have less probability, and woses will never get dendrophobia.
+- Dwarves, bats and trolls have less probability of claustrophobia.
+- Lizards doesn't get aquaphobia on swamps, but can on normal water.
+- Naga, merman, aquatic undeads, and aquatic animals that can't get out on land, will never get aquaphobia.
+- Quenoth and dunefolk have less probability of erimophobia.
+- Ogres, dwarves and trolls have less probability of acrophobia.
 - Reorder events and added extra check to avoid harming and healing at the same time on units that hurts himself (intended or because a bad harm_unit/lua code use).
 - Walking corpse and Soulless don't speak.
 - Increased 5% chance to get necrosis when killed with arcane attacks.
