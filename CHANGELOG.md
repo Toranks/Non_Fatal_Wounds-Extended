@@ -205,6 +205,7 @@ v3.4
 - Compatibility of Wounds healing and AMLA of high level units, with his own menu, only available on LOTI campaign.
 - Safer unstoring of potentially duplicated units.
 - Safer unstoring of units to not interfere with advances (advance=no)
+- Increased 5% chance to get necrosis when killed with arcane attacks.
 - Frostbite wound less probable on units with ice attacks, that practically all are resistant to cold.
 - Elves have less probability, and woses will never get dendrophobia.
 - Dwarves, bats and trolls have less probability of claustrophobia.
@@ -212,9 +213,9 @@ v3.4
 - Naga, merman, aquatic undeads, and aquatic animals that can't get out on land, will never get aquaphobia.
 - Quenoth and dunefolk have less probability of erimophobia.
 - Ogres, dwarves and trolls have less probability of acrophobia.
-- Reorder events and added extra check to avoid harming and healing at the same time on units that hurts himself (intended or because a bad harm_unit/lua code use).
+- Reorder events and added extra check to avoid wounding and healing at the same time on units that hurts himself (intended or because a bad harm_unit/lua code use).
 - Walking corpse and Soulless don't speak.
-- Increased 5% chance to get necrosis when killed with arcane attacks.
 - Help menu icon and better ordered.
 - Arrow icon for all options without icon, now is more readable.
 - Filtered necromancy ability and infected status
+v3.4.1
