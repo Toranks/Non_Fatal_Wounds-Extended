@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-04-26 21:17 UTC\n"
+"POT-Creation-Date: 2023-05-20 22:52 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,9 +29,9 @@ msgstr ""
 #. [print]
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:6
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:70
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:85
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:100
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:72
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:88
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:104
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:44
 msgid "Activate Wounds"
 msgstr ""
@@ -44,7 +44,7 @@ msgstr ""
 #. [item]
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:9
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:770
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:801
 msgid "Yes"
 msgstr ""
 
@@ -67,14 +67,14 @@ msgstr ""
 #. [choice]: id=nfw_02
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:26
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:277
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:290
 msgid "Adds death as a possibility to the table. Undeath option will bring some of them back as undead or ghost."
 msgstr ""
 
 #. [choice]: id=nfw_02
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:26
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:277
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:290
 msgid "Only applies with Wounds enabled."
 msgstr ""
 
@@ -82,7 +82,7 @@ msgstr ""
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:32
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:14
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:718
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:748
 msgid "Death"
 msgstr ""
 
@@ -96,17 +96,17 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:43
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:372
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:387
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:352
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:725
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:391
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:407
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:369
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:755
 msgid "Elementals"
 msgstr ""
 
 #. [checkbox]: id=nfw_05
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:44
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:352
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:369
 msgid "Add transformation to elemental as a possibility to the table."
 msgstr ""
 
@@ -115,17 +115,17 @@ msgstr ""
 #. [message]: speaker=narrator
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:50
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:466
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:481
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:438
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:732
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:489
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:505
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:459
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:762
 msgid "Funny wounds"
 msgstr ""
 
 #. [checkbox]: id=nfw_03
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:51
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:438
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:459
 msgid "Add funny and silly wounds that are incurable as a possibility to the table."
 msgstr ""
 
@@ -1300,7 +1300,7 @@ msgstr ""
 
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:35
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:800
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:831
 msgid "Exit"
 msgstr ""
 
@@ -1316,29 +1316,29 @@ msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:70
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:85
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:100
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:126
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:141
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:167
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:182
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:72
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:88
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:104
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:132
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:148
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:176
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:192
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:48
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:304
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:319
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:334
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:279
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:372
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:387
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:354
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:466
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:481
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:440
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:521
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:536
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:650
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:668
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:501
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:335
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:351
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:292
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:391
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:407
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:371
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:489
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:505
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:461
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:547
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:563
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:679
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:698
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:525
 msgid "Set to"
 msgstr ""
 
@@ -1349,85 +1349,85 @@ msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:126
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:141
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:132
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:148
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:50
 msgid "Float text"
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:167
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:182
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:176
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:192
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:51
 msgid "Messages"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:55
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:56
 msgid "Change status of Wounds"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:60
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:61
 msgid "Set status of Wounds."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:63
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:119
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:160
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:365
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:459
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:514
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:555
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:65
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:125
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:169
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:384
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:482
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:540
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:584
 msgid "Activate"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:78
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:134
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:175
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:297
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:380
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:474
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:529
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:658
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:81
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:141
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:185
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:312
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:400
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:498
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:556
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:688
 msgid "Deactivate"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:93
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:97
 msgid "Deactivate, but can lost plagued unit"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:112
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:117
 msgid "Change float text"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:116
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:121
 msgid "Set float text with the wound received."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:153
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:161
 msgid "Change messages"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:157
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:165
 msgid "Set messages when receives a wound. Units or narrator will do differents dialogues depending on the type of wound received, with indications or help if applicable. This message is visible only for the wounded unit owner."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:194
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:205
 msgid "List of physical wounds"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:198
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:209
 msgid ""
 "* <b><i>Wound</i> (effect) > Possible destination units, previous conditions, cumulative, percentaje if all conditions are met - with additional conditions</b>\n"
 "\n"
@@ -1450,12 +1450,12 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:223
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:235
 msgid "List of psychological wounds"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:227
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:239
 msgid ""
 "* <b><i>Wound</i> (effect) > Possible destination units, previous conditions, cumulative, percentaje if all conditions are met - with additional conditions</b>\n"
 "\n"
@@ -1467,18 +1467,18 @@ msgid ""
 "* <b><i>Fear of weapon</i></b> (-50% strikes and -30% accuracy against what wounded them) > Not mechanical, any weapon, 3%\n"
 "* <b><i>Fear of enemy</i></b> (-50% strikes and -30% accuracy against the type of unit that wound them) > Not mechanical, any type of enemy, 4%\n"
 "* <b><i>Fear of the dark/light</i></b> (-50% strikes during the time they were wounded) > Not mechanical, wounded on day, night, or underground, mutually exclusive, 1%\n"
-"* <b><i>Fear of terrain</i></b> (increased 1-2 move cost for the terrain they were wounded on) > Not mechanical, wounded on some terrains, cumulative, 4% - 2% agoraphobia - 2% aquaphobia on marine units - 2% dendrophobia on elves and 0% on woses\n"
+"* <b><i>Fear of terrain</i></b> (increased 1-2 move cost for the terrain they were wounded on) > Not mechanical, wounded on some terrains, cumulative, 4% general - 2% agoraphobia - 0% aquaphobia on marine units in any water and lizards in swamps - 2% dendrophobia on elves and 0% on woses - 2% claustrophobia on dwarves, bats and trolls - 2% erimophobia on quenoth an dunefolk - 2% acrophobia on ogres, dwarves and trolls\n"
 "* <b><i>Fear of fog</i></b> (-50% mp when fog is active) > Not mechanical, wounded with fog active, cumulative, 4%\n"
 "* <b><i>Insanity</i></b> (berserk on melee attacks) > Not mechanical, without berserk ability, 1%"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:247
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:260
 msgid "List of healing methods"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:251
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:264
 msgid ""
 "<b>Wounds healing:</b>\n"
 "\n"
@@ -1498,21 +1498,21 @@ msgstr ""
 #. [print]
 #. [option]
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:304
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:319
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:312
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:334
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:277
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:335
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:328
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:351
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:290
 msgid "Activate Death"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:280
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:293
 msgid "(<span color='#00FFFF'>0</span> = Deactivated, <span color='#00FFFF'>1</span> = Death, <span color='#00FFFF'>2</span> = Death + Undeath)"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:282
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:295
 msgid ""
 "<b>Wounds list:</b>\n"
 "* <b><i>Death</i></b>: Definitive death, 33% chance - 20% with Undeath active - 66% kamikaze units\n"
@@ -1522,37 +1522,37 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:290
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:304
 msgid "Change status of Death"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:294
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:308
 msgid "Set status of Death."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:327
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:344
 msgid "Activate Death, Undeath and Ghosts"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:358
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:376
 msgid "Change status of Elementals"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:362
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:380
 msgid "Set status of Elementals."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:399
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:420
 msgid "List of elemental transformations"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:442
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:463
 msgid ""
 "<b>Wounds list:</b>\n"
 "* <b><i>Paper cut</i></b> (-20% to all damage and -30% blade resistance) > All units, 2% chance\n"
@@ -1564,103 +1564,103 @@ msgid ""
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:452
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:474
 msgid "Change status of Funny wounds"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:456
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:478
 msgid "Set status of Funny wounds."
 msgstr ""
 
 #. [message]: speaker=narrator
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:499
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:751
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:523
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:781
 msgid "Wounds healing on Legend of the Invincibles"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:499
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:523
 msgid "You can select here if you want to AMLA to healing wounds instead of the powerful personal upgrades available to almost any high level unit. Regardless of this setting, you will be able to switch between the healing set of AMLAs and the default AMLAs at any time by right-clicking on the unit, if it has the possibility. The default behavior will be maintained (choose between advancements and healings indistinctly), if the unit does not yet have the special LOTI advancements."
 msgstr ""
 
 #. [print]
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:650
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:668
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:502
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:679
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:698
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:526
 msgid "AMLA switch menu"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:507
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:532
 msgid "Change status of Wounds healing"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:511
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:536
 msgid "Set status of Wounds healing. If you choose 'yes', in the next unit advancement you will be able to choose between the possible healings of this unit, instead of the powerful upgrades that it has by default. Unless you manually change it with the AMLA switch menu, it will only activate/deactivate on units that are wounded or have advanced at least once since the time you changed the option."
 msgstr ""
 
 #. [print]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:521
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:536
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:547
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:563
 msgid "Wounds healing"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:548
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:576
 msgid "Change status of AMLA switch menu"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:552
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:580
 msgid "Set status of AMLA switch menu. If you choose 'yes', you will be able to switch at any time between the default LOTI advances or any of the healings. Very useful to choose different options depending on the unit, or when the unit is about to advance and you change your mind."
 msgstr ""
 
 #. [set_menu_item]: id=nfw_loti_amla
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:559
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:588
 msgid "Change AMLA to LOTI"
 msgstr ""
 
 #. [set_menu_item]: id=nfw_healing_amla
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:605
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:634
 msgid "Change AMLA to Healings"
 msgstr ""
 
-#. [set_menu_item]: id=nfw_help
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:690
-msgid "NFW help"
+#. [set_menu_item]: id=anfw_help
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:720
+msgid "NFW menu"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:706
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:736
 msgid "Choose the feature you want help with"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:711
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:741
 msgid "Wounds"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:759
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:789
 msgid "Stop Non-Fatal Wounds for this scenario"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:766
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:796
 msgid "Are you sure? This cannot be undone. Non-Fatal Wounds will be activated again the next scenario."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:774
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:805
 msgid "The non-fatal wound modification is disabled for this scenario."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:788
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:819
 msgid "Non-Fatal Wounds is disabled for this scenario"
 msgstr ""
 

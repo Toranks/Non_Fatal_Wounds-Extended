@@ -201,7 +201,7 @@ v3.3.5
 
 v3.4
 ============
-- New Events: LOTI P1C1S11, Enslave wound. LOTI P1C1S14, Captured Zorox. LOTI P1C2S1, Umbra vanished. LOTI P2C2S1y2, Elven raised.
+- New Events: LOTI P1C1S11, Enslave wound. LOTI P1C1S14, Captured Zorox. LOTI P1C2S1, Umbra vanished. LOTI P1C2S1y2, Elven raised.
 - Compatibility of Wounds healing and AMLA of high level units, with his own menu, only available on LOTI campaign.
 - Safer unstoring of potentially duplicated units.
 - Safer unstoring of units to not interfere with advances (advance=no)
@@ -219,3 +219,4 @@ v3.4
 - Arrow icon for all options without icon, now is more readable.
 - Filtered necromancy ability and infected status
 v3.4.1
+- Added the new percentages of terrain fears to help menu.
