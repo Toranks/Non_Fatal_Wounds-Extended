@@ -224,3 +224,5 @@ v3.4.2
 - Fixed fear of type not working
 v3.4.3
 - Fixed translation
+v3.4.4
+- New Event: LOTI C04S03 Store units on prevamp_store variable
