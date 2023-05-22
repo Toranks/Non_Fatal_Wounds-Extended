@@ -222,3 +222,5 @@ v3.4.1
 - Added the new percentages of terrain fears to help menu.
 v3.4.2
 - Fixed fear of type not working
+v3.4.3
+- Fixed translation
