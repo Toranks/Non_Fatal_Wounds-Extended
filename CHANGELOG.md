@@ -226,3 +226,5 @@ v3.4.3
 - Fixed translation
 v3.4.4
 - New Event: LOTI C04S03 Store units on prevamp_store variable
+- Filtered Doppelgangers
+- New Event: LOTI C04S07 Delly death
