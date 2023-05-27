@@ -197,7 +197,7 @@ v3.3.4
 - Updated spanish translation.
 v3.3.5
 - Filtered units without advancements or AMLAs to not receive a experience-related wound (amnesia or memory loss).
-- Fixed icons on healing advancements not working
+- Fixed icons on healing advancements not working.
 
 v3.4
 ============
@@ -217,14 +217,19 @@ v3.4
 - Walking corpse and Soulless don't speak.
 - Help menu icon and better ordered.
 - Arrow icon for all options without icon, now is more readable.
-- Filtered necromancy ability and infected status
+- Filtered necromancy ability and infected status.
 v3.4.1
 - Added the new percentages of terrain fears to help menu.
 v3.4.2
-- Fixed fear of type not working
+- Fixed fear of type not working.
 v3.4.3
-- Fixed translation
-v3.4.4
-- New Event: LOTI C04S03 Store units on prevamp_store variable
-- Filtered Doppelgangers
-- New Event: LOTI C04S07 Delly death
+- Fixed translation.
+
+v4.0
+============
+- Using a savegame with 3.X.X on mid-campaign may cause some wounds stop working as intended or be duplicated, but may heal as normal.
+- Renamed some wounds id's.
+- New Event: LOTI C04S03 Store units on prevamp_store variable.
+- Filtered Doppelgangers.
+- New Event: LOTI C04S07 Delly death.
+- New Event: LOTI C04S10 Kill mass_produced units with wounds.
