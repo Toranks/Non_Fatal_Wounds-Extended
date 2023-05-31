@@ -233,3 +233,4 @@ v4.0
 - Filtered Doppelgangers.
 - New Event: LOTI C04S07 Delly death.
 - New Event: LOTI C04S10 Kill mass_produced units with wounds.
+- More fear of fog and less fear of type
