@@ -15,7 +15,7 @@ Original idea from: Armagedonus
 
 * If you activate wounds, most of them are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other wounds and death depend solely on chance. In like manner, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
 
-* There are more than 50 psychological and physical wounds, plus 2 fears (to the enemy's weapon, and the type of enemy) that can have a virtually infinite variety. Optional wounds are death, undeath, ghosts, elementals and funny wounds. Ghost, undeath, elementals and some funny wounds affect not only the unit's stats, but also its appearance and abilities, and are permanent.
+* There are more than 50 psychological and physical wounds, plus 3 fears (to the race, weapon, and type of the enemy) that can have a virtually infinite variety. Optional wounds are death, undeath, ghosts, elementals and funny wounds. Ghost, undeath, elementals and some funny wounds affect not only the unit's stats, but also its appearance and abilities, and are permanent.
 
 * If a unit is killed by a plague attack and isn't unplagueable, is lost even if you don't choose the death wound as an option, so be careful. You can disable this behavior by also disabling all basic wounds.
 
@@ -43,7 +43,7 @@ Idea original de: Armagedonus
 
 * Si activas las heridas, la mayoría de ellas se basan en los ataques fatales recibidos, el tipo de terreno en el que se encuentra la víctima y otras condiciones adicionales. Otras heridas y la muerte dependen únicamente del azar. Asimismo, todas las heridas están diseñadas para ser aplicadas a unidades que la puedan sufrir o verse afectadas de alguna forma. Heridas mágicas para unidades mágicas, heridas en brazos, piernas o alas en razas que poseen dichas extremidades, las unidades mecánicas son inmunes al miedo, los fantasmas no pueden convertirse en fantasmas, los muertos vivientes no pueden recibir transformación a muerto viviente pero pueden convertirse en fantasmas , etc.
 
-* Hay más de 50 heridas psicológicas y físicas, más 2 miedos (al arma del enemigo, y al tipo de enemigo) que pueden tener una variedad prácticamente infinita. Las heridas opcionales son la muerte, la no-muerte, fantasmas, elementales y heridas absurdas. Fantasmas, muertos vivientes, elementales y algunas heridas absurdas afectan no sólo las estadísticas de la unidad, sino también a su apariencia y habilidades, y son permanentes.
+* Hay más de 50 heridas psicológicas y físicas, más 3 miedos (a la raza, el tipo, y el arma del enemigo) que pueden tener una variedad prácticamente infinita. Las heridas opcionales son la muerte, la no-muerte, fantasmas, elementales y heridas absurdas. Fantasmas, muertos vivientes, elementales y algunas heridas absurdas afectan no sólo las estadísticas de la unidad, sino también a su apariencia y habilidades, y son permanentes.
 
 * Si una unidad muere a causa de un ataque de plaga y puede sufrir plaga, se pierde incluso si no eliges la muerte como opción, así que ten cuidado. Puedes desactivar este comportamiento desactivando también todas las heridas básicas.
 
