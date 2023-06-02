@@ -229,8 +229,9 @@ v4.0
 ============
 - Using a savegame with 3.X.X on mid-campaign may cause some wounds stop working as intended or be duplicated, but may heal as normal.
 - Renamed some wounds id's.
+- New Event: Filtered Doppelgangers. Will always receive "Disipated" wound.
 - New Event: LOTI C04S03 Store units on prevamp_store variable.
-- Filtered Doppelgangers.
 - New Event: LOTI C04S07 Delly death.
 - New Event: LOTI C04S10 Kill mass_produced units with wounds.
-- More fear of fog and less fear of type
+- More fear of fog and less fear of type, infected and sick.
+- New fear: Fear of race. Orcs, drakes, elves, bats, falcons, dwarves, goblins, gryphons, horses, humans, dunefolks, lizards, mechanical units, mermans, monsters, nagas, ogres, trolls, undead units, wolves, woses, tharis, cyclops, rocs, magical units, salamanders, summoners, demons, akladians and quenoth supported.
