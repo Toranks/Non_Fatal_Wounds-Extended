@@ -235,3 +235,5 @@ v4.0
 - New Event: LOTI C04S10 Kill mass_produced units with wounds.
 - More fear of fog and less fear of type, infected and sick.
 - New fear: Fear of race. Orcs, drakes, elves, bats, falcons, dwarves, goblins, gryphons, horses, humans, dunefolks, lizards, mechanical units, mermans, monsters, nagas, ogres, trolls, undead units, wolves, woses, tharis, cyclops, rocs, magical units, salamanders, summoners, demons, akladians and quenoth supported.
+v4.1
+- Change death logic (at end of victory event instead of next prestart event).
