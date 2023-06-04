@@ -238,3 +238,4 @@ v4.0
 v4.1
 - Change death logic (at end of victory event instead of next prestart event).
 - Fear of type now not granted to units of the same type.
+- Better filter so aquatic units don't get broken leg.
