@@ -246,3 +246,5 @@ v4.1
 - New Event: LOTI C04S12 Kill al wounded mass_produced units on the undead army.
 - Infected, sick and dumb is now randomized by individual units.
 - Avoid duplication of funny wounds.
+v4.1.1
+- Fixed filtered controller on capture.
