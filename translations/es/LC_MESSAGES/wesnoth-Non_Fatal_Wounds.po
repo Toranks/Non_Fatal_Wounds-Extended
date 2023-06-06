@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-06-05 02:12 UTC\n"
-"PO-Revision-Date: 2023-06-05 04:14+0200\n"
+"POT-Creation-Date: 2023-06-06 03:56 UTC\n"
+"PO-Revision-Date: 2023-06-06 05:59+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -350,14 +350,14 @@ msgstr "Consumir"
 #. [trait]: id=nfw_plagued
 #. [display]: id=nfw_infection_display
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:49
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2391
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2393
 msgid "infected"
 msgstr "infectado"
 
 #. [trait]: id=nfw_plagued
 #. [display]: id=nfw_infection_display
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:50
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2392
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2394
 msgid "female^infected"
 msgstr "infectada"
 
@@ -486,17 +486,17 @@ msgid "Burn"
 msgstr "Quemadura"
 
 #. [display]: id=nfw_captured_unit_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:333
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:335
 msgid "captured"
 msgstr "capturado"
 
 #. [display]: id=nfw_captured_unit_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:334
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:336
 msgid "female^captured"
 msgstr "capturada"
 
 #. [display]: id=nfw_captured_unit_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:335
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:337
 msgid ""
 "Captured units have a increased recall cost untill you recall them once "
 "(recall+(10xlevel))."
@@ -505,47 +505,47 @@ msgstr ""
 "por primera vez (reincorporación+(10*nivel))."
 
 #. [event]: id=nfw_RoSothian_filter
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:346
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:348
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:49
 msgid "Capture"
 msgstr "Captura"
 
 #. [display]: id=nfw_concussion_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:360
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:362
 msgid "concussed"
 msgstr "conmocionado"
 
 #. [display]: id=nfw_concussion_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:361
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:363
 msgid "female^concussed"
 msgstr "conmocionada"
 
 #. [display]: id=nfw_concussion_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:362
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:364
 msgid "Magical damage -30%"
 msgstr "Daño mágico -30%"
 
 #. [advancement]: id=NFW_concussion_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:375
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:377
 msgid "Recover from concussion"
 msgstr "Recuperar de conmoción"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:390
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:392
 msgid "Concussion"
 msgstr "Conmoción"
 
 #. [display]: id=nfw_coward_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:404
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:406
 msgid "coward"
 msgstr "cobarde"
 
 #. [display]: id=nfw_coward_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:405
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:407
 msgid "female^coward"
 msgstr "cobarde"
 
 #. [display]: id=nfw_coward_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:406
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:408
 msgid ""
 "Accuracy -20%\n"
 "Redeem yourself by defeating an opponent with at least 1 level higher than "
@@ -555,50 +555,50 @@ msgstr ""
 "Redímete venciendo a un oponente al menos un nivel mayor que tú, o en su "
 "máximo nivel."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:417
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:419
 msgid "Cowardice"
 msgstr "Cobardía"
 
 #. [display]: id=nfw_scared_of_weapon
 #. [display]: id=nfw_scared_of_type
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:431
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:486
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:537
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:587
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:637
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:687
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:737
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:787
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:837
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:887
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:937
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:987
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1037
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1087
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1137
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1187
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1237
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1287
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1337
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1387
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1437
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1487
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1537
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1587
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1637
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1687
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1737
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1787
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1837
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1887
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1937
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1987
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:433
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:488
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:539
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:589
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:639
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:689
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:739
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:789
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:839
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:889
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:939
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:989
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1039
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1089
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1139
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1189
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1239
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1289
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1339
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1389
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1439
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1489
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1539
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1589
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1639
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1689
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1739
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1789
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1839
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1889
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1939
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1989
 msgid "weakness"
 msgstr "debilidad"
 
 #. [display]: id=nfw_scared_of_weapon
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:432
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:434
 msgid ""
 "-50% strikes and -30% accuracy when facing an enemy with "
 "$nfw_scary_weapon_translated|.\n"
@@ -608,12 +608,12 @@ msgstr ""
 "$nfw_scary_weapon_translated|.\n"
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:472
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:474
 msgid "Scared of $nfw_scary_weapon_translated"
 msgstr "Asustado de $nfw_scary_weapon_translated"
 
 #. [display]: id=nfw_scared_of_type
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:487
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:489
 msgid ""
 "-50% strikes and -30% accuracy when facing a $nfw_second_unit_type.name|.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -622,12 +622,12 @@ msgstr ""
 "name|.\n"
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:523
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:525
 msgid "Scared of $nfw_second_unit_type.name"
 msgstr "Miedo a $nfw_second_unit_type.name"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:538
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:540
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the orc race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -636,16 +636,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:570
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:572
 msgid "orc"
 msgstr "orco"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:574
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:576
 msgid "Scared of orc"
 msgstr "Miedo al orco"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:588
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:590
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the drake race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -654,16 +654,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:620
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:622
 msgid "drake"
 msgstr "draco"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:624
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:626
 msgid "Scared of drake"
 msgstr "Miedo al draco"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:638
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:640
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the elf race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -672,16 +672,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:670
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:672
 msgid "elf"
 msgstr "elfo"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:674
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:676
 msgid "Scared of elf"
 msgstr "Miedo al elfo"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:688
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:690
 msgid ""
 "-50% strikes and -30% accuracy when facing any type of bat.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -691,16 +691,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:720
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:722
 msgid "bats"
 msgstr "murciélagos"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:724
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:726
 msgid "Scared of bats"
 msgstr "Miedo a los murciélagos"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:738
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:740
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the dwarf race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -709,16 +709,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:770
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:772
 msgid "dwarf"
 msgstr "enano"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:774
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:776
 msgid "Scared of dwarf"
 msgstr "Miedo al enano"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:788
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:790
 msgid ""
 "-50% strikes and -30% accuracy when facing any type of falcon.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -727,16 +727,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:820
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:822
 msgid "falcons"
 msgstr "halcones"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:824
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:826
 msgid "Scared of falcons"
 msgstr "Miedo a los halcones"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:838
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:840
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the goblin race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -746,16 +746,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:870
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:872
 msgid "goblin"
 msgstr "goblin"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:874
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:876
 msgid "Scared of goblin"
 msgstr "Miedo al goblin"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:888
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:890
 msgid ""
 "-50% strikes and -30% accuracy when facing any type of gryphon.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -764,16 +764,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:920
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:922
 msgid "gryphons"
 msgstr "grifos"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:924
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:926
 msgid "Scared of gryphons"
 msgstr "Miedo a los grifos"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:938
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:940
 msgid ""
 "-50% strikes and -30% accuracy when facing any type of horse.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -783,16 +783,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:970
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:972
 msgid "horses"
 msgstr "caballos"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:974
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:976
 msgid "Scared of horses"
 msgstr "Miedo a los caballos"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:988
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:990
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the human race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -802,16 +802,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1020
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1022
 msgid "human"
 msgstr "humano"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1024
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1026
 msgid "Scared of human"
 msgstr "Miedo al humano"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1038
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1040
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the dunefolk race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -821,16 +821,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1070
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1072
 msgid "dunefolk"
 msgstr "barján"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1074
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1076
 msgid "Scared of dunefolk"
 msgstr "Miedo al barján"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1088
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1090
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the lizard race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -840,16 +840,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1120
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1122
 msgid "lizard"
 msgstr "saurio"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1124
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1126
 msgid "Scared of lizard"
 msgstr "Miedo al saurio"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1138
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1140
 msgid ""
 "-50% strikes and -30% accuracy when facing any mechanical unit.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -859,16 +859,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1170
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1172
 msgid "mechanical"
 msgstr "mecánico"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1174
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1176
 msgid "Scared of mechanical"
 msgstr "Miedo a lo mecánico"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1188
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1190
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the merman race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -878,16 +878,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1220
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1222
 msgid "merman"
 msgstr "sirénido"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1224
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1226
 msgid "Scared of merman"
 msgstr "Miedo al sirénido"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1238
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1240
 msgid ""
 "-50% strikes and -30% accuracy when facing ant type of monster.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -897,16 +897,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1270
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1272
 msgid "monsters"
 msgstr "monstruos"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1274
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1276
 msgid "Scared of monsters"
 msgstr "Miedo a los monstruos"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1288
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1290
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the naga race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -915,16 +915,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1320
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1322
 msgid "naga"
 msgstr "naga"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1324
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1326
 msgid "Scared of naga"
 msgstr "Miedo al naga"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1338
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1340
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the ogre race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -933,16 +933,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1370
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1372
 msgid "ogre"
 msgstr "ogro"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1374
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1376
 msgid "Scared of ogre"
 msgstr "Miedo al ogro"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1388
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1390
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the troll race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -951,16 +951,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1420
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1422
 msgid "troll"
 msgstr "trol"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1424
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1426
 msgid "Scared of troll"
 msgstr "Miedo al trol"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1438
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1440
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the undead race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -970,16 +970,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1470
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1472
 msgid "undead"
 msgstr "no muerto"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1474
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1476
 msgid "Scared of undead"
 msgstr "Miedo al no muerto"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1488
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1490
 msgid ""
 "-50% strikes and -30% accuracy when facing any type of wolf.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -988,16 +988,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1520
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1522
 msgid "wolves"
 msgstr "lobos"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1524
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1526
 msgid "Scared of wolves"
 msgstr "Miedo a los lobos"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1538
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1540
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the wose race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -1006,16 +1006,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1570
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1572
 msgid "wose"
 msgstr "wose"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1574
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1576
 msgid "Scared of wose"
 msgstr "Miedo al wose"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1588
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1590
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the tharis race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -1025,16 +1025,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1620
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1622
 msgid "tharis"
 msgstr "taris"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1624
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1626
 msgid "Scared of tharis"
 msgstr "Miedo al taris"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1638
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1640
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the cyclops race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -1044,16 +1044,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1670
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1672
 msgid "cyclops"
 msgstr "cíclope"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1674
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1676
 msgid "Scared of cyclops"
 msgstr "Miedo al cíclope"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1688
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1690
 msgid ""
 "-50% strikes and -30% accuracy when facing any type of roc.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -1062,16 +1062,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1720
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1722
 msgid "rocs"
 msgstr "rocs"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1724
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1726
 msgid "Scared of rocs"
 msgstr "Miedo a los rocs"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1738
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1740
 msgid ""
 "-50% strikes and -30% accuracy when facing any magical unit.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -1080,16 +1080,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1770
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1772
 msgid "magical"
 msgstr "mágico"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1774
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1776
 msgid "Scared of magical"
 msgstr "Miedo a lo mágico"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1788
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1790
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the salamander race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -1099,16 +1099,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1820
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1822
 msgid "salamander"
 msgstr "salamandra"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1824
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1826
 msgid "Scared of salamander"
 msgstr "Miedo a la salamandra"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1838
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1840
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the summoner race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -1118,16 +1118,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1870
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1872
 msgid "summoner"
 msgstr "invocador"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1874
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1876
 msgid "Scared of summoner"
 msgstr "Miedo al invocador"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1888
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1890
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the demon race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -1137,16 +1137,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1920
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1922
 msgid "demon"
 msgstr "demonio"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1924
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1926
 msgid "Scared of demon"
 msgstr "Miedo al demonio"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1938
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1940
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the akladian race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -1156,16 +1156,16 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1970
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1972
 msgid "akladian"
 msgstr "akladiano"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1974
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1976
 msgid "Scared of akladian"
 msgstr "Miedo al akladiano"
 
 #. [display]: id=nfw_scared_of_race
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1988
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:1990
 msgid ""
 "-50% strikes and -30% accuracy when facing a unit of the quenoth race.\n"
 "Face your fears and defeat them to try to overcome them."
@@ -1175,21 +1175,21 @@ msgstr ""
 "Enfrenta sus miedos y véncelos para tratar de superarlos."
 
 #. [set_variable]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2020
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2022
 msgid "quenoth"
 msgstr "quenoth"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2024
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2026
 msgid "Scared of quenoth"
 msgstr "Miedo al quenoth"
 
 #. [display]: id=nfw_fear_of_water_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2038
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2040
 msgid "aquaphobia"
 msgstr "acuafobia"
 
 #. [display]: id=nfw_fear_of_water_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2039
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2041
 msgid ""
 "Scared of water. Movement points -1 on aquatic terrains, -2 on deep waters.\n"
 "Face your fears to try to overcome them."
@@ -1198,17 +1198,17 @@ msgstr ""
 "profundas.\n"
 "Enfrenta tus miedos para tratar de superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2055
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2057
 msgid "Aquaphobia"
 msgstr "Acuafobia"
 
 #. [display]: id=nfw_fear_of_hight_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2069
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2071
 msgid "acrophobia"
 msgstr "acrofobia"
 
 #. [display]: id=nfw_fear_of_hight_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2070
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2072
 msgid ""
 "Scared of hights. Movement points -1 on hills terrains, -2 on mountains.\n"
 "Face your fears to try to overcome them."
@@ -1217,17 +1217,17 @@ msgstr ""
 "montañas.\n"
 "Enfrenta tus miedos para tratar de superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2084
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2086
 msgid "Acrophobia"
 msgstr "Acrofobia"
 
 #. [display]: id=nfw_fear_of_desert_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2098
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2100
 msgid "erimophobia"
 msgstr "erimofobia"
 
 #. [display]: id=nfw_fear_of_desert_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2099
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2101
 msgid ""
 "Scared of deserts. Movement points -2 on frozen and sand terrains.\n"
 "Face your fears to try to overcome them."
@@ -1236,17 +1236,17 @@ msgstr ""
 "hielo.\n"
 "Enfrenta tus miedos para tratar de superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2113
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2115
 msgid "Erimophobia"
 msgstr "Erimofobia"
 
 #. [display]: id=nfw_fear_of_cave_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2127
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2129
 msgid "claustrophobia"
 msgstr "claustrofobia"
 
 #. [display]: id=nfw_fear_of_cave_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2128
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2130
 msgid ""
 "Scared of tight spaces. Movement points -2 on cave terrains.\n"
 "Face your fears to try to overcome them."
@@ -1255,17 +1255,17 @@ msgstr ""
 "cueva.\n"
 "Enfrenta tus miedos para tratar de superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2141
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2143
 msgid "Claustrophobia"
 msgstr "Claustrofobia"
 
 #. [display]: id=nfw_fear_of_plant_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2155
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2157
 msgid "dendrophobia"
 msgstr "dendrofobia"
 
 #. [display]: id=nfw_fear_of_plant_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2156
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2158
 msgid ""
 "Scared of plants. Movement points -2 on forest and fungus terrains.\n"
 "Face your fears to try to overcome them."
@@ -1274,17 +1274,17 @@ msgstr ""
 "hongos.\n"
 "Enfrenta tus miedos para tratar de superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2170
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2172
 msgid "Dendrophobia"
 msgstr "Dendrofobia"
 
 #. [display]: id=nfw_fear_of_open_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2184
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2186
 msgid "agoraphobia"
 msgstr "agorafobia"
 
 #. [display]: id=nfw_fear_of_open_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2185
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2187
 msgid ""
 "Scared of open spaces. Movement points -2 on flat terrains.\n"
 "Face your fears to try to overcome them."
@@ -1292,17 +1292,17 @@ msgstr ""
 "Miedo a los espacios abiertos. Puntos de movimiento -2 en terrenos llanos.\n"
 "Enfrenta tus miedos para tratar de superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2198
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2200
 msgid "Agoraphobia"
 msgstr "Agorafobia"
 
 #. [attacks]: id=nfw_scared_of_dark
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2211
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2213
 msgid "nyctophobia"
 msgstr "nictofobia"
 
 #. [attacks]: id=nfw_scared_of_dark
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2212
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2214
 msgid ""
 "-50% strikes in the dark.\n"
 "Face your fears to try to overcome them."
@@ -1310,17 +1310,17 @@ msgstr ""
 "Golpes -50% en la oscuridad\n"
 "Enfrenta sus miedos para intentar superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2227
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2229
 msgid "Scared of the dark"
 msgstr "Miedo a la oscuridad"
 
 #. [attacks]: id=nfw_scared_of_light
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2240
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2242
 msgid "photophobia"
 msgstr "fotofobia"
 
 #. [attacks]: id=nfw_scared_of_light
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2241
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2243
 msgid ""
 "-50% strikes in the light.\n"
 "Face your fears to try and overcome them."
@@ -1328,17 +1328,17 @@ msgstr ""
 "Golpes -50% de día.\n"
 "Enfrenta sus miedos para intentar superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2256
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2258
 msgid "Scared of the light"
 msgstr "Miedo a la luz"
 
 #. [display]: id=nfw_fear_of_fog_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2270
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2272
 msgid "nebulaphobia"
 msgstr "nebulafobia"
 
 #. [display]: id=nfw_fear_of_fog_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2271
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2273
 msgid ""
 "Scared of fog. Movement points -50% when fog is enabled.\n"
 "Face your fears to try to overcome them."
@@ -1347,84 +1347,84 @@ msgstr ""
 "activada.\n"
 "Enfrenta tus miedos para tratar de superarlos."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2287
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2289
 msgid "Nebulaphobia"
 msgstr "Nebulafobia"
 
 #. [display]: id=nfw_frostbite_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2301
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2303
 msgid "frostbite"
 msgstr "congelación"
 
 #. [display]: id=nfw_frostbite_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2302
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2304
 msgid "Cold resistance -40%"
 msgstr "Resistencia a frío -40%"
 
 #. [advancement]: id=NFW_frostbite_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2317
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2319
 msgid "Recover from frostbite"
 msgstr "Recuperar de congelación"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2332
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2334
 msgid "Frostbite"
 msgstr "Congelación"
 
 #. [display]: id=nfw_gash_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2346
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2348
 msgid "gash"
 msgstr "tajo"
 
 #. [display]: id=nfw_gash_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2347
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2349
 msgid "Blade resistance -40%"
 msgstr "Resistencia a corte -40%"
 
 #. [advancement]: id=NFW_gash_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2362
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2364
 msgid "Recover from gash"
 msgstr "Recuperar de tajo"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2377
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2379
 msgid "Gash"
 msgstr "Tajo"
 
 #. [display]: id=nfw_infection_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2393
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2395
 msgid "10% chance of being poisoned every turn."
 msgstr "Posibilidad del 10% de ser envenenado cada turno."
 
 #. [advancement]: id=NFW_infectiont_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2401
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2403
 msgid "Recover from infection"
 msgstr "Recuperar de infección"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2416
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2418
 msgid "Infection"
 msgstr "Infección"
 
 #. [display]: id=nfw_insanity_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2430
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2432
 msgid "insane"
 msgstr "loco"
 
 #. [display]: id=nfw_insanity_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2431
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2433
 msgid "female^insane"
 msgstr "loca"
 
 #. [display]: id=nfw_insanity_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2432
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2434
 msgid "Melee attacks gain berserk."
 msgstr "Ataques melé adquieren frenesí."
 
 #. [berserk]: id=nfwme_berserk
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2443
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2445
 msgid "berserk"
 msgstr "frenesí"
 
 #. [berserk]: id=nfwme_berserk
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2444
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2446
 msgid ""
 "Whether used offensively or defensively, this attack presses the engagement "
 "until one of the combatants is slain, or 30 rounds of attacks have occurred."
@@ -1434,143 +1434,143 @@ msgstr ""
 "ataques."
 
 #. [advancement]: id=NFW_insane_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2454
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2456
 msgid "Recover from insanity"
 msgstr "Recuperar de locura"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2469
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2471
 msgid "Insanity"
 msgstr "Locura"
 
 #. [display]: id=nfw_maimed_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2483
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2485
 msgid "maimed"
 msgstr "lisiado"
 
 #. [display]: id=nfw_maimed_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2484
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2486
 msgid "female^maimed"
 msgstr "lisiada"
 
 #. [display]: id=nfw_maimed_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2485
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2487
 msgid "-30% HP"
 msgstr "-30% PV"
 
 #. [advancement]: id=NFW_maimed_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2497
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2499
 msgid "Recover from mutilation"
 msgstr "Recuperar de mutilación"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2521
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2523
 msgid "Mutilation"
 msgstr "Mutilación"
 
 #. [display]: id=nfw_necrosis_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2535
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2537
 msgid "necrotic"
 msgstr "necrótico"
 
 #. [display]: id=nfw_necrosis_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2536
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2538
 msgid "female^necrotic"
 msgstr "necrótica"
 
 #. [display]: id=nfw_necrosis_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2537
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2539
 msgid "Arcane resistance -40%"
 msgstr "Resistencia a Arcano -40%"
 
 #. [advancement]: id=NFW_necrosis_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2552
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2554
 msgid "Recover from necrosis"
 msgstr "Recuperar de necrosis"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2567
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2569
 msgid "Necrosis"
 msgstr "Necrosis"
 
 #. [display]: id=nfw_necrosis_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2581
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2583
 msgid "rotten"
 msgstr "podrido"
 
 #. [display]: id=nfw_necrosis_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2582
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2584
 msgid "female^rotten"
 msgstr "podrida"
 
 #. [display]: id=nfw_necrosis_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2583
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2585
 msgid "Arcane and impact resistance -20%"
 msgstr "Resistencia a impacto y arcano -20%"
 
 #. [advancement]: id=NFW_necrosis_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2599
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2601
 msgid "Recover from rot"
 msgstr "Recuperado de podredumbre"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2614
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2616
 msgid "Rot"
 msgstr "Pudre"
 
 #. [display]: id=nfw_amnesia_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2628
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2630
 msgid "amnesia"
 msgstr "amnesia"
 
 #. [display]: id=nfw_amnesia_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2629
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2631
 msgid "Every round you lose 2 exp."
 msgstr "Cada turno perderá 2 Exp."
 
 #. [advancement]: id=NFW_amnesia_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2637
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2639
 msgid "Recover from amnesia"
 msgstr "Recuperar de amnesia"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2652
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2654
 msgid "Amnesia"
 msgstr "Amnesia"
 
 #. [display]: id=nfw_sick_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2666
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2668
 msgid "sick"
 msgstr "enfermo"
 
 #. [display]: id=nfw_sick_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2667
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2669
 msgid "female^sick"
 msgstr "enferma"
 
 #. [display]: id=nfw_sick_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2668
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2670
 msgid "20% chance of being slowed every turn."
 msgstr "Posibilidad del 20% de ser ralentizado cada turno."
 
 #. [advancement]: id=NFW_sick_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2676
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2678
 msgid "Recover from sickness"
 msgstr "Recuperar de enfermedad"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2691
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2693
 msgid "Sickness"
 msgstr "Enfermedad"
 
 #. [display]: id=nfw_wild_magic_display
 #. [chance_to_hit]: id=magical
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2705
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2718
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2707
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2720
 msgid "wild magic"
 msgstr "magia salvaje"
 
 #. [display]: id=nfw_wild_magic_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2706
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2708
 msgid "Magical attacks have a 40% chance to hit."
 msgstr "Ataques mágicos tienen un 40% de posibilidades de acertar."
 
 #. [chance_to_hit]: id=magical
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2719
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2721
 msgid ""
 "This attack always has a 40% chance to hit regardless of the defensive "
 "ability of the unit being attacked."
@@ -1579,45 +1579,45 @@ msgstr ""
 "independientemente de la capacidad defensiva de la unidad atacada."
 
 #. [advancement]: id=NFW_wild_magic_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2729
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2731
 msgid "Recover from wild magic"
 msgstr "Recuperar de magia salvaje"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2744
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2746
 msgid "Wild Magic"
 msgstr "Magia salvaje"
 
 #. [display]: id=nfw_damaged_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2758
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2760
 msgid "damaged"
 msgstr "averiado"
 
 #. [display]: id=nfw_damaged_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2759
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2761
 msgid "female^damaged"
 msgstr "averiada"
 
 #. [display]: id=nfw_damaged_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2760
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2762
 msgid "Attack damage, movement, accuracy and HP -10%"
 msgstr "Daño, movimiento, precisión y PV -10%"
 
 #. [advancement]: id=NFW_damaged_Healing
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2784
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2786
 msgid "Repair"
 msgstr "Reparar"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2805
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2807
 msgid "Damage"
 msgstr "Daño"
 
 #. [display]: id=nfw_paper_cut_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2820
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2822
 msgid "paper cut"
 msgstr "corte de papel"
 
 #. [display]: id=nfw_paper_cut_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2821
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2823
 msgid ""
 "Due to the intense pain from your cut you cant concentrait on the fight.\n"
 "Damage -20% and blade resistance -50%"
@@ -1625,17 +1625,17 @@ msgstr ""
 "Debido al intenso dolor del corte, no te puedes concentrar en la lucha.\n"
 "Daño -20% y resistencia a filo -50%"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2839
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2841
 msgid "Paper Cut"
 msgstr "Corte de papel"
 
 #. [display]: id=nfw_lego_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2852
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2854
 msgid "lego"
 msgstr "LEGO"
 
 #. [display]: id=nfw_lego_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2853
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2855
 msgid ""
 "Due to the intense pain of stepping on LEGOs you cant walk properly.\n"
 "Movement -20% and accuracy -15%"
@@ -1643,17 +1643,17 @@ msgstr ""
 "Debido al intenso dolor de pisar LEGOs, ya no puedes andar apropiadamente.\n"
 "Movimiento -20% y precisión -15%"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2868
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2870
 msgid "Stepped on Lego"
 msgstr "Pisó LEGOs"
 
 #. [display]: id=nfw_dumb_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2881
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2883
 msgid "dumb"
 msgstr "tonto"
 
 #. [display]: id=nfw_dumb_display
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2882
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2884
 msgid ""
 "Turned so stupid from the last stone on his head, that he no longer knows "
 "when to attack.\n"
@@ -1663,22 +1663,22 @@ msgstr ""
 "atacar.\n"
 "20% de posibilidad de perder todos los ataques cada turno."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2889
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2891
 msgid "Idiotize"
 msgstr "Idiotiza"
 
 #. [leadership]: id=nfw_jinx
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2902
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2904
 msgid "jinx"
 msgstr "gafe"
 
 #. [leadership]: id=nfw_jinx
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2903
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2905
 msgid "female^jinx"
 msgstr "gafe"
 
 #. [leadership]: id=nfw_jinx
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2904
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2906
 msgid ""
 "He brings such bad luck around him, that all allied adjacent units will have "
 "their chance to hit halved."
@@ -1686,22 +1686,22 @@ msgstr ""
 "Trae tanta mala suerte a su alrededor, que todas las unidades aliadas "
 "adyacentes tendrán su probabilidad de golpear reducida a la mitad."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2915
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2917
 msgid "Jinx"
 msgstr "Gafe"
 
 #. [trait]: id=nfw_elemental_devil
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2926
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2928
 msgid "devil"
 msgstr "diablo"
 
 #. [trait]: id=nfw_elemental_devil
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2927
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2929
 msgid "female^devil"
 msgstr "diabla"
 
 #. [trait]: id=nfw_elemental_devil
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2928
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2930
 msgid ""
 "He has misbehaved and has been punished to a terrible fate. Immune to drain, "
 "poison, and plague."
@@ -1709,22 +1709,22 @@ msgstr ""
 "Se ha portado mal y ha sido castigado con un terrible destino. Inmune a "
 "drenar, veneno y plaga."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2975
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2977
 msgid "Go to Hell"
 msgstr "Va al Infierno"
 
 #. [trait]: id=nfw_elemental_angel
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2986
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2988
 msgid "angel"
 msgstr "ángel"
 
 #. [trait]: id=nfw_elemental_angel
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2987
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2989
 msgid "female^angel"
 msgstr "ángel"
 
 #. [trait]: id=nfw_elemental_angel
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2988
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:2990
 msgid ""
 "He behaved well and was returned to a divine mission. Immune to drain, "
 "poison, and plague."
@@ -1732,72 +1732,72 @@ msgstr ""
 "Se ha portado bien y ha regresado en una misión divina. Inmune a drenar, "
 "veneno y plaga."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3037
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3039
 msgid "Go to Heaven"
 msgstr "Va al cielo"
 
 #. [trait]: id=ghost_trait
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3052
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3054
 msgid "ghost"
 msgstr "fantasma"
 
 #. [trait]: id=ghost_trait
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3053
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3055
 msgid "female^ghost"
 msgstr "fantasma"
 
 #. [effect]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3128
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3130
 msgid "spectral $unit.attack[0].description"
 msgstr "$unit.attack[0].description espectral"
 
 #. [effect]
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3154
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3156
 msgid "spectral $unit.attack[$($unit.attack.length - 1)].description"
 msgstr "$unit.attack[$($unit.attack.length - 1)].description espectral"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3192
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3194
 msgid "Ghost"
 msgstr "Fantasma"
 
 #. [chance_to_hit]: id=marksman
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3290
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3292
 msgid "poor marksmanship"
 msgstr "mala puntería"
 
 #. [chance_to_hit]: id=marksman
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3291
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3293
 msgid ""
 "When used offensively, this attack always has at least a 30% chance to hit."
 msgstr ""
 "Cuando se usa ofensivamente, este ataque siempre tiene al menos un 30% de "
 "posibilidades de acertar."
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3397
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3399
 msgid "Zombie"
 msgstr "Zombie"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3464
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3466
 msgid "Fire elemental"
 msgstr "Elemental de fuego"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3538
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3540
 msgid "Water elemental"
 msgstr "Elemental de agua"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3612
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3614
 msgid "Poison elemental"
 msgstr "Elemental de veneno"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3678
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3680
 msgid "Arcane elemental"
 msgstr "Elemental arcano"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3748
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3750
 msgid "Earth elemental"
 msgstr "Elemental de tierra"
 
-#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3820
+#: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:3822
 msgid "Air elemental"
 msgstr "Elemental de aire"
 
@@ -2631,9 +2631,9 @@ msgstr "Lista de transformaciones elementales"
 msgid ""
 "<b>Wounds list:</b>\n"
 "* <b><i>Paper cut</i></b> (-20% to all damage and -30% blade resistance) > "
-"All units, 2% chance\n"
+"All units, 2% chance, cumulative\n"
 "* <b><i>Stepped on Lego</i></b> (-20% mp and -15% accuracy) > All units, 2% "
-"chance\n"
+"chance, cumulative\n"
 "* <b><i>Idiotize</i></b> (20% probability of lost all his attacks every "
 "turn, will be displayed with a colored brown status) > All units, 2% chance "
 "- 25% with sling attack\n"
@@ -2648,9 +2648,9 @@ msgid ""
 msgstr ""
 "<b>Lista de heridas:</b>\n"
 "* <b><i>Corte de papel</i></b> (-20 % todos los daños y -30 % resistencia al "
-"filo) > Todas las unidades - 2% probabilidad\n"
+"filo) > Todas las unidades - 2% probabilidad, acumulativo\n"
 "* <b><i>Pisó LEGO</i></b> (-20% movimiento y -15% precisión) > Todas las "
-"unidades - 2% probabilidad\n"
+"unidades - 2% probabilidad, acumulativo\n"
 "* <b><i>Idiotiza</i></b> (20 % probabilidad de perder todos sus ataques cada "
 "turno, se mostrará el estado con un tinte marrón) > Todas las unidades - 2% "
 "probabilidad - 25% con ataque de honda\n"
