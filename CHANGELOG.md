@@ -244,3 +244,5 @@ v4.1
 - Capture can be granted to AI units again, only on 1.17.16 or higher.
 - Portrait on healing methods on help menu.
 - New Event: LOTI C04S12 Kill al wounded mass_produced units on the undead army.
+- Infected, sick and dumb is now randomized by individual units.
+- Avoid duplication of funny wounds.
