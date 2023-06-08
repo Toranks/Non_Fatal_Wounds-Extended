@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-06-06 03:56 UTC\n"
+"POT-Creation-Date: 2023-06-08 23:16 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,10 +80,12 @@ msgstr ""
 
 #. [item]
 #. [event]: id=nfw_delly_killed
+#. [else]
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:32
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:14
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:970
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:983
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1105
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:750
 msgid "Death"
 msgstr ""
@@ -336,7 +338,7 @@ msgstr ""
 
 #. [event]: id=nfw_alien_filter
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:67
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:707
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:720
 msgid "Destruction"
 msgstr ""
 
@@ -465,7 +467,7 @@ msgstr ""
 
 #. [event]: id=nfw_RoSothian_filter
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:348
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:49
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:54
 msgid "Capture"
 msgstr ""
 
@@ -1617,196 +1619,222 @@ msgid "Air elemental"
 msgstr ""
 
 #. [event]: id=nfw_malifor_filter
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:35
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:40
 msgid "Dissolution"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:155
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:160
 msgid "<b><i>Non-Fatal Wounds:</i></b> Sister Thera and Father Morvin will revive each other indefinitely every time they lose all of their health. Choose if you want each time this happens to receive a wound like any other unit or not. The effects will be applied immediately, and they cannot receive capture, death, elemental, ghost, or undeath wounds."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:158
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:164
 msgid "Allows them to get wounds"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:165
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:172
 msgid "Don't let them get wounds"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. generic message which could apply to any scenario where the storyline already explains why even the surviving units don't reappear later in the campaign
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:198
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:215
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:345
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:363
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:381
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:205
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:222
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:356
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:374
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:392
 msgid "<b><i>Non-Fatal Wounds</i></b> modification is disabled for this scenario."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:234
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:241
 msgid "<b><i>Non-Fatal Wounds</i></b> modification might work unusually with this campaign. The recall lists change during the campaign, and units that are non-fatally wounded may reappear on the wrong recall list."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:246
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:253
 msgid "<b><i>Non-Fatal Wounds:</i></b> As long as the Lich-Lord Lenvan is alive, all your dead units will rise as undead regardless of cause of death. Choose if you want to lose them all forever or you prefer to let chance decide. You can still irretrievably lose your units forever if you are attacked by a unit with plague."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:249
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:257
 msgid "Disable Non-Fatal Wounds until Lord Lenvan dies"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:262
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:310
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:271
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:321
 msgid "Continues normal Non-Fatal Wounds behavior"
 msgstr ""
 
 #. [message]: speaker=narrator
 #. For this scenario, the objective is to avoid deaths for as long as possible, the scenario ends when any unit perishes.
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:272
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:281
 msgid "<b><i>Non-Fatal Wounds</i></b> modification does not affect the objectives for this scenario. The unit can survives, but still triggers the same events as if it died."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:280
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:289
 msgid "<b><i>Non-Fatal Wounds:</i></b> As long as the Lich-Lord Jevyan is alive, all your dead units will rise as undead regardless of cause of death."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:297
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:306
 msgid "<b><i>Non-Fatal Wounds:</i></b> Choose if you want units stranded on the other side of the bridge to always receive death wound or not. Units still on the recall list will die if the bridge is blown up. The rest will receive a wound according to the settings."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:300
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:310
 msgid "Kill all units stranded on the other side of the bridge"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:321
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:332
 msgid "<b><i>Non-Fatal Wounds:</i></b> All units stranded on the other side of the bridge, and the unit that sacrifices itself to blow the bridge up, will receive a death wound."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:334
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:345
 msgid "<b><i>Non-Fatal Wounds:</i></b> All Malib units that join your side will receive a death wound in battle, as they will not be recoverable."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:417
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:428
 msgid "<b><i>Non-Fatal Wounds</i></b> works normally again."
 msgstr ""
 
 #. [then]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:448
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:459
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1102
 msgid "Surrender"
 msgstr ""
 
 #. [else]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:451
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:458
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:462
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:469
 msgid "Escape"
 msgstr ""
 
 #. [event]: id=nfw_execution_filter
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:480
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:491
 msgid "Execution"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:552
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:563
 msgid "<b><i>Non-Fatal Wounds:</i></b> in all of mainline Wesnoth, this scenario is probably the most evil act by the player’s own side. The scenario is called Costly Revenge, and for the story it’s meant to be costly to the elves as well as these innocent saurians."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:555
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:567
 msgid "Disable Non-Fatal Wounds and let the story proceed as expected"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:564
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:577
 msgid "Let all the elves survive"
 msgstr ""
 
 #. [message]: speaker=Shynal
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:596
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:609
 msgid "Ow, that was close. I’ll rest until the next battle."
 msgstr ""
 
 #. [message]: speaker=Carcyn
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:605
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:618
 msgid "You could have brought her back anyway, right?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
 #. without this mod, she's brought back as a walking corpse
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:617
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:630
 msgid "Only in part. She would never have the powers of a lich."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:623
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:636
 msgid "Maybe as a ghost, but even then she would no longer have the powers of a lich."
 msgstr ""
 
 #. [event]: id=nfw_collar_filter
 #. [event]: id=nfwm_doppelganger
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:744
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:956
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:757
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:969
 msgid "Disipated"
 msgstr ""
 
 #. [event]: id=nfw_witch_suicide
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:759
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:772
 msgid "Suicide"
 msgstr ""
 
 #. [event]: id=nfw_reficul_banish
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:773
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:786
 msgid "Banished"
 msgstr ""
 
 #. [event]: id=nfw_mages_no_wound
 #. [event]: id=nfw_umbra_vanished
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:803
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:928
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:816
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:941
 msgid "Vanished"
 msgstr ""
 
 #. [event]: id=nfw_robroe_hired
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:849
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:862
 msgid "Hire"
 msgstr ""
 
 #. [event]: id=nfw_ascension_deactivated
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:898
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:911
 msgid "Enslaved"
 msgstr ""
 
 #. [event]: id=nfw_zorox_captured
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:914
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:927
 msgid "Captured"
 msgstr ""
 
 #. [event]: id=nfw_elven_raised
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:945
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:958
 msgid "Raised"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1095
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1065
+msgid "<b><i>Non-Fatal Wounds:</i></b> All level 1 wounded loyal units in the undead army have been eliminated. Turned into ghost, elemental, angel, and devil are an exception."
+msgstr ""
+
+#. [event]: id=nfw_akula_teleport
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1122
+msgid "Teleported"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1136
+msgid "<b><i>Non-Fatal Wounds:</i></b> Units from previous chapters are stored in Valhalla, in the order they were created and incorporated. When using Soulgate spell, they will be summoned in this same order, which may not be satisfying. You can reorder them so that they are first level 5 or higher, then level 4, then unique level 2 or 3 LOTI units at their highest level (such as the Monstrosity), then Doppelgangers, and finally the rest of the units in order of highest level to minor. In addition, all units that had any wounds will disappear forever, except ghosts, undead, elementals, devils and angels."
+msgstr ""
+
+#. [option]
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1140
+msgid "Reorder units on Valhalla"
+msgstr ""
+
+#. [option]
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1276
+msgid "Do not make changes to Valhalla"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1302
 #: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:633
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1095
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1302
 msgid "Because this is the last scenario, all units can die, without exception, and will count as such for the ending scene."
 msgstr ""
 
