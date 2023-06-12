@@ -256,3 +256,4 @@ v4.2
 - New Event: LOTI C05S03 Pirate death/surrender.
 - New Event: LOTI C05S04 Akula teleport.
 - New Event: LOTI C05S06 Reorder Valhalla.
+- New Event: LOTI Beelzebub escape.
