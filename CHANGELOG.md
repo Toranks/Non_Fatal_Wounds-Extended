@@ -257,3 +257,4 @@ v4.2
 - New Event: LOTI C05S04 Akula teleport.
 - New Event: LOTI C05S06 Reorder Valhalla.
 - New Event: LOTI Beelzebub escape.
+- Fixes units without advancements who receives a wound with advancement, to prevent inmediate advances if the experience is superior than the max experience. In the rare case that the unit has previous advancements and excess of experience at the same time, then it automatically receives the memory lost wound.
