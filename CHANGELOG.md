@@ -241,13 +241,13 @@ v4.1
 - Change death logic (at end of victory event instead of next prestart event).
 - Fear of type now not granted to units of the same type.
 - Better filter so aquatic units don't get broken leg.
-- Recapture captured units that are recalled via events, except real leaders, and only for humans. All AI units recalled via events and leaders will lose their captured status for free.
+- Recapture captured units that are recalled via events, except real leaders, and only for human players. All AI units recalled via events and leaders will lose their captured status for free.
 - Increased capture probability on leaders and heroes.
 - Capture can be granted to AI units again, only on 1.17.16 or higher.
 - Portrait on healing methods on help menu.
 - New Event: LOTI C04S12 Kill al wounded mass_produced units on the undead army.
-- Infected, sick and dumb is now randomized by individual units.
-- Avoid duplication of funny wounds.
+- Infected, sick and dumb effects are now randomized by individual units.
+- Avoid duplication of some funny wounds.
 v4.1.1
 - Fixed filtered controller on capture.
 
