@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-06-25 05:14 UTC\n"
+"POT-Creation-Date: 2023-06-25 15:03 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,11 +81,13 @@ msgstr ""
 #. [item]
 #. [event]: id=nfw_delly_killed
 #. [else]
+#. [print]
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/Options.cfg:32
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:14
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:983
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1105
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:972
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1094
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:338
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:751
 msgid "Death"
 msgstr ""
@@ -1707,7 +1709,7 @@ msgstr ""
 
 #. [then]
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:459
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1102
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1091
 msgid "Surrender"
 msgstr ""
 
@@ -1715,7 +1717,7 @@ msgstr ""
 #. [event]: id=nfw_beelzebub
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:462
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:469
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1289
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1308
 msgid "Escape"
 msgstr ""
 
@@ -1763,7 +1765,7 @@ msgstr ""
 #. [event]: id=nfw_collar_filter
 #. [event]: id=nfwm_doppelganger
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:757
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:969
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1297
 msgid "Disipated"
 msgstr ""
 
@@ -1805,38 +1807,40 @@ msgid "Raised"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1065
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1054
 msgid "<b><i>Non-Fatal Wounds:</i></b> All level 1 wounded loyal units in the undead army have been eliminated. Turned into ghost, elemental, angel, and devil are an exception."
 msgstr ""
 
 #. [event]: id=nfw_akula_teleport
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1122
+#. [event]: id=nfw_efraim_lethalia_teleport
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1111
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1283
 msgid "Teleported"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1136
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1125
 msgid "<b><i>Non-Fatal Wounds:</i></b> Units from previous chapters are stored in Valhalla, in the order they were created and incorporated. When using Soulgate spell, they will be summoned in this same order, which may not be satisfying. You can reorder them so that they are first level 5 or higher, then level 4, then unique level 2 or 3 LOTI units at their highest level (such as the Monstrosity), then Doppelgangers, and finally the rest of the units in order of highest level to minor. In addition, all units that had any wounds will disappear forever, except ghosts, undead, elementals, devils and angels."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1140
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1129
 msgid "Reorder units on Valhalla"
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1276
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1265
 msgid "Do not make changes to Valhalla"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1314
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1333
 #: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:633
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1314
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1333
 msgid "Because this is the last scenario, all units can die, without exception, and will count as such for the ending scene."
 msgstr ""
 
@@ -1945,6 +1949,17 @@ msgstr ""
 msgid "Activate"
 msgstr ""
 
+#. [print]
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:72
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:132
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:176
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:394
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:492
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:550
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:682
+msgid ": Yes"
+msgstr ""
+
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:81
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:141
@@ -1957,9 +1972,26 @@ msgstr ""
 msgid "Deactivate"
 msgstr ""
 
+#. [print]
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:88
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:148
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:192
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:322
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:410
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:508
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:566
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:701
+msgid ": No"
+msgstr ""
+
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:97
 msgid "Deactivate, but can lost plagued unit"
+msgstr ""
+
+#. [print]
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:104
+msgid "No with plague losses"
 msgstr ""
 
 #. [option]
@@ -1970,26 +2002,6 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:121
 msgid "Set float text with the wound received."
-msgstr ""
-
-#. [print]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:132
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:176
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:394
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:492
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:550
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:682
-msgid ": yes"
-msgstr ""
-
-#. [print]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:148
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:192
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:410
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:508
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:566
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:701
-msgid ": no"
 msgstr ""
 
 #. [option]
@@ -2118,6 +2130,11 @@ msgstr ""
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:347
 msgid "Activate Death, Undeath and Ghosts"
+msgstr ""
+
+#. [print]
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:354
+msgid "Death, Undeath and Ghosts"
 msgstr ""
 
 #. [option]
