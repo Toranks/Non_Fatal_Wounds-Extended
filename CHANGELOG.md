@@ -260,3 +260,5 @@ v4.2
 - Fixes units without advancements who receives a wound with advancement, to prevent inmediate advances if experience is higher than max experience. In the rare case that the unit has previous advancements and excess of experience at the same time, then it automatically receives the memory lost wound.
 - Now units with trait mechanical but another race can receive mechanical or racial wounds randomly (33%-66%).
 - Fear of Weapons can now include weapons that contain the name, not just exact matches. For example, fear of axe can include fear of battle axe.
+- Adjusted probabilities of fear of enemy, race and type.
+- Fear of dark/light now is much more probable on lawful/chaotic units respectively, and a little more on liminar units.
