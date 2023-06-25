@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-06-25 03:51 UTC\n"
+"POT-Creation-Date: 2023-06-25 05:14 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1970,6 +1970,26 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:121
 msgid "Set float text with the wound received."
+msgstr ""
+
+#. [print]
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:132
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:176
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:394
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:492
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:550
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:682
+msgid ": yes"
+msgstr ""
+
+#. [print]
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:148
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:192
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:410
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:508
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:566
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:701
+msgid ": no"
 msgstr ""
 
 #. [option]

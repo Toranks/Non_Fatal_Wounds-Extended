@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-06-25 02:19 UTC\n"
-"PO-Revision-Date: 2023-06-25 05:50+0200\n"
+"POT-Creation-Date: 2023-06-25 04:18 UTC\n"
+"PO-Revision-Date: 2023-06-25 06:19+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -2351,6 +2351,26 @@ msgstr "Cambiar texto flotante"
 msgid "Set float text with the wound received."
 msgstr "Establece el texto flotante con la herida recibida."
 
+#. [print]
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:132
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:176
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:394
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:492
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:550
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:682
+msgid ": yes"
+msgstr ": sí"
+
+#. [print]
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:148
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:192
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:410
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:508
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:566
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:701
+msgid ": no"
+msgstr ": no"
+
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:161
 msgid "Change messages"
@@ -2489,10 +2509,10 @@ msgid ""
 "* <b><i>Fear of race</i></b> (-50% strikes and -30% accuracy against any "
 "unit of the race that wound them) > Not mechanical, any race of enemy other "
 "than own, 4%\n"
-"* <b><i>Fear of the dark/light</i></b> (-50% strikes during the time they "
-"were wounded) > Not mechanical, wounded on day, night, or underground, "
-"mutually exclusive, 1% - 2% liminal units in chaotic or lawful time of day - "
-"4% lawful or chaotic units in reverse time of day\n"
+"* <b><i>Fear of the dark/light</i></b> (-50% strikes during the same time of "
+"day they were wounded) > Not mechanical, wounded on day, night, or "
+"underground, mutually exclusive, 1% - 2% liminal units in chaotic or lawful "
+"time of day - 4% lawful or chaotic units in reverse time of day\n"
 "* <b><i>Fear of terrain</i></b> (increased 1-2 move cost for the terrain "
 "they were wounded on) > Not mechanical, wounded on some terrains, "
 "cumulative, 4% general - 2% agoraphobia - 0% aquaphobia on marine units in "
@@ -2526,10 +2546,10 @@ msgstr ""
 "* <b><i>Miedo a la raza</i></b> (-50% golpes y -30% precisión contra una "
 "unidad de la raza que lo hirió) > No mecánico, cualquier raza enemiga "
 "excepto la propia, 4%\n"
-"* <b><i>Miedo a la oscuridad/luz</i></b> (-50% golpes en el mismo tiempo en "
-"que fue herido) > No mecánico, herido de día, de noche o bajo tierra, "
-"mutuamente excluyentes, 1% - 2% unidades crepusculares durante tiempo "
-"caótico o legal - 4% unidades legales o caóticas en el tiempo del día "
+"* <b><i>Miedo a la oscuridad/luz</i></b> (-50% golpes durante el mismo "
+"tiempo del día en que fue herido) > No mecánico, herido de día, de noche o "
+"bajo tierra, mutuamente excluyentes, 1% - 2% unidades crepusculares durante "
+"tiempo caótico o legal - 4% unidades legales o caóticas en el tiempo del día "
 "opuesto\n"
 "* <b><i>Miedo al terreno</i></b> (aumenta el costo de movimiento en 1-2 en "
 "el terreno en el que fue herido) > No mecánico, herido en ciertos terrenos, "
