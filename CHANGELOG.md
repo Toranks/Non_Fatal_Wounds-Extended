@@ -263,3 +263,4 @@ v4.2
 - Fear of Weapons can now include weapons that contain the name, not just exact matches. For example, fear of axe can include fear of battle axe.
 - Adjusted probabilities of fear of enemy, race and type.
 - Fear of dark/light now is much more probable on lawful/chaotic units respectively, and a little more on liminar units.
+- Standardized print messages colors. Green=Activate function, Red=Deactivate function, Cyan=Change value or info.
