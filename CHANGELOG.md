@@ -258,6 +258,7 @@ v4.2
 - New Event: LOTI C05S06 Reorder Valhalla.
 - New Event: LOTI Beelzebub escape.
 - New Event: LOTI C06S05/C06S08 Teleportation of Efraim or Lethalia.
+- New Event: LOTI C06S13 Phoenix captured.
 - Fixes units without advancements who receives a wound with advancement, to prevent inmediate advances if experience is higher than max experience. In the rare case that the unit has previous advancements and excess of experience at the same time, then it automatically receives the memory lost wound.
 - Now units with trait mechanical but another race can receive mechanical or racial wounds randomly (33%-66%).
 - Fear of Weapons can now include weapons that contain the name, not just exact matches. For example, fear of axe can include fear of battle axe.
