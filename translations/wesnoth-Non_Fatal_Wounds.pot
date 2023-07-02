@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-06-25 15:03 UTC\n"
+"POT-Creation-Date: 2023-07-02 12:37 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,7 +87,7 @@ msgstr ""
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:14
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:972
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1094
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:338
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:322
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:751
 msgid "Death"
 msgstr ""
@@ -339,8 +339,10 @@ msgid "female^destroyed"
 msgstr ""
 
 #. [event]: id=nfw_alien_filter
+#. [event]: id=nfw_solid_phoenix
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:67
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:720
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1313
 msgid "Destruction"
 msgstr ""
 
@@ -468,8 +470,12 @@ msgid "Captured units have a increased recall cost untill you recall them once (
 msgstr ""
 
 #. [event]: id=nfw_RoSothian_filter
+#. [event]: id=nfw_zorox_captured
+#. [event]: id=nfw_phoenix
 #: Non_Fatal_Wounds_Extended/utils/Wounds.cfg:348
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:54
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:927
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1300
 msgid "Capture"
 msgstr ""
 
@@ -1717,7 +1723,7 @@ msgstr ""
 #. [event]: id=nfw_beelzebub
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:462
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:469
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1308
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1337
 msgid "Escape"
 msgstr ""
 
@@ -1765,8 +1771,8 @@ msgstr ""
 #. [event]: id=nfw_collar_filter
 #. [event]: id=nfwm_doppelganger
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:757
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1297
-msgid "Disipated"
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1326
+msgid "Disipation"
 msgstr ""
 
 #. [event]: id=nfw_witch_suicide
@@ -1776,14 +1782,14 @@ msgstr ""
 
 #. [event]: id=nfw_reficul_banish
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:786
-msgid "Banished"
+msgid "Banish"
 msgstr ""
 
 #. [event]: id=nfw_mages_no_wound
 #. [event]: id=nfw_umbra_vanished
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:816
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:941
-msgid "Vanished"
+msgid "Vanish"
 msgstr ""
 
 #. [event]: id=nfw_robroe_hired
@@ -1793,17 +1799,12 @@ msgstr ""
 
 #. [event]: id=nfw_ascension_deactivated
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:911
-msgid "Enslaved"
-msgstr ""
-
-#. [event]: id=nfw_zorox_captured
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:927
-msgid "Captured"
+msgid "Enslave"
 msgstr ""
 
 #. [event]: id=nfw_elven_raised
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:958
-msgid "Raised"
+msgid "Raise"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -1814,8 +1815,8 @@ msgstr ""
 #. [event]: id=nfw_akula_teleport
 #. [event]: id=nfw_efraim_lethalia_teleport
 #: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1111
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1283
-msgid "Teleported"
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1286
+msgid "Teleport"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -1834,13 +1835,13 @@ msgid "Do not make changes to Valhalla"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1333
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1362
 #: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:633
 msgid "<b><i>Non-Fatal Wounds: </i></b>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1333
+#: Non_Fatal_Wounds_Extended/utils/campaigns.cfg:1362
 msgid "Because this is the last scenario, all units can die, without exception, and will count as such for the ending scene."
 msgstr ""
 
@@ -1964,7 +1965,7 @@ msgstr ""
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:81
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:141
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:185
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:315
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:347
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:403
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:501
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:559
@@ -1976,7 +1977,7 @@ msgstr ""
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:88
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:148
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:192
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:322
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:354
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:410
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:508
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:566
@@ -2095,8 +2096,8 @@ msgstr ""
 #. [option]
 #. [message]: speaker=narrator
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:322
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:315
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:338
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:331
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:354
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:293
 msgid "Activate Death"
@@ -2128,12 +2129,12 @@ msgid "Set status of Death."
 msgstr ""
 
 #. [option]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:347
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:331
 msgid "Activate Death, Undeath and Ghosts"
 msgstr ""
 
 #. [print]
-#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:354
+#: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:338
 msgid "Death, Undeath and Ghosts"
 msgstr ""
 
@@ -2511,7 +2512,7 @@ msgid "female^Argh, I’m wounded!"
 msgstr ""
 
 #. [floating_text]
-#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:724
+#: Non_Fatal_Wounds_Extended/utils/nfw_main.cfg:725
 msgid "Recovered"
 msgstr ""
 

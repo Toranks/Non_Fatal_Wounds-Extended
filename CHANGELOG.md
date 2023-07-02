@@ -258,10 +258,11 @@ v4.2
 - New Event: LOTI C05S06 Reorder Valhalla.
 - New Event: LOTI Beelzebub escape.
 - New Event: LOTI C06S05/C06S08 Teleportation of Efraim or Lethalia.
-- New Event: LOTI C06S13 Phoenix captured.
 - Fixes units without advancements who receives a wound with advancement, to prevent inmediate advances if experience is higher than max experience. In the rare case that the unit has previous advancements and excess of experience at the same time, then it automatically receives the memory lost wound.
 - Now units with trait mechanical but another race can receive mechanical or racial wounds randomly (33%-66%).
 - Fear of Weapons can now include weapons that contain the name, not just exact matches. For example, fear of axe can include fear of battle axe.
 - Adjusted probabilities of fear of enemy, race and type.
 - Fear of dark/light now is much more probable on lawful/chaotic units respectively, and a little more on liminar units.
 - Standardized print messages colors. Green=Activate function, Red=Deactivate function, Cyan=Change value or info.
+v4.2.1
+- New Event: LOTI C06S13/S14 Phoenix captured and destroyed.
