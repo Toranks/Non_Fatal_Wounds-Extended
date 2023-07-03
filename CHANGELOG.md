@@ -266,3 +266,4 @@ v4.2
 - Standardized print messages colors. Green=Activate function, Red=Deactivate function, Cyan=Change value or info.
 v4.2.1
 - New Event: LOTI C06S13/S14 Phoenix captured and destroyed.
+- New wound (LOTI exclusive): Redemption, equivalent to death, killed with redeem weapon.
