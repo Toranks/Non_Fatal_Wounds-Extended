@@ -264,7 +264,10 @@ v4.2
 - Adjusted probabilities of fear of enemy, race and type.
 - Fear of dark/light now is much more probable on lawful/chaotic units respectively, and a little more on liminar units.
 - Standardized print messages colors. Green=Activate function, Red=Deactivate function, Cyan=Change value or info.
-v4.2.1
+
+v4.3
+============
+- New option: Send units to recall list at end of turn instead of end of scenario, useful for single scenario games.
 - New option: Undeath and Ghosts only with any undead present on the scenario.
 - New Event: LOTI C06S13/S14 Phoenix captured and destroyed.
 - New wound (LOTI exclusive): Redemption, equivalent to death, killed with redeem weapon.
