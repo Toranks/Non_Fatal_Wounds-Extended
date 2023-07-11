@@ -269,5 +269,6 @@ v4.3
 ============
 - New option: Send units to recall list at end of turn instead of end of scenario, useful for single scenario games.
 - New option: Undeath and Ghosts only with any undead present on the scenario.
+- Fixed frequency of sick and infection. 10% less on description than what menu says. Real frequency has been increased according to what menu says. Description error is from 2.X Frequency error from 4.1
 - New Event: LOTI C06S13/S14 Phoenix captured and destroyed.
 - New wound (LOTI exclusive): Redemption, equivalent to death, killed with redeem weapon.
