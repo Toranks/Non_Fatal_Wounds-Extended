@@ -1,6 +1,6 @@
 author=Toranks
 icon="units/human-loyalists/duelist-die5.png"
-version="4.2"
+version="4.3"
 tags=difficulty,wound,Toranks,elemental,octalot,cookielord,maimed,fatal,undead,ghost,lego,funny
 title="Non-Fatal Wounds Extended"
 type="mod_mp"
@@ -11,7 +11,7 @@ description="This is an improved version of the Non-Fatal Wounds and Non-Fatal W
 Authors of the previous addons: Octalot and CookieLord (Maimed)
 Original idea from: Armagedonus
 
-* When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound). This unit go back into the recall list for next mission with the wound received.
+* When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound). This unit go back into the recall list for next mission or next turn (to choose) with the wound received.
 
 * If you activate wounds, most of them are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other wounds and death depend solely on chance. In like manner, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
 
@@ -39,7 +39,7 @@ NOTE: You don't need to install original or Maimed Non-Fatal Wounds. Read CHANGE
 Autores de los complementos anteriores: Octalot y CookieLord (Maimed)
 Idea original de: Armagedonus
 
-* Cuando una unidad llega a 0 PV, se retira del escenario actual y recibe una herida en lugar de morir (excepto si recibe una herida de "muerte"). Esta unidad vuelve a la lista de retirada para la próxima misión con la herida recibida.
+* Cuando una unidad llega a 0 PV, se retira del escenario actual y recibe una herida en lugar de morir (excepto si recibe una herida de "muerte"). Esta unidad vuelve a la lista de retirada para la próxima misión o el próximo turno (a elegir) con la herida recibida.
 
 * Si activas las heridas, la mayoría de ellas se basan en los ataques fatales recibidos, el tipo de terreno en el que se encuentra la víctima y otras condiciones adicionales. Otras heridas y la muerte dependen únicamente del azar. Asimismo, todas las heridas están diseñadas para ser aplicadas a unidades que la puedan sufrir o verse afectadas de alguna forma. Heridas mágicas para unidades mágicas, heridas en brazos, piernas o alas en razas que poseen dichas extremidades, las unidades mecánicas son inmunes al miedo, los fantasmas no pueden convertirse en fantasmas, los muertos vivientes no pueden recibir transformación a muerto viviente pero pueden convertirse en fantasmas , etc.
 

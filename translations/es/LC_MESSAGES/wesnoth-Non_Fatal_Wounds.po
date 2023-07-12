@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2023-07-11 00:41 UTC\n"
-"PO-Revision-Date: 2023-07-11 02:41+0200\n"
+"PO-Revision-Date: 2023-07-13 00:10+0200\n"
 "Last-Translator: Toranks <toranksmervat@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -2814,7 +2814,7 @@ msgstr "Muerte, Zombi y Fantasma"
 #. [option]
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:392
 msgid "Activate Death, but Undeath and Ghosths only with undead present"
-msgstr "Activar Muerte, pero Zombi y Fantasma sólo con no muerto presente"
+msgstr "Activar Muerte, pero Zombi y Fantasma sólo con no muertos presentes"
 
 #. [print]
 #: Non_Fatal_Wounds_Extended/utils/help_menu.cfg:399

@@ -238,7 +238,7 @@ v4.0
 
 v4.1
 ============
-- Change death logic (at end of victory event instead of next prestart event).
+- Change death logic, at end of victory event instead of next prestart event, more fail-safe.
 - Fear of type now not granted to units of the same type.
 - Better filter so aquatic units don't get broken leg.
 - Recapture captured units that are recalled via events, except real leaders, and only for human players. All AI units recalled via events and leaders will lose their captured status for free.
@@ -272,3 +272,4 @@ v4.3
 - Fixed frequency of sick and infection. 10% less on description than what menu says. Real frequency has been increased according to what menu says. Description error is from 2.X Frequency error from 4.1
 - New Event: LOTI C06S13/S14 Phoenix captured and destroyed.
 - New wound (LOTI exclusive): Redemption, equivalent to death, killed with redeem weapon.
+- Removed false clarification on help menu, from old versions, where Death only worked with Wounds active. Death is optional, therefore it is independent.

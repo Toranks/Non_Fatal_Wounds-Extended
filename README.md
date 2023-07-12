@@ -20,7 +20,7 @@ As the first line of the Git commit messages is shown in Github’s directory li
 In-game description (for the add-ons server)
 --------------------------------------------
 
-* When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound). This unit go back into the recall list for next mission with the wound received.
+* When a unit reaches 0 hp, it’s removed for the current scenario and receives an injury instead of dying (except if receives a 'death' wound). This unit go back into the recall list for next mission or next turn (to choose) with the wound received.
 
 * If you activate wounds, most of them are based on fatal attacks received, the type of terrain where the victim is standing on, and other additional conditions. Other wounds and death depend solely on chance. In like manner, all wounds are designed to be applied to units that can suffer or are affected in some way. Magical wounds for magical units, wounds on arms, legs, or wings in races that possess such limbs, mechanical units are immune to fear, ghosts can't receives ghost wound, undeads can't receives the undead wound but can receives the ghost wound, etc.
 
