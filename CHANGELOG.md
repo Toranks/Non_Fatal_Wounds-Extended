@@ -273,3 +273,4 @@ v4.3
 - New Event: LOTI C06S13/S14 Phoenix captured and destroyed.
 - New wound (LOTI exclusive): Redemption, equivalent to death, killed with redeem weapon.
 - Removed false clarification on help menu, from old versions, where Death only worked with Wounds active. Death is optional, therefore it is independent.
+v4.3.1
